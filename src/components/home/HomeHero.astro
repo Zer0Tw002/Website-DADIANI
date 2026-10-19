@@ -2,6 +2,7 @@
 // Первый экран главной: без фото, винный фон, крупное название, слоган, две кнопки.
 import LogoOrnament from './LogoOrnament.astro';
 import { site } from '../../config/site';
+import { deliveryLinks } from '../../lib/links';
 import { pathFor, useTranslations, type Lang } from '../../i18n/ui';
 
 interface Props {
@@ -10,6 +11,7 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = useTranslations(lang);
+const delivery = deliveryLinks(lang);
 const btn =
   'inline-flex min-h-12 items-center justify-center rounded-xl px-6 py-3 text-center font-semibold focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-coral';
 ---
@@ -55,5 +57,20 @@ const btn =
         {t('nav.menu')}
       </a>
     </div>
+    {
+      delivery.length > 0 && (
+        <p class="mt-4 text-sm text-blush">
+          {t('delivery.title')}:{' '}
+          {delivery.map((d, i) => (
+            <>
+              {i > 0 && <span aria-hidden="true" class="text-rose-ash"> · </span>}
+              <a href={d.url} target="_blank" rel="noopener" class="text-coral underline underline-offset-4 hover:text-cream">
+                {d.label}
+              </a>
+            </>
+          ))}
+        </p>
+      )
+    }
   </div>
 </section>

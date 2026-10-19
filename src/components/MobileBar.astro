@@ -1,0 +1,63 @@
+---
+// Закреплённая нижняя панель на телефоне (до 640 px): «Позвонить», «Забронировать», «Доставка».
+// Включается в src/config/status.ts (MOBILE_BAR). Кнопка показывается, только если для неё есть данные.
+// Чтобы панель не закрывала контент, у <body> есть отступ снизу (см. BaseLayout).
+import { isFilled, phoneHref, site } from '../config/site';
+import { deliveryLinks } from '../lib/links';
+import { pathFor, useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const home = pathFor(lang, 'home');
+
+const items = [
+  isFilled(site.phone) && { href: phoneHref(site.phone), label: t('bar.call'), icon: 'phone' },
+  { href: `${home}#booking`, label: t('bar.book'), icon: 'calendar' },
+  deliveryLinks(lang).length > 0 && { href: `${home}#delivery`, label: t('bar.delivery'), icon: 'bag' },
+].filter(Boolean) as { href: string; label: string; icon: string }[];
+
+const icons: Record<string, string> = {
+  phone:
+    'M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2',
+  calendar: 'M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z',
+  bag: 'M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4zM3 6h18M16 10a4 4 0 0 1-8 0',
+};
+---
+
+<nav
+  aria-label={t('bar.label')}
+  class="fixed inset-x-0 bottom-0 z-40 border-t border-white/10 bg-wine/95 pb-[env(safe-area-inset-bottom)] text-cream backdrop-blur sm:hidden"
+>
+  <ul class="flex">
+    {
+      items.map((it) => (
+        <li class="flex-1">
+          <a
+            href={it.href}
+            class="flex min-h-14 flex-col items-center justify-center gap-0.5 px-1 py-1.5 text-xs font-semibold active:bg-white/10 focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-coral"
+          >
+            <svg
+              viewBox="0 0 24 24"
+              width="20"
+              height="20"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.8"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+              class="text-coral"
+            >
+              <path d={icons[it.icon]}></path>
+            </svg>
+            <span class="text-center leading-tight">{it.label}</span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

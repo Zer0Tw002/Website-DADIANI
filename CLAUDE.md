@@ -106,7 +106,8 @@
 - `src/lib/promotions.ts` — чтение `content/promotions.json` (акции на главной).
 - `src/components/home/` — блоки главной: первый экран, популярные блюда, акции, доставка, адрес.
 - `src/components/MenuCard.astro` — карточка блюда (фото через `astro:assets`, WebP, ленивая загрузка).
-- `src/config/status.ts` — пометка «Концепт-версия», запрет индексации, кнопка прокрутки (`SCROLL_BUTTON`).
+- `src/config/status.ts` — пометка «Концепт-версия», запрет индексации, кнопка прокрутки (`SCROLL_BUTTON`), нижняя панель на телефоне (`MOBILE_BAR`).
+- `src/lib/links.ts` — ссылки доставки (только заполненные) для первого экрана, блока «Доставка», подвала и нижней панели.
 - `content/README.md` — инструкция для владельца: как править меню.
 - `src/config/site.ts` — все контакты и ссылки.
 - `src/styles/global.css` — шрифты, цвета, подключение Tailwind.

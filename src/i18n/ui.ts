@@ -67,6 +67,13 @@ const ru = {
   'home.promos': 'Акции и бизнес-ланч',
   'price.from': 'от {price}',
   'home.visit': 'Адрес и часы работы',
+  'delivery.note': 'Цены в приложениях доставки могут отличаться от цен в ресторане.',
+  'link.2gis': '2ГИС',
+  'footer.links': 'Ссылки',
+  'bar.label': 'Быстрые действия',
+  'bar.call': 'Позвонить',
+  'bar.book': 'Забронировать',
+  'bar.delivery': 'Доставка',
   'todo.translation': '[TODO: перевод]',
 };
 
@@ -114,6 +121,13 @@ const kk: Dict = {
   'home.promos': 'Акциялар мен бизнес-ланч',
   'price.from': '{price}-ден бастап',
   'home.visit': 'Мекенжай және жұмыс уақыты',
+  'delivery.note': 'Жеткізу қосымшаларындағы бағалар мейрамханадағы бағалардан өзгеше болуы мүмкін.',
+  'link.2gis': '2ГИС',
+  'footer.links': 'Сілтемелер',
+  'bar.label': 'Жылдам әрекеттер',
+  'bar.call': 'Қоңырау шалу',
+  'bar.book': 'Брондау',
+  'bar.delivery': 'Жеткізу',
   'todo.translation': '[TODO: аударма]',
 };
 
@@ -159,6 +173,13 @@ const en: Dict = {
   'home.promos': 'Offers and business lunch',
   'price.from': 'from {price}',
   'home.visit': 'Address and opening hours',
+  'delivery.note': 'Prices in delivery apps may differ from prices in the restaurant.',
+  'link.2gis': '2GIS',
+  'footer.links': 'Links',
+  'bar.label': 'Quick actions',
+  'bar.call': 'Call',
+  'bar.book': 'Book',
+  'bar.delivery': 'Delivery',
   'todo.translation': '[TODO: translation]',
 };
 

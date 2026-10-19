@@ -1,8 +1,10 @@
 ---
-// Подвал: адрес, режим работы, контакты. Все данные — из src/config/site.ts.
-// compact — короткий вариант в одну-две строки (на главной, где есть блок «Адрес и часы работы»).
+// Подвал: адрес, режим работы, контакты и строка ссылок (Яндекс.Еда · Wolt · 2ГИС · Instagram).
+// Все данные — из src/config/site.ts; показываются только заполненные ссылки.
+// compact — короткий вариант (на главной и «О нас», где адрес и часы уже есть в отдельном блоке).
 import { isFilled, phoneHref, site, whatsappLink } from '../config/site';
 import { IS_CONCEPT } from '../config/status';
+import { deliveryLinks } from '../lib/links';
 import { useTranslations, type Lang } from '../i18n/ui';
 
 interface Props {
@@ -14,6 +16,13 @@ const { lang, compact = false } = Astro.props;
 const t = useTranslations(lang);
 const year = new Date().getFullYear();
 const link = 'text-coral underline-offset-4 hover:underline';
+const heading = 'font-display text-xs tracking-[0.16em] text-rose-ash uppercase';
+
+const links = [
+  ...deliveryLinks(lang),
+  { url: site.map2gis, label: t('link.2gis') },
+  { url: site.instagram, label: 'Instagram' },
+].filter((l) => isFilled(l.url));
 ---
 
 <footer id="contacts" class="bg-wine text-cream">
@@ -28,74 +37,72 @@ const link = 'text-coral underline-offset-4 hover:underline';
   }
   {
     compact ? (
-      <div class="mx-auto flex max-w-5xl flex-col items-center gap-1 px-4 py-6 text-center text-sm sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-3">
+      <div class="mx-auto flex max-w-5xl flex-col items-center gap-1 px-4 pt-6 text-center text-sm sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-3">
         <p>
           {site.address[lang]}
           <span aria-hidden="true" class="text-rose-ash"> · </span>
           {site.hours[lang]}
         </p>
-        <span aria-hidden="true" class="hidden text-rose-ash sm:inline">·</span>
-        <p>
-          {isFilled(site.phone) && (
-            <a href={phoneHref(site.phone)} class="whitespace-nowrap hover:underline">
-              {site.phone}
-            </a>
-          )}
-          {isFilled(site.phone) && isFilled(site.instagram) && <span aria-hidden="true" class="text-rose-ash"> · </span>}
-          {isFilled(site.instagram) && (
-            <a href={site.instagram} class={link} target="_blank" rel="noopener">
-              Instagram
-            </a>
-          )}
-        </p>
+        {isFilled(site.phone) && (
+          <>
+            <span aria-hidden="true" class="hidden text-rose-ash sm:inline">·</span>
+            <p>
+              <a href={phoneHref(site.phone)} class="whitespace-nowrap hover:underline">
+                {site.phone}
+              </a>
+            </p>
+          </>
+        )}
       </div>
     ) : (
-    <div class="mx-auto grid max-w-5xl gap-6 px-4 py-8 sm:grid-cols-3">
-      <div>
-        <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.address')}</h2>
-        <p class="mt-2">{site.address[lang]}</p>
-        {
-          isFilled(site.map2gis) && (
-            <a href={site.map2gis} class:list={['mt-1 inline-block', link]} target="_blank" rel="noopener">
-              {t('footer.route')}
-            </a>
-          )
-        }
-      </div>
-      <div>
-        <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.hours')}</h2>
-        <p class="mt-2">{site.hours[lang]}</p>
-        {site.serviceFee > 0 && <p class="mt-1 text-blush">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
-      </div>
-      <div>
-        <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.contacts')}</h2>
-        <ul class="mt-2 grid gap-1">
-          {
-            isFilled(site.phone) && (
+      <div class="mx-auto grid max-w-5xl gap-6 px-4 pt-8 sm:grid-cols-3">
+        <div>
+          <h2 class={heading}>{t('footer.address')}</h2>
+          <p class="mt-2">{site.address[lang]}</p>
+        </div>
+        <div>
+          <h2 class={heading}>{t('footer.hours')}</h2>
+          <p class="mt-2">{site.hours[lang]}</p>
+          {site.serviceFee > 0 && <p class="mt-1 text-blush">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
+        </div>
+        <div>
+          <h2 class={heading}>{t('footer.contacts')}</h2>
+          <ul class="mt-2 grid gap-1">
+            {isFilled(site.phone) && (
               <li>
                 <a href={phoneHref(site.phone)} class="whitespace-nowrap hover:underline">
                   {site.phone}
                 </a>
               </li>
-            )
-          }
-          <li>
-            <a href={whatsappLink(t('whatsapp.message'))} class={link} target="_blank" rel="noopener">
-              {t('footer.whatsapp')}
-            </a>
-          </li>
-          {
-            isFilled(site.instagram) && (
-              <li>
-                <a href={site.instagram} class={link} target="_blank" rel="noopener">
-                  Instagram
-                </a>
-              </li>
-            )
-          }
-        </ul>
+            )}
+            <li>
+              <a href={whatsappLink(t('whatsapp.message'))} class={link} target="_blank" rel="noopener">
+                {t('footer.whatsapp')}
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    )
+  }
+  {
+    links.length > 0 && (
+      <nav aria-label={t('footer.links')} class="mx-auto max-w-5xl px-4 pt-4 pb-6">
+        <ul class:list={['flex flex-wrap items-center gap-x-3 gap-y-1 text-sm', compact ? 'justify-center' : 'sm:justify-start']}>
+          {links.map((l, i) => (
+            <li class="flex items-center gap-x-3">
+              {i > 0 && (
+                <span aria-hidden="true" class="text-rose-ash">
+                  ·
+                </span>
+              )}
+              <a href={l.url} class={link} target="_blank" rel="noopener">
+                {l.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
     )
   }
   <p class="border-t border-white/10 px-4 py-4 text-center text-xs text-rose-ash">© {year} {site.name}</p>

@@ -4,8 +4,9 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { site } from '../config/site';
+import MobileBar from '../components/MobileBar.astro';
 import ScrollButton from '../components/ScrollButton.astro';
-import { IS_CONCEPT, NOINDEX, SCROLL_BUTTON } from '../config/status';
+import { IS_CONCEPT, MOBILE_BAR, NOINDEX, SCROLL_BUTTON } from '../config/status';
 import { langs, pathFor, useTranslations, type Lang, type RouteKey } from '../i18n/ui';
 
 interface Props {
@@ -34,7 +35,13 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('t
     <link rel="alternate" hreflang="x-default" href={new URL(pathFor('ru', route), Astro.site)} />
     <link rel="preload" href="/fonts/inter-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
   </head>
-  <body class="flex min-h-screen flex-col font-sans">
+  <!-- Отступ снизу на телефоне — под закреплённую нижнюю панель (MobileBar), чтобы она не закрывала подвал -->
+  <body
+    class:list={[
+      'flex min-h-screen flex-col font-sans',
+      MOBILE_BAR && 'pb-[calc(3.5rem+env(safe-area-inset-bottom))] sm:pb-0',
+    ]}
+  >
     <a
       href="#content"
       class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-cream focus:px-3 focus:py-2"
@@ -54,5 +61,6 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('t
     </main>
     <Footer lang={lang} compact={compactFooter} />
     {SCROLL_BUTTON && <ScrollButton lang={lang} />}
+    {MOBILE_BAR && <MobileBar lang={lang} />}
   </body>
 </html>
