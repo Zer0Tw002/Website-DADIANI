@@ -1,0 +1,1144 @@
+{
+  "_note": "Черновик меню, собран автоматически с kamiqr. Не публикуется на сайте как есть. [TODO] — данных нет на kamiqr, нужно уточнить у ресторана. Поле kamiqr.nameKz — казахский вариант с kamiqr, только для справки (перевод не проверен).",
+  "source": {
+    "url": "https://dadiani-restaurant.kamiqr.com/menu/basic/list",
+    "collectedAt": "2026-10-19",
+    "kamiqrMenuUpdatedAt": "2025-07-22T05:43:42.706Z",
+    "currency": "KZT"
+  },
+  "categories": [
+    {
+      "id": "shashlyki",
+      "section": "main",
+      "name": {
+        "ru": "Шашлыки",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Кәуаптар"
+      },
+      "items": [
+        {
+          "id": "govyadina-kuskovoy",
+          "name": {
+            "ru": "Говядина кусковой",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 800,
+          "photo": "shashlyki--govyadina-kuskovoy.png",
+          "kamiqr": {
+            "itemId": "2a9e4c1f-d320-44a4-961d-1d7ba4b190cf",
+            "nameKz": "Сиыр еті"
+          }
+        },
+        {
+          "id": "lyulya-kebab",
+          "name": {
+            "ru": "Люля кебаб",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 800,
+          "photo": "shashlyki--lyulya-kebab.png",
+          "kamiqr": {
+            "itemId": "02f3bbef-da53-4acd-bcb6-a01a5d9cd25c",
+            "nameKz": "Люля кебаб"
+          }
+        },
+        {
+          "id": "okorochka",
+          "name": {
+            "ru": "Окорочка",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1400,
+          "photo": "shashlyki--okorochka.jpeg",
+          "kamiqr": {
+            "itemId": "6fad055d-7154-4df0-aca5-31d1d8c68cb2",
+            "nameKz": "Тауық сан еті"
+          }
+        },
+        {
+          "id": "koreyka",
+          "name": {
+            "ru": "Корейка",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3200,
+          "photo": "shashlyki--koreyka.png",
+          "kamiqr": {
+            "itemId": "51d29364-4323-439e-bca2-faec73ec110b",
+            "nameKz": "Корейка"
+          }
+        },
+        {
+          "id": "semechki",
+          "name": {
+            "ru": "Семечки",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1600,
+          "photo": "shashlyki--semechki.png",
+          "kamiqr": {
+            "itemId": "299e0d4e-e3b6-40be-83ed-953999b6b507",
+            "nameKz": "Ұсақталған қабырғалар"
+          }
+        },
+        {
+          "id": "kurinye-krylyshki",
+          "name": {
+            "ru": "Куриные крылышки",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1850,
+          "photo": "shashlyki--kurinye-krylyshki.png",
+          "kamiqr": {
+            "itemId": "e47429f4-a196-4042-8630-4afd8bd7d28e",
+            "nameKz": "Тауық қанаттары"
+          }
+        },
+        {
+          "id": "lyulya-po-adzharskiy",
+          "name": {
+            "ru": "Люля по-аджарский",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3990,
+          "photo": "shashlyki--lyulya-po-adzharskiy.jpeg",
+          "kamiqr": {
+            "itemId": "aa89a30d-8103-406e-8980-999adc988013",
+            "nameKz": "Аджарша люля"
+          }
+        },
+        {
+          "id": "utinoe-file",
+          "name": {
+            "ru": "Утиное филе",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 800,
+          "photo": "shashlyki--utinoe-file.png",
+          "kamiqr": {
+            "itemId": "427b5712-39a7-4f87-b1e4-ffa02add0bdd",
+            "nameKz": "Үйрек филесі"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hachapuri",
+      "section": "main",
+      "name": {
+        "ru": "Хачапури",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Хачапури"
+      },
+      "items": [
+        {
+          "id": "imeretinskiy",
+          "name": {
+            "ru": "Имеретинский",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Мацони, с щедрой начинкой из имеретинского сыра",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2700,
+          "photo": "hachapuri--imeretinskiy.jpeg",
+          "kamiqr": {
+            "itemId": "1a6523c8-3b33-4276-8dca-840ea2883126",
+            "nameKz": "Имеретинский"
+          }
+        },
+        {
+          "id": "megrelskiy",
+          "name": {
+            "ru": "Мегрельский",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Хачапури с двойной порцией сыра",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2700,
+          "photo": "hachapuri--megrelskiy.jpeg",
+          "kamiqr": {
+            "itemId": "f66a6a8a-7a91-4048-8217-edf77c02ed2d",
+            "nameKz": "Мегрельский"
+          }
+        },
+        {
+          "id": "adzharskiy",
+          "name": {
+            "ru": "Аджарский",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Хачапури в форме лодочки с хрустящими бортами, сыр и желток",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2600,
+          "photo": "hachapuri--adzharskiy.jpeg",
+          "kamiqr": {
+            "itemId": "130f3472-f5c6-4710-b548-d30491568920",
+            "nameKz": "Аджарша"
+          }
+        },
+        {
+          "id": "kubdari",
+          "name": {
+            "ru": "Кубдари",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Традиционный грузинский пирог с рубленым мясом и приправами",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3300,
+          "photo": "hachapuri--kubdari.png",
+          "kamiqr": {
+            "itemId": "78f4d1d7-3de2-407e-9913-642d18ccf1ed",
+            "nameKz": "Кубдари"
+          }
+        }
+      ]
+    },
+    {
+      "id": "hinkali",
+      "section": "main",
+      "name": {
+        "ru": "Хинкали",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Хинкали"
+      },
+      "items": [
+        {
+          "id": "hinkali-po-tbilisi",
+          "name": {
+            "ru": "Хинкали по-тбилиси",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Белый сливочный соус, хинкали с грибами",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2700,
+          "photo": "hinkali--hinkali-po-tbilisi.png",
+          "kamiqr": {
+            "itemId": "a8a4c837-4175-4fb4-bf93-9985615c698d",
+            "nameKz": "Тбилиси хинкали"
+          }
+        },
+        {
+          "id": "hinkali-po-batumski",
+          "name": {
+            "ru": "Хинкали по-батумски",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Томатный соус с хинкали",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2700,
+          "photo": "hinkali--hinkali-po-batumski.png",
+          "kamiqr": {
+            "itemId": "a3c4d04d-94a9-4d1e-b2ab-1b557d91127d",
+            "nameKz": "Батуми хинкали"
+          }
+        },
+        {
+          "id": "hinkali-s-govyadinoy",
+          "name": {
+            "ru": "Хинкали с говядиной",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2390,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "254b3954-d24a-4133-b04b-999f9a627097",
+            "nameKz": "Хинкали сиыр еті бар"
+          }
+        },
+        {
+          "id": "hinkali-s-gribami",
+          "name": {
+            "ru": "Хинкали с грибами",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2390,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "2b1b69d7-87c7-4844-b4f2-be133eebdadd",
+            "nameKz": "Саңырауқұлақтармен Хинкали"
+          }
+        }
+      ]
+    },
+    {
+      "id": "zakuski",
+      "section": "main",
+      "name": {
+        "ru": "Закуски",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Тіскебасарлар"
+      },
+      "items": [
+        {
+          "id": "lobio",
+          "name": {
+            "ru": "Лобио",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Закуска из фасоли в грузинских специях",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1600,
+          "photo": "zakuski--lobio.jpeg",
+          "kamiqr": {
+            "itemId": "f3aba5a9-5744-4c8d-bb31-f8bbe1c5885c",
+            "nameKz": "Лобио"
+          }
+        },
+        {
+          "id": "satsivi",
+          "name": {
+            "ru": "Сациви",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Нежная курица под традиционным грузинским соусом баже, который готовится из грецких орехов со специями и пряностями",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2600,
+          "photo": "zakuski--satsivi.jpeg",
+          "kamiqr": {
+            "itemId": "ebe5d5f7-d2b9-413c-a2ea-1a09fa502784",
+            "nameKz": "Сациви"
+          }
+        },
+        {
+          "id": "baklazhan-ruletiki",
+          "name": {
+            "ru": "Баклажан рулетики",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Баклажан, орехи, мацони",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2300,
+          "photo": "zakuski--baklazhan-ruletiki.jpeg",
+          "kamiqr": {
+            "itemId": "43bb6c35-6468-4f06-b637-9623b7e9c4e0",
+            "nameKz": "Баялды орамдары"
+          }
+        },
+        {
+          "id": "dolma",
+          "name": {
+            "ru": "Долма",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Нежные листья винограда завернутые в говяжий фарш и мацони",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1600,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "5175d4b1-9d0c-469c-9bd5-d55f11bc99bd",
+            "nameKz": "Долма"
+          }
+        }
+      ]
+    },
+    {
+      "id": "salaty",
+      "section": "main",
+      "name": {
+        "ru": "Салаты",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Салаттар"
+      },
+      "items": [
+        {
+          "id": "chaban-salat",
+          "name": {
+            "ru": "Чабан салат",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Помидоры, огурцы, зелень, светофор",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1300,
+          "photo": "salaty--chaban-salat.png",
+          "kamiqr": {
+            "itemId": "3e57a00f-4a61-47fb-8b3e-416f41467702",
+            "nameKz": "Чабан салаты"
+          }
+        },
+        {
+          "id": "ovoschnoy-salat-po-gruzinski",
+          "name": {
+            "ru": "Овощной салат по-грузински",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Свежие помидоры, огурцы, ореховая заправка, зелень",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1500,
+          "photo": "salaty--ovoschnoy-salat-po-gruzinski.jpeg",
+          "kamiqr": {
+            "itemId": "7c9b4f71-71db-42f4-9d13-a05c7ca20425",
+            "nameKz": "Грузиядағы көкөніс салаты"
+          }
+        },
+        {
+          "id": "teplyy-salat-s-baklazhanami",
+          "name": {
+            "ru": "Теплый салат с баклажанами",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Баклажан, черри, вырезка, кинза, азиатская заправка",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2500,
+          "photo": "salaty--teplyy-salat-s-baklazhanami.png",
+          "kamiqr": {
+            "itemId": "3fe4759e-e8cf-4d31-995b-c6bcce563773",
+            "nameKz": "Баялдымен жылы салат"
+          }
+        },
+        {
+          "id": "salat-s-tomatami-i-imeretinskim-syrom",
+          "name": {
+            "ru": "Салат с томатами и имеретинским сыром",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Помидоры черри, имеретинский сыр, маслины, зелень",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1600,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "28bd401e-7105-4e33-a103-095b0c458716",
+            "nameKz": "Қызанақ және Имеретиндік ірімшік қосылған салат"
+          }
+        },
+        {
+          "id": "tsezar",
+          "name": {
+            "ru": "Цезарь",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Свежие листья айсберга, черри, куриное филе, сухари, перепелинные яйца, сыр пармезан",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2390,
+          "photo": "salaty--tsezar.jpeg",
+          "kamiqr": {
+            "itemId": "60e88584-484a-4ba5-915f-073a1ed77314",
+            "nameKz": "Цезарь"
+          }
+        },
+        {
+          "id": "adzhapsandal",
+          "name": {
+            "ru": "Аджапсандал",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Баклажаны, помидор, фасоль, светофор",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1300,
+          "photo": "salaty--adzhapsandal.jpeg",
+          "kamiqr": {
+            "itemId": "188acf41-12c2-47b8-8777-e6722792485d",
+            "nameKz": "Аджапсандал"
+          }
+        },
+        {
+          "id": "nezhnyy-salat-s-kopchennoy-suluguni",
+          "name": {
+            "ru": "Нежный салат с копченной сулугуни",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Копченый сулугуни, огурцы, шампиньоны, гранат, майонезная заправка",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2790,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "863f24ba-dab1-4004-b281-614bda257130",
+            "nameKz": "Ысталған сулугунимен бірге нәзік салат"
+          }
+        },
+        {
+          "id": "achi-chuk",
+          "name": {
+            "ru": "Ачи-чук",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Узбекский салат из сочных томатов",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 990,
+          "photo": "salaty--achi-chuk.jpeg",
+          "kamiqr": {
+            "itemId": "2626c244-8ff8-4d02-8a0d-5f52dce1841c",
+            "nameKz": "Ачи-чук"
+          }
+        },
+        {
+          "id": "grecheskiy",
+          "name": {
+            "ru": "Греческий",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Томаты, сладкий перец, огурцы, брынза, маслины, заправленный оливковым маслом",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1900,
+          "photo": "salaty--grecheskiy.jpeg",
+          "kamiqr": {
+            "itemId": "52303e05-3860-45df-b4eb-46e6e6e6062d",
+            "nameKz": "Грек"
+          }
+        },
+        {
+          "id": "semga-s-ovoschami",
+          "name": {
+            "ru": "Семга с овощами",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2790,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "2e4e62ac-28d2-4610-98a5-8409a755db7d",
+            "nameKz": "Көкөністер қосылған ақсреке"
+          }
+        },
+        {
+          "id": "metehi",
+          "name": {
+            "ru": "Метехи",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Светофор, мясо говядины, томаты, лук, микс салата",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1800,
+          "photo": "salaty--metehi.png",
+          "kamiqr": {
+            "itemId": "2b892377-fadd-40b5-8688-2aae9e80ad4d",
+            "nameKz": "Метехи"
+          }
+        }
+      ]
+    },
+    {
+      "id": "garniry",
+      "section": "main",
+      "name": {
+        "ru": "Гарниры",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Гарнирлер"
+      },
+      "items": [
+        {
+          "id": "kartofelnye-dolki",
+          "name": {
+            "ru": "Картофельные дольки",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 750,
+          "photo": "garniry--kartofelnye-dolki.jpeg",
+          "kamiqr": {
+            "itemId": "37a19b3f-e860-4bfc-a3b7-4f803d03a050",
+            "nameKz": "Картоп кесектері"
+          }
+        },
+        {
+          "id": "kartofel-fri",
+          "name": {
+            "ru": "Картофель фри",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 700,
+          "photo": "garniry--kartofel-fri.png",
+          "kamiqr": {
+            "itemId": "c8149bd8-34dd-4fbd-aed9-9430b1f62a40",
+            "nameKz": "Фри картобы"
+          }
+        },
+        {
+          "id": "ris",
+          "name": {
+            "ru": "Рис",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 600,
+          "photo": "garniry--ris.png",
+          "kamiqr": {
+            "itemId": "e9501685-6b63-4978-8270-900963c250ff",
+            "nameKz": "Күріш"
+          }
+        },
+        {
+          "id": "ovoschi-na-mangale",
+          "name": {
+            "ru": "Овощи на мангале",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 900,
+          "photo": "garniry--ovoschi-na-mangale.png",
+          "kamiqr": {
+            "itemId": "78c60113-d7c8-4b33-981a-aaf8c9ad8930",
+            "nameKz": "Грильдегі көкөністер"
+          }
+        }
+      ]
+    },
+    {
+      "id": "goryachie-blyuda",
+      "section": "main",
+      "name": {
+        "ru": "Горячие блюда",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Ыстық тағамдар"
+      },
+      "items": [
+        {
+          "id": "shkmeruli",
+          "name": {
+            "ru": "Шкмерули",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Цыпленок в чесночно-сливочном соусе",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3600,
+          "photo": "goryachie-blyuda--shkmeruli.png",
+          "kamiqr": {
+            "itemId": "8e8147b4-ce81-4052-ab9b-31f9ac3282a1",
+            "nameKz": "Шкмерули"
+          }
+        },
+        {
+          "id": "chahohbili",
+          "name": {
+            "ru": "Чахохбили",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Цыпленок томленый с луком и грузинскими специями",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2800,
+          "photo": "goryachie-blyuda--chahohbili.png",
+          "kamiqr": {
+            "itemId": "6a4c03f6-6ac0-4d7f-932e-481e58c4dfbe",
+            "nameKz": "Чахохбили"
+          }
+        },
+        {
+          "id": "chashashuli",
+          "name": {
+            "ru": "Чашашули",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Тушеная телятина в собственном соку с томатами",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3590,
+          "photo": "goryachie-blyuda--chashashuli.png",
+          "kamiqr": {
+            "itemId": "0a835a03-82dc-4a23-b1b6-f2fe0679b131",
+            "nameKz": "Чашашули"
+          }
+        },
+        {
+          "id": "baranina-s-chernoslivom",
+          "name": {
+            "ru": "Баранина с черносливом",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Кусочки томленой баранины с черносливом и овощами",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3300,
+          "photo": "goryachie-blyuda--baranina-s-chernoslivom.png",
+          "kamiqr": {
+            "itemId": "e1b766d9-fa8c-4f6e-aeb6-d5fc04e10528",
+            "nameKz": "Қара өрік қосылған қой еті"
+          }
+        },
+        {
+          "id": "dzhigari",
+          "name": {
+            "ru": "Джигари",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Жареная печень с луком и грузинскими специями",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2200,
+          "photo": "goryachie-blyuda--dzhigari.png",
+          "kamiqr": {
+            "itemId": "3be7536d-e377-41b2-8e29-08894e073255",
+            "nameKz": "Джигари"
+          }
+        },
+        {
+          "id": "chakapuli",
+          "name": {
+            "ru": "Чакапули",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Томленая баранина в пиве 0% с тархуном",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3900,
+          "photo": "goryachie-blyuda--chakapuli.png",
+          "kamiqr": {
+            "itemId": "d1e08bd4-07ab-46be-8836-b7850c34a6d6",
+            "nameKz": "Чакапули"
+          }
+        },
+        {
+          "id": "odzhahuri",
+          "name": {
+            "ru": "Оджахури",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Картофель жареный в глиняной кеци с мясом и специями, с овощами",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 2790,
+          "photo": "goryachie-blyuda--odzhahuri.png",
+          "kamiqr": {
+            "itemId": "0dcdaa01-98c7-42aa-b380-62e3d0656fc1",
+            "nameKz": "Оджахури"
+          }
+        },
+        {
+          "id": "semga-v-slivochnom-souse",
+          "name": {
+            "ru": "Семга в сливочном соусе",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Стейк семги, микс салата, лимон, икра",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 4500,
+          "photo": "goryachie-blyuda--semga-v-slivochnom-souse.jpeg",
+          "kamiqr": {
+            "itemId": "a69b552a-7c7d-4ac8-ae80-31cee150535f",
+            "nameKz": "Кілегейлі тұздықтағы ақсерке"
+          }
+        }
+      ]
+    },
+    {
+      "id": "supy",
+      "section": "main",
+      "name": {
+        "ru": "Супы",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Сорпалар"
+      },
+      "items": [
+        {
+          "id": "hashlama",
+          "name": {
+            "ru": "Хашлама",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Говяжья грудинка, картофель, томаты, болгарский перец, зелень",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3300,
+          "photo": "supy--hashlama.png",
+          "kamiqr": {
+            "itemId": "2467bd6e-61d4-4f17-af70-76d23dbe35e8",
+            "nameKz": "Хашлама"
+          }
+        },
+        {
+          "id": "buglama",
+          "name": {
+            "ru": "Буглама",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Баранья рулька, бульон, зелень, лук репчатый",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3300,
+          "photo": "supy--buglama.png",
+          "kamiqr": {
+            "itemId": "32a33372-9b81-44c4-a299-b4435f945959",
+            "nameKz": "Буглама"
+          }
+        },
+        {
+          "id": "bozbash",
+          "name": {
+            "ru": "Бозбаш",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Баранья корейка, фасоль, картофель, томаты",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 3300,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "959d1419-50ed-45ac-bd24-e7dcdeb7c25d",
+            "nameKz": "Бозбаш"
+          }
+        },
+        {
+          "id": "harcho",
+          "name": {
+            "ru": "Харчо",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Суп из говядины с рисом, грецкими орехами и с грузинскими специями",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1900,
+          "photo": "supy--harcho.png",
+          "kamiqr": {
+            "itemId": "fa36f941-72ae-4a15-b8ac-b8d3f83a5bc6",
+            "nameKz": "Харчо"
+          }
+        },
+        {
+          "id": "lapsha-po-domashnemu",
+          "name": {
+            "ru": "Лапша по-домашнему",
+            "kk": ""
+          },
+          "description": {
+            "ru": "Куриная грудинка, лапша, бульон",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1600,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "31543d27-fdab-4f11-b056-51f715a07969",
+            "nameKz": "Үйдегідей кеспе көже"
+          }
+        }
+      ]
+    },
+    {
+      "id": "vypechka",
+      "section": "main",
+      "name": {
+        "ru": "Выпечка",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Наубайхана"
+      },
+      "items": [
+        {
+          "id": "hlebnaya-korzina-0-5",
+          "name": {
+            "ru": "Хлебная корзина 0.5",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 400,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "92e10019-11f3-438b-b535-5d122823d811",
+            "nameKz": "Нан себеті 0,5"
+          }
+        },
+        {
+          "id": "hlebnaya-korzina",
+          "name": {
+            "ru": "Хлебная корзина",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 750,
+          "photo": "vypechka--hlebnaya-korzina.png",
+          "kamiqr": {
+            "itemId": "911e20ee-cde9-48b2-a4e5-da14ae1931ce",
+            "nameKz": "Нан себеті"
+          }
+        }
+      ]
+    },
+    {
+      "id": "coca-cola",
+      "section": "bar",
+      "name": {
+        "ru": "Coca-Cola",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Coca-Cola"
+      },
+      "items": [
+        {
+          "id": "coca-cola-1l",
+          "name": {
+            "ru": "Coca-Cola",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "1л",
+          "price": 900,
+          "photo": "coca-cola--coca-cola-1l.png",
+          "kamiqr": {
+            "itemId": "1648830a-c8b8-4648-8252-12bda8ea0c46",
+            "nameKz": "Coca-Cola"
+          }
+        },
+        {
+          "id": "coca-cola-500ml",
+          "name": {
+            "ru": "Coca-Cola",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "500мл",
+          "price": 700,
+          "photo": "coca-cola--coca-cola-500ml.png",
+          "kamiqr": {
+            "itemId": "cf7088a0-2e57-4f1e-a642-c9e014b84594",
+            "nameKz": "Coca-Cola"
+          }
+        }
+      ]
+    },
+    {
+      "id": "napitki",
+      "section": "bar",
+      "name": {
+        "ru": "Напитки",
+        "kk": ""
+      },
+      "kamiqr": {
+        "nameKz": "Сусындар"
+      },
+      "items": [
+        {
+          "id": "natahtari",
+          "name": {
+            "ru": "Натахтари",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 990,
+          "photo": "napitki--natahtari.jpeg",
+          "kamiqr": {
+            "itemId": "7e04f0a3-c756-478d-92aa-716c16044dd8",
+            "nameKz": "Натахтари"
+          }
+        },
+        {
+          "id": "kompot-domashniy-1-5l",
+          "name": {
+            "ru": "Компот домашний",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "1.5л",
+          "price": 990,
+          "photo": "napitki--kompot-domashniy-1-5l.jpeg",
+          "kamiqr": {
+            "itemId": "9efa4088-d4f6-40df-96c3-9d44adca7515",
+            "nameKz": "Үй компоты"
+          }
+        },
+        {
+          "id": "soki-v-assortimente",
+          "name": {
+            "ru": "Соки в ассортименте",
+            "kk": ""
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": ""
+          },
+          "weight": "[TODO]",
+          "price": 1200,
+          "photo": "[TODO]",
+          "kamiqr": {
+            "itemId": "84f42c80-e604-4636-8ab1-2158bddd9eb1",
+            "nameKz": "Ассортименттегі шырындар"
+          }
+        }
+      ]
+    }
+  ]
+}
