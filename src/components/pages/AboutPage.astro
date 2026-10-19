@@ -1,7 +1,12 @@
 ---
-// Страница «О нас» (общая для всех языков). Наполнение — этап 8.
+// Страница «О нас» (общая для всех языков). Все тексты — content/about.json.
+import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { useTranslations, type Lang } from '../../i18n/ui';
+import VisitInfo from '../home/VisitInfo.astro';
+import about from '../../../content/about.json';
+import { isFilled, site } from '../../config/site';
+import { localized, menuCategories, photoFor } from '../../lib/menu';
+import { pathFor, useTranslations, type Lang, type RouteKey } from '../../i18n/ui';
 
 interface Props {
   lang: Lang;
@@ -9,12 +14,116 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = useTranslations(lang);
+const tx = (v: { ru: string; kk: string; en: string }) => localized(v, lang);
+const attr = (l: Lang) => (l !== lang ? l : undefined);
+
+const title = tx(about.title);
+const lead = tx(about.lead);
+const intro = tx(about.intro);
+
+// Фото: только существующие и не меньше 500 px; подпись — название блюда из меню
+const dishes = new Map(menuCategories().flatMap((c) => c.items).map((i) => [i.id, i]));
+const photos = about.photos
+  .map((p) => ({ img: photoFor(p.file), dish: dishes.get(p.dish) }))
+  .filter((p) => p.img && p.dish && Math.min(p.img.width, p.img.height) >= 500)
+  .map((p) => ({ img: p.img!, name: localized(p.dish!.name, lang) }));
+
+const btn =
+  'inline-flex min-h-12 items-center justify-center rounded-xl px-6 py-3 text-center font-semibold focus-visible:outline-2 focus-visible:outline-offset-2';
 ---
 
-<BaseLayout lang={lang} route="about" title={t('nav.about')}>
-  <section class="mx-auto max-w-5xl px-4 py-12">
-    <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{t('nav.about')}</h1>
-    <!-- TODO (этап 8): текст о ресторане -->
-    <p class="mt-8 text-rose-ash-dark">{t('common.soon')}</p>
-  </section>
+<BaseLayout lang={lang} route="about" title={title.text} compactFooter>
+  <div class="mx-auto grid max-w-5xl grid-cols-1 gap-14 px-4 py-10 sm:gap-16 sm:py-14">
+    <section class="grid gap-4">
+      <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase sm:text-4xl" lang={attr(title.lang)}>
+        {title.text}
+      </h1>
+      <p class="font-display text-sm tracking-[0.2em] text-pomegranate-dark uppercase" lang={attr(lead.lang)}>
+        {lead.text}
+      </p>
+      <p class="max-w-2xl text-lg text-balance sm:text-xl" lang={attr(intro.lang)}>{intro.text}</p>
+    </section>
+
+    <section aria-labelledby="expect-title" class="grid gap-5">
+      <h2 id="expect-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
+        {tx(about.expectTitle).text}
+      </h2>
+      <ul class="grid grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
+        {
+          about.expect.map((e) => {
+            const head = tx(e.title);
+            const text = tx(e.text);
+            const href = 'link' in e && e.link ? pathFor(lang, e.link as RouteKey) : null;
+            return (
+              <li class="flex flex-col gap-2 rounded-xl border border-blush/70 bg-white/70 p-4 sm:p-5">
+                <h3 class="text-lg font-semibold" lang={attr(head.lang)}>
+                  {head.text}
+                </h3>
+                <p class="text-rose-ash-dark" lang={attr(text.lang)}>
+                  {text.text}
+                </p>
+                {href && (
+                  <a href={href} class="mt-auto pt-1 font-semibold text-pomegranate-dark underline-offset-4 hover:underline">
+                    {t('home.allMenu')} →
+                  </a>
+                )}
+              </li>
+            );
+          })
+        }
+      </ul>
+    </section>
+
+    {
+      photos.length > 0 && (
+        <ul class="grid grid-cols-3 gap-2 sm:gap-4">
+          {photos.map((p) => (
+            <li>
+              <figure class="overflow-hidden rounded-xl border border-blush/70 bg-white/70">
+                <Image
+                  src={p.img}
+                  alt={p.name.text}
+                  width={480}
+                  height={480}
+                  widths={[160, 240, 320, 480, 640, 784].filter((w) => w <= p.img.width)}
+                  sizes="(min-width: 640px) 320px, 33vw"
+                  format="webp"
+                  quality={75}
+                  loading="lazy"
+                  decoding="async"
+                  class="aspect-square w-full object-cover sm:aspect-[4/5]"
+                />
+                <figcaption class="px-2 py-2 text-xs break-words text-rose-ash-dark sm:px-4 sm:py-3 sm:text-sm" lang={attr(p.name.lang)}>
+                  {p.name.text}
+                </figcaption>
+              </figure>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+
+    <VisitInfo lang={lang} title={tx(about.findTitle).text} />
+
+    <div class="flex flex-col gap-3 sm:flex-row">
+      <a
+        href={`${pathFor(lang, 'home')}#booking`}
+        class:list={[btn, 'bg-wine text-cream hover:bg-pomegranate-dark focus-visible:outline-wine']}
+      >
+        {tx(about.bookButton).text}
+      </a>
+      {
+        isFilled(site.instagram) && (
+          <a
+            href={site.instagram}
+            target="_blank"
+            rel="noopener"
+            class:list={[btn, 'border-2 border-wine text-wine hover:bg-wine hover:text-cream focus-visible:outline-wine']}
+          >
+            {tx(about.instagramButton).text}
+          </a>
+        )
+      }
+    </div>
+  </div>
 </BaseLayout>
