@@ -6,7 +6,8 @@ import Footer from '../components/Footer.astro';
 import { site } from '../config/site';
 import MobileBar from '../components/MobileBar.astro';
 import ScrollButton from '../components/ScrollButton.astro';
-import { IS_CONCEPT, MOBILE_BAR, NOINDEX, SCROLL_BUTTON } from '../config/status';
+import { IS_CONCEPT, MOBILE_BAR, NOINDEX, SCROLL_BUTTON, SEO_ENABLED } from '../config/status';
+import { restaurantJsonLd } from '../lib/seo';
 import { langs, pathFor, useTranslations, type Lang, type RouteKey } from '../i18n/ui';
 
 interface Props {
@@ -62,6 +63,9 @@ const ogImage = new URL('/og-image.png', Astro.site).href;
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
     <meta name="twitter:image:alt" content={t('og.imageAlt')} />
+
+    <!-- Разметка «Restaurant» для поисковиков — только когда сайт не концепт (SEO_ENABLED) -->
+    {SEO_ENABLED && <script is:inline type="application/ld+json" set:html={JSON.stringify(restaurantJsonLd(lang))} />}
   </head>
   <!-- Отступ снизу на телефоне — под закреплённую нижнюю панель (MobileBar), чтобы она не закрывала подвал -->
   <body

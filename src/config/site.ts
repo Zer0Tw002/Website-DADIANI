@@ -26,6 +26,13 @@ export const site = {
     kk: 'Күн сайын 11:00-ден 01:00-ге дейін',
     en: 'Daily from 11:00 to 01:00',
   },
+  // Адрес по частям и часы в машинном формате — для разметки «Restaurant» (JSON-LD) для поисковиков
+  addressParts: {
+    street: { ru: 'Уалиханова 225а', kk: 'Уалиханова 225а', en: 'Ualikhanov St. 225a' },
+    city: { ru: 'Шымкент', kk: 'Шымкент', en: 'Shymkent' },
+    country: 'KZ',
+  },
+  openingHoursSchema: 'Mo-Su 11:00-01:00',
   instagram: 'https://www.instagram.com/dadiani_shymkent/', // подтверждено владельцем проекта
   map2gis: 'https://2gis.kz/shymkent/firm/70000001065727880',
   // --- конец данных с kamiqr
