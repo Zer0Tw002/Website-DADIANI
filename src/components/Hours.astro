@@ -1,0 +1,29 @@
+---
+// Режим работы без разрыва времени: «Ежедневно» переносится как обычно, а фраза со временем
+// («с 11:00 до 01:00», «сайын 11:00-ден 01:00-ге дейін», «from 11:00 to 01:00») склеена
+// неразрывными пробелами и не переносится (в казахском внутри времени есть дефис — на нём
+// браузер тоже мог бы перенести строку).
+// Правило: неразрывная часть — от слова перед первым временем до слова после последнего.
+interface Props {
+  text: string;
+}
+
+const { text } = Astro.props;
+const words = text.trim().split(/\s+/);
+const isTime = (w: string) => /\d{1,2}:\d{2}/.test(w);
+const first = words.findIndex(isTime);
+const last = words.length - 1 - [...words].reverse().findIndex(isTime);
+
+let before = text;
+let time = '';
+let after = '';
+if (first !== -1) {
+  const start = Math.max(0, first - 1);
+  const end = Math.min(words.length - 1, last + 1);
+  before = words.slice(0, start).join(' ');
+  time = words.slice(start, end + 1).join(' ');
+  after = words.slice(end + 1).join(' ');
+}
+---
+
+{before}{before && time ? ' ' : ''}{time && <span class="whitespace-nowrap">{time}</span>}{after ? ' ' + after : ''}

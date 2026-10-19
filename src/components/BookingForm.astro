@@ -1,6 +1,7 @@
 ---
 // Мини-форма бронирования. Ничего не отправляет на сервер: собирает текст
 // и открывает WhatsApp с готовым сообщением на номер из site.ts.
+import Hours from './Hours.astro';
 import { site } from '../config/site';
 import { useTranslations, type Lang } from '../i18n/ui';
 
@@ -50,7 +51,7 @@ const label = 'block text-sm font-semibold';
         aria-describedby={`booking-hours-${lang}`}
       />
       <p id={`booking-hours-${lang}`} class="mt-1 text-sm text-rose-ash-dark">
-        {t('footer.hours')}: {site.hours[lang]}
+        {t('footer.hours')}: <Hours text={site.hours[lang]} />
       </p>
     </div>
     <div>

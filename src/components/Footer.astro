@@ -2,6 +2,7 @@
 // Подвал: адрес, режим работы, контакты и строка ссылок (Яндекс.Еда · Wolt · 2ГИС · Instagram).
 // Все данные — из src/config/site.ts; показываются только заполненные ссылки.
 // compact — короткий вариант (на главной и «О нас», где адрес и часы уже есть в отдельном блоке).
+import Hours from './Hours.astro';
 import { isFilled, phoneHref, site, whatsappLink } from '../config/site';
 import { IS_CONCEPT } from '../config/status';
 import { deliveryLinks } from '../lib/links';
@@ -38,10 +39,13 @@ const links = [
   {
     compact ? (
       <div class="mx-auto flex max-w-5xl flex-col items-center gap-1 px-4 pt-6 text-center text-sm sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-3">
-        <p>
-          {site.address[lang]}
-          <span aria-hidden="true" class="text-rose-ash"> · </span>
-          {site.hours[lang]}
+        {/* На узких экранах адрес и часы — двумя строками, на широких — одной строкой через точку */}
+        <p class="flex flex-col sm:block">
+          <span>{site.address[lang]}</span>
+          <span aria-hidden="true" class="hidden text-rose-ash sm:inline"> · </span>
+          <span>
+            <Hours text={site.hours[lang]} />
+          </span>
         </p>
         {isFilled(site.phone) && (
           <>
@@ -62,7 +66,9 @@ const links = [
         </div>
         <div>
           <h2 class={heading}>{t('footer.hours')}</h2>
-          <p class="mt-2">{site.hours[lang]}</p>
+          <p class="mt-2">
+            <Hours text={site.hours[lang]} />
+          </p>
           {site.serviceFee > 0 && <p class="mt-1 text-blush">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
         </div>
         <div>
