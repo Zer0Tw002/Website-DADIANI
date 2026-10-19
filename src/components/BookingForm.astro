@@ -1,0 +1,114 @@
+---
+// Мини-форма бронирования. Ничего не отправляет на сервер: собирает текст
+// и открывает WhatsApp с готовым сообщением на номер из site.ts.
+import { site } from '../config/site';
+import { useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const field =
+  'mt-1 block w-full min-h-12 rounded-lg border border-rose-ash bg-white px-3 py-2 text-base text-wine focus:border-wine focus:outline-2 focus:outline-wine';
+const label = 'block text-sm font-semibold';
+---
+
+<section id="booking" aria-labelledby="booking-title" class="rounded-2xl border border-blush bg-white/60 p-5 sm:p-8">
+  <h2 id="booking-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">{t('booking.title')}</h2>
+  <p class="mt-2 max-w-prose text-rose-ash-dark">{t('booking.intro')}</p>
+
+  <form
+    class="mt-6 grid gap-4 sm:grid-cols-2"
+    data-booking-form
+    data-wa={site.whatsapp}
+    data-greeting={t('booking.greeting')}
+    data-l-name={t('booking.name')}
+    data-l-date={t('booking.date')}
+    data-l-time={t('booking.time')}
+    data-l-guests={t('booking.guests')}
+  >
+    <div class="sm:col-span-2">
+      <label for={`booking-name-${lang}`} class={label}>{t('booking.name')}</label>
+      <input id={`booking-name-${lang}`} name="name" type="text" required autocomplete="given-name" maxlength="60" class={field} />
+    </div>
+    <div>
+      <label for={`booking-date-${lang}`} class={label}>{t('booking.date')}</label>
+      <input id={`booking-date-${lang}`} name="date" type="date" required class={field} />
+    </div>
+    <div>
+      <label for={`booking-time-${lang}`} class={label}>{t('booking.time')}</label>
+      <input
+        id={`booking-time-${lang}`}
+        name="time"
+        type="time"
+        required
+        step="900"
+        class={field}
+        aria-describedby={`booking-hours-${lang}`}
+      />
+      <p id={`booking-hours-${lang}`} class="mt-1 text-sm text-rose-ash-dark">
+        {t('footer.hours')}: {site.hours[lang]}
+      </p>
+    </div>
+    <div>
+      <label for={`booking-guests-${lang}`} class={label}>{t('booking.guests')}</label>
+      <input
+        id={`booking-guests-${lang}`}
+        name="guests"
+        type="number"
+        required
+        min="1"
+        max="99"
+        value="2"
+        inputmode="numeric"
+        class={field}
+      />
+    </div>
+    <div class="flex items-end sm:col-span-2">
+      <button
+        type="submit"
+        class="inline-flex min-h-12 w-full items-center justify-center rounded-xl bg-leaf-dark px-5 py-3 font-semibold text-white transition hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-dark sm:w-fit"
+      >
+        {t('booking.submit')}
+      </button>
+    </div>
+  </form>
+</section>
+
+<script>
+  // Дата сегодня по времени устройства — нельзя выбрать прошедший день
+  const today = new Date();
+  const pad = (n: number) => String(n).padStart(2, '0');
+  const iso = `${today.getFullYear()}-${pad(today.getMonth() + 1)}-${pad(today.getDate())}`;
+
+  document.querySelectorAll<HTMLFormElement>('form[data-booking-form]').forEach((form) => {
+    const date = form.elements.namedItem('date') as HTMLInputElement;
+    date.min = iso;
+
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+
+      const data = new FormData(form);
+      const d = form.dataset;
+      const [y, m, day] = String(data.get('date')).split('-');
+      const text = [
+        d.greeting,
+        `${d.lName}: ${String(data.get('name')).trim()}`,
+        `${d.lDate}: ${day}.${m}.${y}`,
+        `${d.lTime}: ${data.get('time')}`,
+        `${d.lGuests}: ${data.get('guests')}`,
+      ].join('\n');
+
+      const url = `https://wa.me/${d.wa}?text=${encodeURIComponent(text)}`;
+      // Новая вкладка; если браузер её заблокировал — открываем в этой.
+      // (С флагом 'noopener' window.open всегда возвращает null, поэтому обнуляем opener вручную.)
+      const win = window.open(url, '_blank');
+      if (win) win.opener = null;
+      else window.location.href = url;
+    });
+  });
+</script>
