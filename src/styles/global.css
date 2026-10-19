@@ -120,3 +120,14 @@
     max-width: calc(100% - 128px);
   }
 }
+
+/* Если в системе включено «уменьшить движение» — без анимаций и плавных переходов на всём сайте */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
