@@ -11,7 +11,12 @@
 - [x] В репозитории нет паролей, ключей и токенов.
 
 ## 2. Хостинг (Cloudflare Pages)
-- [ ] Сайт опубликован на Cloudflare Pages. Адрес: `[TODO: *.pages.dev]`.
+- [x] Сайт опубликован на Cloudflare Pages: https://dadiani.pages.dev
+      (проект `dadiani`, ветка `main`; каждый push в `main` обновляет сайт автоматически).
+- Доступ Cloudflare к GitHub выдан только к одному репозиторию (Only select repositories).
+- Cloudflare называет Pages «legacy» и продвигает Workers. Pages пока работает;
+  если Cloudflare объявит его отключение — перенести сайт на Workers (статический
+  сайт переносится без изменения кода страниц).
 - Сейчас проект Cloudflare Pages создан в **личном аккаунте разработчика**
   (на личной почте). Это временно.
 - [ ] Новый владелец заводит **свой** аккаунт Cloudflare (на почту ресторана)
@@ -21,7 +26,7 @@
       в `src/config/site.ts`.
 - [ ] Проект в аккаунте разработчика удалён, доступ Cloudflare к репозиторию
       у разработчика отозван (GitHub → Settings → Applications).
-- [ ] Настройки сборки записаны: Framework preset — Astro, команда `npm run build`,
+- [x] Настройки сборки: Framework preset — Astro, команда `npm run build`,
       папка `dist`, версия Node — из файла `.node-version` (22).
 - [ ] Убрать с сайта запрет индексации `noindex` (стоит на временной странице-заглушке),
       чтобы сайт находился в Google и Яндексе.
