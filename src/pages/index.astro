@@ -1,6 +1,7 @@
 ---
-// Временная страница-заглушка (этап 1). Будет заменена на настоящую главную.
+// Временная страница-заглушка. Будет заменена на настоящую главную (этап 7).
 import '../styles/global.css';
+import logo from '../../assets/logo/logo.svg';
 import { site } from '../config/site';
 ---
 
@@ -9,12 +10,22 @@ import { site } from '../config/site';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="noindex" />
+    <meta name="theme-color" content="#2A0508" />
     <title>{site.name} — сайт в разработке</title>
   </head>
-  <body class="flex min-h-screen items-center justify-center bg-stone-100 p-6 text-stone-800">
-    <main class="text-center">
-      <h1 class="text-4xl font-bold tracking-wide">{site.name}</h1>
-      <p class="mt-3 text-lg">Ресторан грузинской кухни. Сайт скоро откроется.</p>
+  <body class="flex min-h-screen flex-col font-sans">
+    <header class="bg-wine px-4 py-6">
+      <!-- В logo.svg большие поля сверху и снизу; обрезаем их, чтобы логотип не выглядел мелким -->
+      <div class="mx-auto h-36 w-72 overflow-hidden">
+        <img src={logo.src} alt={site.name} width="288" height="288" class="-mt-16 block" />
+      </div>
+    </header>
+    <main class="flex flex-1 items-center justify-center px-4 py-12 text-center">
+      <div>
+        <h1 class="font-display text-2xl font-light tracking-[0.16em] uppercase">Скоро открытие сайта</h1>
+        <p class="mt-3 text-rose-ash-dark">Сайт в разработке.</p>
+        <p class="mt-1 text-rose-ash-dark" lang="kk">Сайт әзірленуде.</p>
+      </div>
     </main>
   </body>
 </html>
