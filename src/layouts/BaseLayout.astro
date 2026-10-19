@@ -20,6 +20,11 @@ interface Props {
 const { lang, route, title, compactFooter = false } = Astro.props;
 const t = useTranslations(lang);
 const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('tagline')}`;
+const description = route === 'menu' ? t('meta.menu') : route === 'about' ? t('meta.about') : t('meta.description');
+const canonical = new URL(pathFor(lang, route), Astro.site).href;
+// Превью ссылки (Open Graph / Twitter) — включено всегда, в том числе в концепт-версии
+const ogLocale: Record<Lang, string> = { ru: 'ru_RU', kk: 'kk_KZ', en: 'en_US' };
+const ogImage = new URL('/og-image.png', Astro.site).href;
 ---
 
 <html lang={lang} class:list={[{ 'has-scroll-button': SCROLL_BUTTON }]}>
@@ -29,11 +34,34 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('t
     {NOINDEX && <meta name="robots" content="noindex" />}
     <meta name="theme-color" content="#2A0508" />
     <title>{pageTitle}</title>
-    <meta name="description" content={t('meta.description')} />
-    <link rel="canonical" href={new URL(pathFor(lang, route), Astro.site)} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
     {langs.map((l) => <link rel="alternate" hreflang={l} href={new URL(pathFor(l, route), Astro.site)} />)}
     <link rel="alternate" hreflang="x-default" href={new URL(pathFor('ru', route), Astro.site)} />
     <link rel="preload" href="/fonts/inter-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+
+    <!-- Значки сайта (созданы scripts/make-images.mjs) -->
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+    <!-- Превью ссылки в мессенджерах и соцсетях -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content={ogLocale[lang]} />
+    {langs.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={ogLocale[l]} />)}
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={t('og.imageAlt')} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={t('og.imageAlt')} />
   </head>
   <!-- Отступ снизу на телефоне — под закреплённую нижнюю панель (MobileBar), чтобы она не закрывала подвал -->
   <body

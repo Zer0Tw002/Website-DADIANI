@@ -28,6 +28,9 @@ export function pathFor(lang: Lang, route: RouteKey): string {
 const ru = {
   'concept.notice': 'Концепт-версия. Не официальный сайт ресторана',
   'meta.description': 'DADIANI — ресторан грузинской кухни в Шымкенте.',
+  'meta.menu': 'Меню ресторана DADIANI в Шымкенте: хинкали, хачапури, шашлыки, супы и горячие блюда. Цены в тенге.',
+  'meta.about': 'DADIANI — ресторан грузинской кухни в Шымкенте: адрес, часы работы, бизнес-ланч, блюда на компанию, доставка.',
+  'og.imageAlt': 'Логотип ресторана DADIANI на винном фоне',
   'skip': 'Перейти к содержимому',
   'tagline': 'Ресторан грузинской кухни',
   'nav.label': 'Разделы сайта',
@@ -82,6 +85,9 @@ type Dict = Record<keyof typeof ru, string>;
 const kk: Dict = {
   'concept.notice': 'Концепт-нұсқа. Мейрамхананың ресми сайты емес',
   'meta.description': 'DADIANI — Шымкенттегі грузин асханасының мейрамханасы.',
+  'meta.menu': 'Шымкенттегі DADIANI мейрамханасының мәзірі: хинкали, хачапури, шашлық, сорпалар мен ыстық тағамдар. Бағалар теңгемен.',
+  'meta.about': 'DADIANI — Шымкенттегі грузин асханасының мейрамханасы: мекенжай, жұмыс уақыты, бизнес-ланч, топқа арналған тағамдар, жеткізу.',
+  'og.imageAlt': 'Шарап түсті фондағы DADIANI мейрамханасының логотипі',
   'skip': 'Негізгі мазмұнға өту',
   'tagline': 'Грузин асханасының мейрамханасы',
   'nav.label': 'Сайт бөлімдері',
@@ -134,6 +140,9 @@ const kk: Dict = {
 const en: Dict = {
   'concept.notice': "Concept version. Not the restaurant's official website",
   'meta.description': 'DADIANI — Georgian restaurant in Shymkent.',
+  'meta.menu': 'Menu of DADIANI restaurant in Shymkent: khinkali, khachapuri, kebabs, soups and hot dishes. Prices in tenge.',
+  'meta.about': 'DADIANI is a Georgian restaurant in Shymkent: address, opening hours, business lunch, dishes for groups, delivery.',
+  'og.imageAlt': 'DADIANI restaurant logo on a wine-red background',
   'skip': 'Skip to content',
   'tagline': 'Georgian restaurant',
   'nav.label': 'Site sections',
