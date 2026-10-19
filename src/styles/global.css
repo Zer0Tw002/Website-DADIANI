@@ -102,3 +102,11 @@
     font-variant-numeric: lining-nums;
   }
 }
+
+/* Кнопка прокрутки (ScrollButton) висит у правого края. На экранах 1024–1199 px полей по бокам
+   мало, и она закрыла бы текст карточек — сужаем колонку контента, чтобы справа было ≥ 80 px. */
+@media (min-width: 1024px) and (max-width: 1199px) {
+  html.has-scroll-button .max-w-5xl {
+    max-width: calc(100% - 128px);
+  }
+}

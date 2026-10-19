@@ -104,7 +104,7 @@
 - `src/i18n/ui.ts` — языки, адреса страниц, переводы интерфейса.
 - `src/lib/menu.ts` — чтение `content/menu.json`, фото блюд, формат цены, запасной русский текст.
 - `src/components/MenuCard.astro` — карточка блюда (фото через `astro:assets`, WebP, ленивая загрузка).
-- `src/config/status.ts` — пометка «Концепт-версия» и запрет индексации.
+- `src/config/status.ts` — пометка «Концепт-версия», запрет индексации, кнопка прокрутки (`SCROLL_BUTTON`).
 - `content/README.md` — инструкция для владельца: как править меню.
 - `src/config/site.ts` — все контакты и ссылки.
 - `src/styles/global.css` — шрифты, цвета, подключение Tailwind.

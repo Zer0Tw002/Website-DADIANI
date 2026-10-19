@@ -57,6 +57,8 @@ const ru = {
   'service.fee': 'Обслуживание {n}%',
   'menu.categories': 'Категории меню',
   'common.soon': 'Раздел скоро появится.',
+  'scroll.down': 'Вниз, к адресу и контактам',
+  'scroll.up': 'Наверх, к началу страницы',
   'todo.translation': '[TODO: перевод]',
 };
 
@@ -94,6 +96,8 @@ const kk: Dict = {
   'service.fee': 'Қызмет көрсету ақысы {n}%',
   'menu.categories': 'Мәзір санаттары',
   'common.soon': 'Бөлім жақында пайда болады.',
+  'scroll.down': 'Төмен, мекенжай мен байланысқа',
+  'scroll.up': 'Жоғары, бет басына',
   'todo.translation': '[TODO: аударма]',
 };
 
@@ -129,6 +133,8 @@ const en: Dict = {
   'service.fee': 'Service charge {n}%',
   'menu.categories': 'Menu categories',
   'common.soon': 'This section is coming soon.',
+  'scroll.down': 'Down to address and contacts',
+  'scroll.up': 'Back to top',
   'todo.translation': '[TODO: translation]',
 };
 
