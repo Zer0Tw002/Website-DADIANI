@@ -1,0 +1,20 @@
+---
+// Временная страница-заглушка (этап 1). Будет заменена на настоящую главную.
+import '../styles/global.css';
+import { site } from '../config/site';
+---
+
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex" />
+    <title>{site.name} — сайт в разработке</title>
+  </head>
+  <body class="flex min-h-screen items-center justify-center bg-stone-100 p-6 text-stone-800">
+    <main class="text-center">
+      <h1 class="text-4xl font-bold tracking-wide">{site.name}</h1>
+      <p class="mt-3 text-lg">Ресторан грузинской кухни. Сайт скоро откроется.</p>
+    </main>
+  </body>
+</html>
