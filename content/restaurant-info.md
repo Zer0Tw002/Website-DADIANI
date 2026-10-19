@@ -19,7 +19,8 @@ https://dadiani-restaurant.kamiqr.com/menu/basic
 | График работы | Ежедневно с 11:00 до 01:00 |
 | Телефон | +7 701 146 85 15 (`tel:+77011468515`) |
 | WhatsApp | +7 701 146 85 15 (тот же номер) |
-| Instagram | https://www.instagram.com/dadiani_shymkent/ |
+| Instagram | https://www.instagram.com/dadiani_shymkent/ (`dadiani_shymkent`, с подчёркиванием — подтверждено владельцем проекта 2026-10-19) |
+| Обслуживание | 15% (с обложки меню в Instagram; решено показывать на сайте — `serviceFee` в `src/config/site.ts`) |
 | 2ГИС | https://go.2gis.com/fdVPj → https://2gis.kz/shymkent/firm/70000001065727880 |
 | Яндекс.Карты | [TODO] |
 | Яндекс.Еда | [TODO] |
@@ -37,10 +38,10 @@ https://dadiani-restaurant.kamiqr.com/menu/basic
 - **Доставка через Wolt и Яндекс** подтверждается сторис («Заказывайте доставку через
   приложения — WOLT и ЯНДЕКС»). Ссылок на сами страницы ресторана в Wolt и Яндекс.Еде
   в сторис нет — по-прежнему [TODO].
-- **«Обслуживание 15%»** — указано на обложке меню. На kamiqr и dkgroup этого нет.
-  [TODO: уточнить, писать ли на сайте.]
-- **Имя Instagram-аккаунта расходится:** на обложке меню — `@dadiani.shymkent` (с точкой),
-  ссылка на kamiqr — `dadiani_shymkent` (с подчёркиванием). [TODO: какой правильный.]
+- **«Обслуживание 15%»** — указано на обложке меню (на kamiqr и dkgroup этого нет).
+  Решение владельца проекта: показывать на сайте (страница меню и подвал).
+- **Имя Instagram-аккаунта:** верное — `dadiani_shymkent` (с подчёркиванием), решение владельца
+  проекта. На обложке меню в Instagram написано `@dadiani.shymkent` (с точкой) — это опечатка в макете.
 - Акции — в `content/promotions-draft.json`.
 
 ## Описание (как на kamiqr)

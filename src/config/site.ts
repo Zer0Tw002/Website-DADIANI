@@ -26,9 +26,13 @@ export const site = {
     kk: 'Күн сайын 11:00-ден 01:00-ге дейін',
     en: 'Daily from 11:00 to 01:00',
   },
-  instagram: 'https://www.instagram.com/dadiani_shymkent/',
+  instagram: 'https://www.instagram.com/dadiani_shymkent/', // подтверждено владельцем проекта
   map2gis: 'https://2gis.kz/shymkent/firm/70000001065727880',
   // --- конец данных с kamiqr
+
+  // Обслуживание, % (с обложки меню в Instagram, не подтверждено рестораном).
+  // Показывается на странице меню и в подвале. 0 — строка не показывается.
+  serviceFee: 15,
 
   delivery: {
     yandexEda: '[TODO: ссылка на Яндекс.Еду]',

@@ -39,6 +39,7 @@ const link = 'text-coral underline-offset-4 hover:underline';
     <div>
       <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.hours')}</h2>
       <p class="mt-2">{site.hours[lang]}</p>
+      {site.serviceFee > 0 && <p class="mt-1 text-blush">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
     </div>
     <div>
       <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.contacts')}</h2>

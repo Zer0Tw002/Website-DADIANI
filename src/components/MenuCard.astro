@@ -1,0 +1,53 @@
+---
+// Карточка блюда. С фото — маленькая квадратная картинка слева (фото не растягиваем:
+// исходники всего 326–784 px). Без фото — та же карточка, только текст, без пустой рамки.
+import { Image } from 'astro:assets';
+import { formatPrice, localized, photoFor, type MenuItem } from '../lib/menu';
+import type { Lang } from '../i18n/ui';
+
+interface Props {
+  item: MenuItem;
+  lang: Lang;
+}
+
+const { item, lang } = Astro.props;
+const name = localized(item.name, lang);
+const desc = localized(item.description, lang);
+const photo = photoFor(item.photo);
+---
+
+<article class="flex gap-4 rounded-xl border border-blush/70 bg-white/70 p-3 sm:p-4">
+  {
+    photo && (
+      <Image
+        src={photo}
+        alt={name.text}
+        width={128}
+        height={128}
+        widths={[112, 128, 224, 256]}
+        sizes="(min-width: 640px) 128px, 112px"
+        format="webp"
+        quality={75}
+        loading="lazy"
+        decoding="async"
+        class="size-28 shrink-0 rounded-lg object-cover sm:size-32"
+      />
+    )
+  }
+  <div class="flex min-w-0 flex-1 flex-col gap-1.5">
+    <!-- Если название не помещается рядом с ценой, цена уходит на следующую строку (слово не рвём) -->
+    <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5">
+      <h3 class="max-w-full font-semibold leading-snug break-words" lang={name.lang !== lang ? name.lang : undefined}>
+        {name.text}
+      </h3>
+      <p class="shrink-0 font-semibold text-pomegranate-dark tabular-nums">{formatPrice(item.price)}</p>
+    </div>
+    {
+      desc.text && (
+        <p class="text-sm leading-relaxed break-words text-rose-ash-dark" lang={desc.lang !== lang ? desc.lang : undefined}>
+          {desc.text}
+        </p>
+      )
+    }
+  </div>
+</article>

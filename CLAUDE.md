@@ -102,6 +102,10 @@
 - `src/layouts/BaseLayout.astro` — общий шаблон (head, шапка, подвал, запрет индексации).
 - `src/components/` — шапка, подвал и другие части страниц.
 - `src/i18n/ui.ts` — языки, адреса страниц, переводы интерфейса.
+- `src/lib/menu.ts` — чтение `content/menu.json`, фото блюд, формат цены, запасной русский текст.
+- `src/components/MenuCard.astro` — карточка блюда (фото через `astro:assets`, WebP, ленивая загрузка).
+- `src/config/status.ts` — пометка «Концепт-версия» и запрет индексации.
+- `content/README.md` — инструкция для владельца: как править меню.
 - `src/config/site.ts` — все контакты и ссылки.
 - `src/styles/global.css` — шрифты, цвета, подключение Tailwind.
 - `assets/logo/` — логотип (`logo.svg` — оригинал, `logo-tight.svg` — то же без пустых полей).

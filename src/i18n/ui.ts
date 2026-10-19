@@ -54,6 +54,9 @@ const ru = {
   'booking.guests': 'Количество гостей',
   'booking.submit': 'Отправить в WhatsApp',
   'booking.greeting': 'Здравствуйте! Хочу забронировать столик в DADIANI.',
+  'service.fee': 'Обслуживание {n}%',
+  'menu.categories': 'Категории меню',
+  'common.soon': 'Раздел скоро появится.',
   'todo.translation': '[TODO: перевод]',
 };
 
@@ -88,6 +91,9 @@ const kk: Dict = {
   'booking.guests': 'Қонақтар саны',
   'booking.submit': 'WhatsApp арқылы жіберу',
   'booking.greeting': 'Сәлеметсіз бе! DADIANI мейрамханасында үстел брондағым келеді.',
+  'service.fee': 'Қызмет көрсету ақысы {n}%',
+  'menu.categories': 'Мәзір санаттары',
+  'common.soon': 'Бөлім жақында пайда болады.',
   'todo.translation': '[TODO: аударма]',
 };
 
@@ -120,6 +126,9 @@ const en: Dict = {
   'booking.guests': 'Number of guests',
   'booking.submit': 'Send via WhatsApp',
   'booking.greeting': "Hello! I'd like to book a table at DADIANI.",
+  'service.fee': 'Service charge {n}%',
+  'menu.categories': 'Menu categories',
+  'common.soon': 'This section is coming soon.',
   'todo.translation': '[TODO: translation]',
 };
 

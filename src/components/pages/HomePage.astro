@@ -15,7 +15,7 @@ const t = useTranslations(lang);
 ---
 
 <BaseLayout lang={lang} route="home">
-  <div class="mx-auto grid max-w-5xl gap-10 px-4 py-10 sm:py-12">
+  <div class="mx-auto grid max-w-5xl grid-cols-1 gap-10 px-4 py-10 sm:py-12">
     <section class="grid gap-6">
       <div>
         <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{site.name}</h1>
@@ -25,7 +25,6 @@ const t = useTranslations(lang);
     </section>
 
     <BookingForm lang={lang} />
-
-    <p class="text-rose-ash-dark">[TODO: остальное наполнение главной — этап 7]</p>
+    <!-- TODO (этап 7): акции, фото, о ресторане -->
   </div>
 </BaseLayout>

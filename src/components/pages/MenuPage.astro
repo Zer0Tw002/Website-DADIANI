@@ -1,7 +1,9 @@
 ---
-// Страница меню (общая для всех языков). Наполнение — этап 6.
-// Названия блюд пока только на русском; для kk и en — t('todo.translation').
+// Страница меню (общая для всех языков). Данные — content/menu.json.
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import MenuCard from '../MenuCard.astro';
+import { site } from '../../config/site';
+import { localized, menuCategories } from '../../lib/menu';
 import { useTranslations, type Lang } from '../../i18n/ui';
 
 interface Props {
@@ -10,11 +12,110 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = useTranslations(lang);
+const categories = menuCategories();
 ---
 
 <BaseLayout lang={lang} route="menu" title={t('nav.menu')}>
-  <section class="mx-auto max-w-5xl px-4 py-12">
+  <div class="mx-auto max-w-5xl px-4 pt-10 sm:pt-12">
     <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{t('nav.menu')}</h1>
-    <p class="mt-8 text-rose-ash-dark">[TODO: меню — этап 6]</p>
-  </section>
+    {site.serviceFee > 0 && <p class="mt-2 text-rose-ash-dark">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
+  </div>
+
+  <!-- Лента категорий: закреплена вверху при прокрутке, на телефоне листается пальцем -->
+  <nav
+    aria-label={t('menu.categories')}
+    class="sticky top-0 z-20 mt-6 border-y border-blush/70 bg-cream/95 backdrop-blur"
+    data-menu-nav
+  >
+    <ul class="mx-auto flex max-w-5xl gap-2 overflow-x-auto px-4 py-2.5 [scrollbar-width:none]">
+      {
+        categories.map((c) => {
+          const name = localized(c.name, lang);
+          return (
+            <li class="shrink-0">
+              <a
+                href={`#${c.id}`}
+                data-cat={c.id}
+                lang={name.lang !== lang ? name.lang : undefined}
+                class="block rounded-full border border-rose-ash/60 px-3.5 py-1.5 text-sm whitespace-nowrap text-wine hover:border-wine aria-[current=true]:border-wine aria-[current=true]:bg-wine aria-[current=true]:text-cream"
+              >
+                {name.text}
+              </a>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </nav>
+
+  <div class="mx-auto grid max-w-5xl grid-cols-1 gap-10 px-4 py-8 sm:py-10">
+    {
+      categories.map((c) => {
+        const name = localized(c.name, lang);
+        return (
+          <section id={c.id} aria-labelledby={`${c.id}-title`} class="scroll-mt-20" data-cat-section>
+            <h2
+              id={`${c.id}-title`}
+              lang={name.lang !== lang ? name.lang : undefined}
+              class="font-display text-xl font-light tracking-[0.14em] uppercase"
+            >
+              {name.text}
+            </h2>
+            <div class="mt-4 grid grid-cols-1 gap-3 md:grid-cols-2">
+              {c.items.map((item) => (
+                <MenuCard item={item} lang={lang} />
+              ))}
+            </div>
+          </section>
+        );
+      })
+    }
+  </div>
 </BaseLayout>
+
+<script>
+  // Подсвечиваем в ленте категорию, которая сейчас на экране, и докручиваем ленту до неё
+  const nav = document.querySelector<HTMLElement>('[data-menu-nav]');
+  const list = nav?.querySelector('ul');
+  const links = new Map(
+    [...document.querySelectorAll<HTMLAnchorElement>('[data-menu-nav] a[data-cat]')].map((a) => [a.dataset.cat, a]),
+  );
+
+  let current: string | undefined;
+  function setActive(id: string | undefined) {
+    if (id === current) return;
+    current = id;
+    links.forEach((a, key) => a.setAttribute('aria-current', String(key === id)));
+    const a = id ? links.get(id) : undefined;
+    if (a && list) list.scrollLeft = a.offsetLeft - list.clientWidth / 2 + a.clientWidth / 2;
+  }
+
+  // Активна последняя категория, заголовок которой уже дошёл до ленты (с запасом 40 px)
+  const sections = [...document.querySelectorAll<HTMLElement>('[data-cat-section]')];
+  function update() {
+    const line = (nav?.getBoundingClientRect().bottom ?? 0) + 40;
+    let id: string | undefined;
+    for (const s of sections) {
+      if (s.getBoundingClientRect().top <= line) id = s.id;
+      else break;
+    }
+    setActive(id);
+  }
+
+  let ticking = false;
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        update();
+        ticking = false;
+      });
+    },
+    { passive: true },
+  );
+  // При нажатии на вкладку подсвечиваем её сразу, не дожидаясь прокрутки
+  links.forEach((a, id) => a.addEventListener('click', () => setActive(id)));
+  update();
+</script>
