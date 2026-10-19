@@ -26,6 +26,7 @@ export function pathFor(lang: Lang, route: RouteKey): string {
 }
 
 const ru = {
+  'concept.notice': 'Концепт-версия. Не официальный сайт ресторана',
   'meta.description': 'DADIANI — ресторан грузинской кухни в Шымкенте.',
   'skip': 'Перейти к содержимому',
   'tagline': 'Ресторан грузинской кухни',
@@ -45,6 +46,7 @@ const ru = {
 type Dict = Record<keyof typeof ru, string>;
 
 const kk: Dict = {
+  'concept.notice': 'Концепт-нұсқа. Мейрамхананың ресми сайты емес',
   'meta.description': 'DADIANI — Шымкенттегі грузин асханасының мейрамханасы.',
   'skip': 'Негізгі мазмұнға өту',
   'tagline': 'Грузин асханасының мейрамханасы',
@@ -62,6 +64,7 @@ const kk: Dict = {
 };
 
 const en: Dict = {
+  'concept.notice': "Concept version. Not the restaurant's official website",
   'meta.description': 'DADIANI — Georgian restaurant in Shymkent.',
   'skip': 'Skip to content',
   'tagline': 'Georgian restaurant',

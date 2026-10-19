@@ -4,6 +4,7 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import { site } from '../config/site';
+import { IS_CONCEPT, NOINDEX } from '../config/status';
 import { langs, pathFor, useTranslations, type Lang, type RouteKey } from '../i18n/ui';
 
 interface Props {
@@ -15,9 +16,6 @@ interface Props {
 const { lang, route, title } = Astro.props;
 const t = useTranslations(lang);
 const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('tagline')}`;
-
-// Пока сайт в разработке — запрещаем индексацию (снять перед запуском, см. HANDOFF.md)
-const NOINDEX = true;
 ---
 
 <html lang={lang}>
@@ -40,6 +38,13 @@ const NOINDEX = true;
     >
       {t('skip')}
     </a>
+    {
+      IS_CONCEPT && (
+        <div role="note" class="bg-pomegranate-dark px-4 py-1.5 text-center text-xs font-semibold text-cream">
+          {t('concept.notice')}
+        </div>
+      )
+    }
     <Header lang={lang} route={route} />
     <main id="main" class="flex-1">
       <slot />

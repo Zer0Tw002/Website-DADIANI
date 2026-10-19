@@ -1,6 +1,7 @@
 ---
 // Подвал: адрес, режим работы, контакты. Все данные — из src/config/site.ts.
 import { site, whatsappLink } from '../config/site';
+import { IS_CONCEPT } from '../config/status';
 import { useTranslations, type Lang } from '../i18n/ui';
 
 interface Props {
@@ -13,6 +14,15 @@ const year = new Date().getFullYear();
 ---
 
 <footer class="bg-wine text-cream">
+  {
+    IS_CONCEPT && (
+      <div class="mx-auto max-w-5xl px-4 pt-8">
+        <p role="note" class="rounded-lg border-2 border-coral px-4 py-3 text-center font-semibold text-coral">
+          {t('concept.notice')}
+        </p>
+      </div>
+    )
+  }
   <div class="mx-auto grid max-w-5xl gap-6 px-4 py-8 sm:grid-cols-3">
     <div>
       <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.address')}</h2>
