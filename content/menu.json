@@ -908,7 +908,7 @@
       "id": "hinkali-po-batumski",
       "category": "khinkali",
       "name": {
-        "ru": "Хинкали по-Батумски",
+        "ru": "Хинкали по-батумски",
         "kk": "Батуми стилінде хинкали",
         "en": "Khinkali Batumi Style"
       },
@@ -934,7 +934,7 @@
       "id": "hinkali-po-tbilisi",
       "category": "khinkali",
       "name": {
-        "ru": "Хинкали по-Тбилиси",
+        "ru": "Хинкали по-тбилиси",
         "kk": "Тбилиси стилінде хинкали",
         "en": "Khinkali Tbilisi Style"
       },
@@ -960,7 +960,7 @@
       "id": "hinkali-po-tbilisi-s-myasom",
       "category": "khinkali",
       "name": {
-        "ru": "Хинкали по-Тбилиси с мясом",
+        "ru": "Хинкали по-тбилиси с мясом",
         "kk": "Етпен Тбилиси стилінде хинкали",
         "en": "Khinkali Tbilisi Style with Meat"
       },
