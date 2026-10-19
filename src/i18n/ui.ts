@@ -112,7 +112,7 @@ const kk: Dict = {
   'home.popular': 'Танымал тағамдар',
   'home.allMenu': 'Толық мәзір',
   'home.promos': 'Акциялар мен бизнес-ланч',
-  'price.from': '{price} бастап',
+  'price.from': '{price}-ден бастап',
   'home.visit': 'Мекенжай және жұмыс уақыты',
   'todo.translation': '[TODO: аударма]',
 };

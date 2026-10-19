@@ -1063,7 +1063,7 @@
       "category": "main",
       "name": {
         "ru": "Баранина с черносливом",
-        "kk": "Кептірілген өрікпен қой еті",
+        "kk": "Қара өрік қосылған қой еті",
         "en": "Lamb with Prunes"
       },
       "description": {
@@ -1079,7 +1079,7 @@
       "check": {
         "price": "dkgroup",
         "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
+        "nameKk": "kamiqr (на dkgroup было «Кептірілген өрікпен қой еті» — это курага, ошибка), не проверено",
         "nameEn": "dkgroup, не проверено"
       }
     },
@@ -1472,7 +1472,7 @@
       "category": "main",
       "name": {
         "ru": "Томленная говядина по-грузински",
-        "kk": "Грузинша томленная сиыр еті",
+        "kk": "Грузинша бұқтырылған сиыр еті",
         "en": "Georgian-style Braised Beef"
       },
       "description": {
@@ -1488,7 +1488,7 @@
       "check": {
         "price": "dkgroup",
         "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
+        "nameKk": "перевод разработчика (на dkgroup «Грузинша томленная сиыр еті» — русское слово), не проверено",
         "nameEn": "dkgroup, не проверено"
       }
     },
@@ -1497,7 +1497,7 @@
       "category": "main",
       "name": {
         "ru": "Томленное филе ягненка в сметанном соусе",
-        "kk": "Қаймақ соусындағы қозы еті філесі",
+        "kk": "Қаймақ соусындағы қозы еті филесі",
         "en": "Braised Lamb Fillet in Sour Cream Sauce"
       },
       "description": {
@@ -1513,7 +1513,7 @@
       "check": {
         "price": "dkgroup",
         "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
+        "nameKk": "dkgroup, исправлено «філесі» → «филесі», не проверено",
         "nameEn": "dkgroup, не проверено"
       }
     },
@@ -1881,7 +1881,7 @@
       "category": "grill",
       "name": {
         "ru": "Утиное филе",
-        "kk": "Үйрек філесі",
+        "kk": "Үйрек филесі",
         "en": "Duck Fillet"
       },
       "description": {
@@ -1897,7 +1897,7 @@
       "check": {
         "price": "dkgroup",
         "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
+        "nameKk": "kamiqr (на dkgroup «Үйрек філесі» — опечатка), не проверено",
         "nameEn": "dkgroup, не проверено",
         "instagramPrice": 1290
       }
@@ -2144,7 +2144,7 @@
       },
       "description": {
         "ru": "Тонко нарезанные кабачки на гриле с оливковым маслом и травами",
-        "kk": "Зәйтүн майы мен шөптер қосылған, гриль-де пісірілген жұқа кабачок",
+        "kk": "Зәйтүн майы мен шөптер қосылған, грильде пісірілген жұқа кабачок",
         "en": "Thinly sliced grilled zucchini with olive oil and herbs"
       },
       "descriptionStatus": "перевод не проверен",
@@ -2190,7 +2190,7 @@
       "category": "sides",
       "name": {
         "ru": "Картофельные дольки",
-        "kk": "Картоп дольки",
+        "kk": "Картоп кесектері",
         "en": "Potato Wedges"
       },
       "description": {
@@ -2206,7 +2206,7 @@
       "check": {
         "price": "dkgroup",
         "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
+        "nameKk": "kamiqr (на dkgroup «Картоп дольки» — русское слово), не проверено",
         "nameEn": "dkgroup, не проверено"
       }
     },
@@ -2245,7 +2245,7 @@
       },
       "description": {
         "ru": "Ассорти сезонных овощей на гриле с травяным маслом",
-        "kk": "Шөп майы қосылған гриль-де пісірілген маусымдық көкөністер",
+        "kk": "Шөп майы қосылған грильде пісірілген маусымдық көкөністер",
         "en": "Assorted seasonal vegetables from the grill with herb butter"
       },
       "descriptionStatus": "перевод не проверен",
@@ -2647,7 +2647,7 @@
       "category": "banquet",
       "name": {
         "ru": "Ассорти томленного мяса",
-        "kk": "Томленная ет ассортиі",
+        "kk": "Бұқтырылған ет ассортиі",
         "en": "Assorted Braised Meats"
       },
       "description": {
@@ -2663,7 +2663,7 @@
       "check": {
         "price": "dkgroup",
         "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
+        "nameKk": "перевод разработчика (на dkgroup «Томленная ет ассортиі» — русское слово), не проверено",
         "nameEn": "dkgroup, не проверено",
         "instagramPrice": 36900
       }
