@@ -1,0 +1,21 @@
+---
+// Главная страница (общая для всех языков). Наполнение — этап 7.
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { site } from '../../config/site';
+import { useTranslations, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} route="home">
+  <section class="mx-auto max-w-5xl px-4 py-12">
+    <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{site.name}</h1>
+    <p class="mt-2 text-rose-ash-dark">{t('tagline')}</p>
+    <p class="mt-8 text-rose-ash-dark">[TODO: главная страница — этап 7]</p>
+  </section>
+</BaseLayout>

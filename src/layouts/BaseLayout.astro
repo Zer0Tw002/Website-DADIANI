@@ -1,0 +1,49 @@
+---
+// Общий шаблон всех страниц: <head>, шапка, подвал.
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { site } from '../config/site';
+import { langs, pathFor, useTranslations, type Lang, type RouteKey } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  route: RouteKey;
+  title?: string;
+}
+
+const { lang, route, title } = Astro.props;
+const t = useTranslations(lang);
+const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('tagline')}`;
+
+// Пока сайт в разработке — запрещаем индексацию (снять перед запуском, см. HANDOFF.md)
+const NOINDEX = true;
+---
+
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {NOINDEX && <meta name="robots" content="noindex" />}
+    <meta name="theme-color" content="#2A0508" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={t('meta.description')} />
+    <link rel="canonical" href={new URL(pathFor(lang, route), Astro.site)} />
+    {langs.map((l) => <link rel="alternate" hreflang={l} href={new URL(pathFor(l, route), Astro.site)} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(pathFor('ru', route), Astro.site)} />
+    <link rel="preload" href="/fonts/inter-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
+  </head>
+  <body class="flex min-h-screen flex-col font-sans">
+    <a
+      href="#main"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-cream focus:px-3 focus:py-2"
+    >
+      {t('skip')}
+    </a>
+    <Header lang={lang} route={route} />
+    <main id="main" class="flex-1">
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

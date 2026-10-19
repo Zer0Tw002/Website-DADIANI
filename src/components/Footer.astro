@@ -1,0 +1,39 @@
+---
+// Подвал: адрес, режим работы, контакты. Все данные — из src/config/site.ts.
+import { site, whatsappLink } from '../config/site';
+import { useTranslations, type Lang } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const year = new Date().getFullYear();
+---
+
+<footer class="bg-wine text-cream">
+  <div class="mx-auto grid max-w-5xl gap-6 px-4 py-8 sm:grid-cols-3">
+    <div>
+      <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.address')}</h2>
+      <p class="mt-2">{site.address[lang]}</p>
+    </div>
+    <div>
+      <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.hours')}</h2>
+      <p class="mt-2">{site.hours[lang]}</p>
+    </div>
+    <div>
+      <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.contacts')}</h2>
+      <ul class="mt-2 grid gap-1">
+        <li>{site.phone}</li>
+        <li>
+          <a href={whatsappLink(t('whatsapp.message'))} class="text-coral underline-offset-4 hover:underline">
+            {t('footer.whatsapp')}
+          </a>
+        </li>
+        <li>Instagram: {site.instagram}</li>
+      </ul>
+    </div>
+  </div>
+  <p class="border-t border-white/10 px-4 py-4 text-center text-xs text-rose-ash">© {year} {site.name}</p>
+</footer>

@@ -1,0 +1,4352 @@
+{
+  "_note": "Черновик меню, собран автоматически с dadiani.dkgroup.kz (данные записаны прямо в коде страницы, переменная menuData). Не публикуется на сайте как есть. [TODO] — на dkgroup этих данных нет. Переводы и описания dkgroup не проверены; часть описаний противоречит kamiqr — см. content/menu-differences.md.",
+  "source": {
+    "url": "https://dadiani.dkgroup.kz/",
+    "collectedAt": "2026-10-19",
+    "currency": "KZT",
+    "lastUpdated": "[TODO]"
+  },
+  "categories": [
+    {
+      "id": "salads",
+      "section": "kitchen",
+      "name": {
+        "ru": "Салаты",
+        "kk": "Салаттар",
+        "en": "Salads"
+      },
+      "items": [
+        {
+          "id": "adzhapsandali",
+          "name": {
+            "ru": "Аджапсандали",
+            "kk": "Аджапсандали",
+            "en": "Adjapsandali"
+          },
+          "description": {
+            "ru": "Грузинское овощное рагу с баклажанами, томатами и свежей зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "achi-chuk",
+          "name": {
+            "ru": "Ачи-чук",
+            "kk": "Ачи-чук",
+            "en": "Achi-Chuk"
+          },
+          "description": {
+            "ru": "Свежие томаты с луком, зеленью и острым перцем по-узбекски",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "grecheskiy",
+          "name": {
+            "ru": "Греческий",
+            "kk": "Грек салаты",
+            "en": "Greek Salad"
+          },
+          "description": {
+            "ru": "Огурцы, томаты, маслины, фета, оливковое масло",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2190
+        },
+        {
+          "id": "metehi",
+          "name": {
+            "ru": "Метехи",
+            "kk": "Метехи",
+            "en": "Metekhi Salad"
+          },
+          "description": {
+            "ru": "Грузинский салат с зеленью, грецкими орехами и гранатом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2200
+        },
+        {
+          "id": "nezhnyy-salat-s-kopchenym-suluguni",
+          "name": {
+            "ru": "Нежный салат с копченым сулугуни",
+            "kk": "Ысталған сулугунимен нәзік салат",
+            "en": "Tender Salad with Smoked Suluguni"
+          },
+          "description": {
+            "ru": "Микс листьев с копчёным сулугуни, черри и ореховой заправкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2790
+        },
+        {
+          "id": "ovoschnoy-salat-po-gruzinski",
+          "name": {
+            "ru": "Овощной салат по-грузински",
+            "kk": "Грузинша көкөніс салаты",
+            "en": "Georgian Vegetable Salad"
+          },
+          "description": {
+            "ru": "Сезонные овощи с грузинскими травами, чесноком и специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "rukkola-s-krevetkami",
+          "name": {
+            "ru": "Руккола с креветками",
+            "kk": "Асшаянмен рукола",
+            "en": "Arugula with Shrimp"
+          },
+          "description": {
+            "ru": "Руккола, тигровые креветки, черри, пармезан, лимонная заправка",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3200
+        },
+        {
+          "id": "salat-s-tomatami-i-imeretinskim-syrom",
+          "name": {
+            "ru": "Салат с томатами и имеретинским сыром",
+            "kk": "Қызанақ пен имерет ірімшігімен салат",
+            "en": "Salad with Tomatoes & Imeretian Cheese"
+          },
+          "description": {
+            "ru": "Томаты черри с нежным имеретинским сыром, базиликом и маслом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1990
+        },
+        {
+          "id": "salat-semga-s-ovoschami",
+          "name": {
+            "ru": "Салат семга с овощами",
+            "kk": "Семга мен көкөністер салаты",
+            "en": "Salmon & Vegetable Salad"
+          },
+          "description": {
+            "ru": "Слабосолёная семга, микс-салат, свежие овощи, лимонная заправка",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3000
+        },
+        {
+          "id": "seld-pod-shuboy",
+          "name": {
+            "ru": "Сельдь под шубой",
+            "kk": "Тұздалған балық «шуба астында»",
+            "en": "Herring under a Fur Coat"
+          },
+          "description": {
+            "ru": "Классический слоёный салат с сельдью, свёклой и майонезом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2100
+        },
+        {
+          "id": "teplyy-salat-s-hrustyaschimi-baklazhanami",
+          "name": {
+            "ru": "Теплый салат с хрустящими баклажанами",
+            "kk": "Қытырлақ баклажанмен жылы салат",
+            "en": "Warm Salad with Crispy Eggplant"
+          },
+          "description": {
+            "ru": "Хрустящие баклажаны, томаты, зелень, чесночный соус",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "tsezar-s-krevetkami",
+          "name": {
+            "ru": "Цезарь с креветками",
+            "kk": "Асшаянмен Цезарь",
+            "en": "Caesar with Shrimp"
+          },
+          "description": {
+            "ru": "Романо, тигровые креветки, пармезан, крутоны, соус цезарь",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3000
+        },
+        {
+          "id": "tsezar-s-kuritsey",
+          "name": {
+            "ru": "Цезарь с курицей",
+            "kk": "Тауықпен Цезарь",
+            "en": "Caesar with Chicken"
+          },
+          "description": {
+            "ru": "Романо, куриное филе гриль, пармезан, крутоны, соус цезарь",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2390
+        },
+        {
+          "id": "chaban-salat",
+          "name": {
+            "ru": "Чабан салат",
+            "kk": "Шопан салаты",
+            "en": "Shepherd's Salad"
+          },
+          "description": {
+            "ru": "Томаты, огурцы, перец, лук, зелень, домашний рассольный сыр",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "cold",
+      "section": "kitchen",
+      "name": {
+        "ru": "Холодные закуски",
+        "kk": "Суық закускалар",
+        "en": "Cold Appetizers"
+      },
+      "items": [
+        {
+          "id": "myasnaya-narezka",
+          "name": {
+            "ru": "Мясная нарезка",
+            "kk": "Ет нарезкасы",
+            "en": "Meat Platter"
+          },
+          "description": {
+            "ru": "Ассорти из отборных мясных деликатесов и колбас",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 7400
+        },
+        {
+          "id": "ovoschnaya-narezka",
+          "name": {
+            "ru": "Овощная нарезка",
+            "kk": "Көкөніс нарезкасы",
+            "en": "Vegetable Platter"
+          },
+          "description": {
+            "ru": "Сезонные свежие овощи, зелень, оливковое масло",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3500
+        },
+        {
+          "id": "raznosol",
+          "name": {
+            "ru": "Разносол",
+            "kk": "Маринадтар ассортиі",
+            "en": "Assorted Pickles"
+          },
+          "description": {
+            "ru": "Домашние маринованные огурцы, помидоры, капуста, перец",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3000
+        },
+        {
+          "id": "russkaya-zakuska",
+          "name": {
+            "ru": "Русская закуска",
+            "kk": "Орыс закускасы",
+            "en": "Russian Appetizer"
+          },
+          "description": {
+            "ru": "Соленья, чёрный хлеб, горчица, хрен",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3000
+        },
+        {
+          "id": "syrnaya-narezka",
+          "name": {
+            "ru": "Сырная нарезка",
+            "kk": "Ірімшік нарезкасы",
+            "en": "Cheese Platter"
+          },
+          "description": {
+            "ru": "Ассорти выдержанных и мягких сыров с мёдом и орехами",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 5500
+        },
+        {
+          "id": "fruktovaya-narezka",
+          "name": {
+            "ru": "Фруктовая нарезка",
+            "kk": "Жеміс нарезкасы",
+            "en": "Fruit Platter"
+          },
+          "description": {
+            "ru": "Свежие сезонные фрукты и ягоды",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 6000
+        }
+      ]
+    },
+    {
+      "id": "hot_app",
+      "section": "kitchen",
+      "name": {
+        "ru": "Горячие закуски",
+        "kk": "Ыстық закускалар",
+        "en": "Hot Appetizers"
+      },
+      "items": [
+        {
+          "id": "baklazhan-ruletiki",
+          "name": {
+            "ru": "Баклажан рулетики",
+            "kk": "Баклажан рулеттері",
+            "en": "Eggplant Rolls"
+          },
+          "description": {
+            "ru": "Запечённые баклажаны с ореховой начинкой, чесноком и зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "dolma",
+          "name": {
+            "ru": "Долма",
+            "kk": "Долма",
+            "en": "Dolma"
+          },
+          "description": {
+            "ru": "Виноградные листья с мясным фаршем, рисом и ароматными специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "lobio",
+          "name": {
+            "ru": "Лобио",
+            "kk": "Лобио",
+            "en": "Lobio"
+          },
+          "description": {
+            "ru": "Тушёная красная фасоль с луком, грецкими орехами и грузинскими специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1990
+        },
+        {
+          "id": "satsivi",
+          "name": {
+            "ru": "Сациви",
+            "kk": "Сациви",
+            "en": "Satsivi"
+          },
+          "description": {
+            "ru": "Курица в густом ореховом соусе с грузинскими пряностями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2600
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "section": "kitchen",
+      "name": {
+        "ru": "Супы",
+        "kk": "Сорпалар",
+        "en": "Soups"
+      },
+      "items": [
+        {
+          "id": "bozbash",
+          "name": {
+            "ru": "Бозбаш",
+            "kk": "Бозбаш",
+            "en": "Bozbash Soup"
+          },
+          "description": {
+            "ru": "Наваристый суп из баранины с нутом, картофелем и ароматными травами",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3300
+        },
+        {
+          "id": "buglama",
+          "name": {
+            "ru": "Буглама",
+            "kk": "Буглама",
+            "en": "Buglama Soup"
+          },
+          "description": {
+            "ru": "Азербайджанский суп из баранины с овощами и свежей зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3300
+        },
+        {
+          "id": "pelmeni",
+          "name": {
+            "ru": "Пельмени",
+            "kk": "Тұшпара",
+            "en": "Pelmeni"
+          },
+          "description": {
+            "ru": "Домашние пельмени с мясным фаршем в насыщенном бульоне",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1900
+        },
+        {
+          "id": "sup-lapsha-po-domashnemu",
+          "name": {
+            "ru": "Суп лапша по-домашнему",
+            "kk": "Үй лапша сорпасы",
+            "en": "Homestyle Noodle Soup"
+          },
+          "description": {
+            "ru": "Прозрачный куриный бульон с домашней лапшой и зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "tom-yam",
+          "name": {
+            "ru": "Том Ям",
+            "kk": "Том Ям",
+            "en": "Tom Yum Soup"
+          },
+          "description": {
+            "ru": "Тайский острый суп с тигровыми креветками и кокосовым молоком",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3200
+        },
+        {
+          "id": "harcho",
+          "name": {
+            "ru": "Харчо",
+            "kk": "Харчо",
+            "en": "Kharcho Soup"
+          },
+          "description": {
+            "ru": "Пряный грузинский суп из говядины с рисом и грецкими орехами",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1900
+        },
+        {
+          "id": "hashlama",
+          "name": {
+            "ru": "Хашлама",
+            "kk": "Хашлама",
+            "en": "Khashlama"
+          },
+          "description": {
+            "ru": "Томлёная баранина с овощами в собственном ароматном соку",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "khinkali",
+      "section": "kitchen",
+      "name": {
+        "ru": "Хинкали",
+        "kk": "Хинкали",
+        "en": "Khinkali"
+      },
+      "items": [
+        {
+          "id": "hinkali-po-batumski",
+          "name": {
+            "ru": "Хинкали по-Батумски",
+            "kk": "Батуми стилінде хинкали",
+            "en": "Khinkali Batumi Style"
+          },
+          "description": {
+            "ru": "Сочные хинкали с рубленым мясом, зеленью и острыми специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2700
+        },
+        {
+          "id": "hinkali-po-tbilisi",
+          "name": {
+            "ru": "Хинкали по-Тбилиси",
+            "kk": "Тбилиси стилінде хинкали",
+            "en": "Khinkali Tbilisi Style"
+          },
+          "description": {
+            "ru": "Классические тбилисские хинкали с сочной мясной начинкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2700
+        },
+        {
+          "id": "hinkali-po-tbilisi-s-myasom",
+          "name": {
+            "ru": "Хинкали по-Тбилиси с мясом",
+            "kk": "Етпен Тбилиси стилінде хинкали",
+            "en": "Khinkali Tbilisi Style with Meat"
+          },
+          "description": {
+            "ru": "Тбилисские хинкали с двойной порцией сочного мясного фарша",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2700
+        },
+        {
+          "id": "hinkali-s-govyadinoy",
+          "name": {
+            "ru": "Хинкали с говядиной",
+            "kk": "Сиыр етімен хинкали",
+            "en": "Beef Khinkali"
+          },
+          "description": {
+            "ru": "Нежные хинкали из отборной говядины с луком и кинзой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2490
+        },
+        {
+          "id": "hinkali-s-syrom-i-gribami",
+          "name": {
+            "ru": "Хинкали с сыром и грибами",
+            "kk": "Ірімшік пен саңырауқұлақпен хинкали",
+            "en": "Khinkali with Cheese & Mushrooms"
+          },
+          "description": {
+            "ru": "Хинкали с нежной начинкой из сулугуни и шампиньонов",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2390
+        }
+      ]
+    },
+    {
+      "id": "main",
+      "section": "kitchen",
+      "name": {
+        "ru": "Горячие блюда",
+        "kk": "Ыстық тағамдар",
+        "en": "Main Courses"
+      },
+      "items": [
+        {
+          "id": "alfredo-fetuchini",
+          "name": {
+            "ru": "Альфредо фетучини",
+            "kk": "Альфредо феттучини",
+            "en": "Fettuccine Alfredo"
+          },
+          "description": {
+            "ru": "Паста в нежном сливочном соусе с пармезаном",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2800
+        },
+        {
+          "id": "baranina-s-chernoslivom",
+          "name": {
+            "ru": "Баранина с черносливом",
+            "kk": "Кептірілген өрікпен қой еті",
+            "en": "Lamb with Prunes"
+          },
+          "description": {
+            "ru": "Томлёная баранина с черносливом в пряном соусе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3300
+        },
+        {
+          "id": "dzhigari",
+          "name": {
+            "ru": "Джигари",
+            "kk": "Джигари",
+            "en": "Jigari"
+          },
+          "description": {
+            "ru": "Говяжья печень на углях с луком, помидорами и специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2400
+        },
+        {
+          "id": "zharenye-krevetki-po-gruzinski",
+          "name": {
+            "ru": "Жареные креветки по-грузински",
+            "kk": "Грузинша қуырылған асшаян",
+            "en": "Georgian-style Fried Shrimp"
+          },
+          "description": {
+            "ru": "Тигровые креветки в чесночно-масляном соусе с зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2800
+        },
+        {
+          "id": "zhulen-iz-govyadiny-s-gribami",
+          "name": {
+            "ru": "Жульен из говядины с грибами",
+            "kk": "Саңырауқұлақпен сиыр еті жульені",
+            "en": "Beef & Mushroom Julienne"
+          },
+          "description": {
+            "ru": "Говядина и шампиньоны в сливочном соусе под сырной корочкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3590
+        },
+        {
+          "id": "zhulen-iz-kuritsy-s-gribami",
+          "name": {
+            "ru": "Жульен из курицы с грибами",
+            "kk": "Саңырауқұлақпен тауық жульені",
+            "en": "Chicken & Mushroom Julienne"
+          },
+          "description": {
+            "ru": "Куриное филе и шампиньоны в сливочном соусе под сырной корочкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3590
+        },
+        {
+          "id": "zapechennyy-sudak",
+          "name": {
+            "ru": "Запеченный судак",
+            "kk": "Пісірілген судак",
+            "en": "Baked Pike Perch"
+          },
+          "description": {
+            "ru": "Филе судака в духовке с ароматными травами и лимоном",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3690
+        },
+        {
+          "id": "kuritsa-v-slivochnom-souse",
+          "name": {
+            "ru": "Курица в сливочном соусе",
+            "kk": "Кілегей соусындағы тауық",
+            "en": "Chicken in Cream Sauce"
+          },
+          "description": {
+            "ru": "Нежное куриное филе в сливочно-чесночном соусе с зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "odzhahuri-s-baraninoy",
+          "name": {
+            "ru": "Оджахури с бараниной",
+            "kk": "Қой етімен оджахури",
+            "en": "Ojakhuri with Lamb"
+          },
+          "description": {
+            "ru": "Грузинское жаркое из баранины с картофелем и луком на сковороде",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2790
+        },
+        {
+          "id": "odzhahuri-s-baraninoy-v-gribnom-souse",
+          "name": {
+            "ru": "Оджахури с бараниной в грибном соусе",
+            "kk": "Саңырауқұлақ соусындағы қой етімен оджахури",
+            "en": "Ojakhuri with Lamb in Mushroom Sauce"
+          },
+          "description": {
+            "ru": "Оджахури из баранины в насыщенном грибном соусе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2990
+        },
+        {
+          "id": "odzhahuri-s-govyadinoy",
+          "name": {
+            "ru": "Оджахури с говядиной",
+            "kk": "Сиыр етімен оджахури",
+            "en": "Ojakhuri with Beef"
+          },
+          "description": {
+            "ru": "Грузинское жаркое из говядины с картофелем и луком на сковороде",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2790
+        },
+        {
+          "id": "odzhahuri-s-govyadinoy-v-gribnom-souse",
+          "name": {
+            "ru": "Оджахури с говядиной в грибном соусе",
+            "kk": "Саңырауқұлақ соусындағы сиыр етімен оджахури",
+            "en": "Ojakhuri with Beef in Mushroom Sauce"
+          },
+          "description": {
+            "ru": "Оджахури из говядины в насыщенном грибном соусе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2990
+        },
+        {
+          "id": "ribay-steyk",
+          "name": {
+            "ru": "Рибай стейк",
+            "kk": "Рибай стейк",
+            "en": "Ribeye Steak"
+          },
+          "description": {
+            "ru": "Сочный стейк из мраморной говядины на гриле, степень прожарки по желанию",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 5490
+        },
+        {
+          "id": "spagetti-boloneze",
+          "name": {
+            "ru": "Спагетти Болоньезе",
+            "kk": "Болоньезе спагетти",
+            "en": "Spaghetti Bolognese"
+          },
+          "description": {
+            "ru": "Спагетти с мясным соусом болоньезе и тёртым пармезаном",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2600
+        },
+        {
+          "id": "steyk-iz-semgi-v-slivochnom-souse",
+          "name": {
+            "ru": "Стейк из семги в сливочном соусе",
+            "kk": "Кілегей соусындағы семга стейгі",
+            "en": "Salmon Steak in Cream Sauce"
+          },
+          "description": {
+            "ru": "Стейк из свежей семги в нежном сливочно-лимонном соусе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 4500
+        },
+        {
+          "id": "steyk-iz-semgi-na-uglyah",
+          "name": {
+            "ru": "Стейк из семги на углях",
+            "kk": "Мангалда семга стейгі",
+            "en": "Grilled Salmon Steak"
+          },
+          "description": {
+            "ru": "Семга на углях с морскими травами и лимоном",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 4200
+        },
+        {
+          "id": "tibon-steyk",
+          "name": {
+            "ru": "Тибон стейк",
+            "kk": "Тибон стейк",
+            "en": "T-Bone Steak"
+          },
+          "description": {
+            "ru": "Классический T-bone из мраморной говядины на гриле",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 5490
+        },
+        {
+          "id": "tomlennaya-govyadina-po-gruzinski",
+          "name": {
+            "ru": "Томленная говядина по-грузински",
+            "kk": "Грузинша томленная сиыр еті",
+            "en": "Georgian-style Braised Beef"
+          },
+          "description": {
+            "ru": "Говядина медленного томления с грузинскими специями и зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3900
+        },
+        {
+          "id": "tomlennoe-file-yagnenka-v-smetannom-souse",
+          "name": {
+            "ru": "Томленное филе ягненка в сметанном соусе",
+            "kk": "Қаймақ соусындағы қозы еті філесі",
+            "en": "Braised Lamb Fillet in Sour Cream Sauce"
+          },
+          "description": {
+            "ru": "Нежное филе ягнёнка томлёное в домашнем сметанном соусе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3690
+        },
+        {
+          "id": "chakapuli",
+          "name": {
+            "ru": "Чакапули",
+            "kk": "Чакапули",
+            "en": "Chakapuli"
+          },
+          "description": {
+            "ru": "Ягнёнок с тархуном, ткемали и белым вином — весеннее грузинское блюдо",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 4300
+        },
+        {
+          "id": "chahohbili",
+          "name": {
+            "ru": "Чахохбили",
+            "kk": "Чахохбили",
+            "en": "Chakhokhbili"
+          },
+          "description": {
+            "ru": "Тушёная курица с томатами, луком и грузинскими специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2800
+        },
+        {
+          "id": "chashashuli",
+          "name": {
+            "ru": "Чашашули",
+            "kk": "Чашашули",
+            "en": "Chashushuli"
+          },
+          "description": {
+            "ru": "Говядина тушёная в томатном соусе с луком и острыми специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3590
+        },
+        {
+          "id": "shkmeruli",
+          "name": {
+            "ru": "Шкмерули",
+            "kk": "Шкмерули",
+            "en": "Shkmeruli"
+          },
+          "description": {
+            "ru": "Курица в сливочно-чесночном соусе по традиционному рачинскому рецепту",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3600
+        }
+      ]
+    },
+    {
+      "id": "grill",
+      "section": "kitchen",
+      "name": {
+        "ru": "Шашлыки",
+        "kk": "Шашлықтар",
+        "en": "Grill"
+      },
+      "items": [
+        {
+          "id": "baklazhan-kebab",
+          "name": {
+            "ru": "Баклажан кебаб",
+            "kk": "Баклажан кебабы",
+            "en": "Eggplant Kebab"
+          },
+          "description": {
+            "ru": "Нежные баклажаны на углях с ароматными специями и свежей зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "govyadina-kuskovoy",
+          "name": {
+            "ru": "Говядина кусковой",
+            "kk": "Сиыр еті кесек кебабы",
+            "en": "Beef Kebab"
+          },
+          "description": {
+            "ru": "Сочные кусочки говядины на шампуре, маринованные в луке и специях",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "koreyka",
+          "name": {
+            "ru": "Корейка",
+            "kk": "Қабырға",
+            "en": "Lamb Loin"
+          },
+          "description": {
+            "ru": "Баранья корейка на кости, приготовленная на мангале до румяной корочки",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3200
+        },
+        {
+          "id": "krylya-kurinye",
+          "name": {
+            "ru": "Крылья куриные",
+            "kk": "Тауық қанаттары",
+            "en": "Chicken Wings"
+          },
+          "description": {
+            "ru": "Хрустящие куриные крылышки в пряном маринаде, зажаренные на углях",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1850
+        },
+        {
+          "id": "lyulya-kebab",
+          "name": {
+            "ru": "Люля кебаб",
+            "kk": "Люля кебаб",
+            "en": "Lula Kebab"
+          },
+          "description": {
+            "ru": "Рубленый фарш из баранины с луком и специями на шампуре",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "lyulya-kebab-po-adzharski",
+          "name": {
+            "ru": "Люля кебаб по-аджарски",
+            "kk": "Аджар стилінде люля кебаб",
+            "en": "Adjarian Lula Kebab"
+          },
+          "description": {
+            "ru": "Люля из говядины с грецким орехом и аджарскими пряными травами",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3990
+        },
+        {
+          "id": "ovoschi-na-mangale",
+          "name": {
+            "ru": "Овощи на мангале",
+            "kk": "Мангалда көкөністер",
+            "en": "Grilled Vegetables"
+          },
+          "description": {
+            "ru": "Сезонные овощи, томлённые на углях с оливковым маслом и чесноком",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "okorochka",
+          "name": {
+            "ru": "Окорочка",
+            "kk": "Тауық санының еті",
+            "en": "Chicken Drumsticks"
+          },
+          "description": {
+            "ru": "Золотистые куриные ножки в ароматном маринаде с чесноком и зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1400
+        },
+        {
+          "id": "pechen-v-obertke",
+          "name": {
+            "ru": "Печень в обертке",
+            "kk": "Орамдалған бауыр",
+            "en": "Wrapped Liver"
+          },
+          "description": {
+            "ru": "Нежная говяжья печень в сальнике, зажаренная на мангале",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "semechki",
+          "name": {
+            "ru": "Семечки",
+            "kk": "Күнбағыс тұқымдары",
+            "en": "Sunflower Seeds"
+          },
+          "description": {
+            "ru": "Обжаренные на мангале подсолнечные семечки с крупной солью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "utinoe-file",
+          "name": {
+            "ru": "Утиное филе",
+            "kk": "Үйрек філесі",
+            "en": "Duck Fillet"
+          },
+          "description": {
+            "ru": "Нежное утиное филе на углях с гранатовым соусом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "forel-na-mangale",
+          "name": {
+            "ru": "Форель на мангале",
+            "kk": "Мангалда форель",
+            "en": "Grilled Trout"
+          },
+          "description": {
+            "ru": "Свежая форель целиком на мангале с лимоном, розмарином и зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3900
+        }
+      ]
+    },
+    {
+      "id": "baking",
+      "section": "kitchen",
+      "name": {
+        "ru": "Выпечка",
+        "kk": "Нан өнімдері",
+        "en": "Pastries"
+      },
+      "items": [
+        {
+          "id": "kombo-hachapuri",
+          "name": {
+            "ru": "Комбо хачапури",
+            "kk": "Хачапури комбо",
+            "en": "Khachapuri Combo"
+          },
+          "description": {
+            "ru": "Набор из трёх видов хачапури — идеально для большой компании",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 8000
+        },
+        {
+          "id": "kubdari",
+          "name": {
+            "ru": "Кубдари",
+            "kk": "Кубдари",
+            "en": "Kubdari"
+          },
+          "description": {
+            "ru": "Сванский пирог с сочной начинкой из мяса и пряных специй на тонком тесте",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3300
+        },
+        {
+          "id": "hachapuri-po-adzharski",
+          "name": {
+            "ru": "Хачапури по-аджарски",
+            "kk": "Аджар стилінде хачапури",
+            "en": "Adjarian Khachapuri"
+          },
+          "description": {
+            "ru": "Тесто-лодочка с яйцом, сливочным маслом и тянущимся сулугуни",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2600
+        },
+        {
+          "id": "hachapuri-po-imeretinski",
+          "name": {
+            "ru": "Хачапури по-имеретински",
+            "kk": "Имерет стилінде хачапури",
+            "en": "Imeretian Khachapuri"
+          },
+          "description": {
+            "ru": "Круглый пирог с нежной начинкой из имеретинского сыра",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2900
+        },
+        {
+          "id": "hachapuri-po-megrelski",
+          "name": {
+            "ru": "Хачапури по-мегрельски",
+            "kk": "Мегрел стилінде хачапури",
+            "en": "Megrelian Khachapuri"
+          },
+          "description": {
+            "ru": "Пирог с сыром внутри и запечённой сырной корочкой сверху",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2700
+        },
+        {
+          "id": "hlebnaya-korzina",
+          "name": {
+            "ru": "Хлебная корзина",
+            "kk": "Нан себеті",
+            "en": "Bread Basket"
+          },
+          "description": {
+            "ru": "Ассорти свежеиспечённого хлеба, лаваша и тонис пури к столу",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 850
+        },
+        {
+          "id": "hlebnaya-korzina-0-5",
+          "name": {
+            "ru": "Хлебная корзина 0,5",
+            "kk": "Нан себеті 0,5",
+            "en": "Bread Basket 0.5"
+          },
+          "description": {
+            "ru": "Половинная порция хлебной корзины",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "sides",
+      "section": "kitchen",
+      "name": {
+        "ru": "Гарниры",
+        "kk": "Қосымша тағамдар",
+        "en": "Side Dishes"
+      },
+      "items": [
+        {
+          "id": "brokkoli-s-parmezanom",
+          "name": {
+            "ru": "Брокколи с пармезаном",
+            "kk": "Пармезанмен брокколи",
+            "en": "Broccoli with Parmesan"
+          },
+          "description": {
+            "ru": "Брокколи на гриле, посыпанная хрустящим пармезаном с чесночным маслом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "kabachki-na-grile",
+          "name": {
+            "ru": "Кабачки на гриле",
+            "kk": "Грильде кабачки",
+            "en": "Grilled Zucchini"
+          },
+          "description": {
+            "ru": "Тонко нарезанные кабачки на гриле с оливковым маслом и травами",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "kartofel-fri",
+          "name": {
+            "ru": "Картофель фри",
+            "kk": "Картоп фри",
+            "en": "French Fries"
+          },
+          "description": {
+            "ru": "Золотистый хрустящий картофель фри",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "kartofelnye-dolki",
+          "name": {
+            "ru": "Картофельные дольки",
+            "kk": "Картоп дольки",
+            "en": "Potato Wedges"
+          },
+          "description": {
+            "ru": "Запечённые дольки картофеля в пряных специях с хрустящей корочкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 900
+        },
+        {
+          "id": "kartofelnye-shariki",
+          "name": {
+            "ru": "Картофельные шарики",
+            "kk": "Картоп шарлары",
+            "en": "Potato Balls"
+          },
+          "description": {
+            "ru": "Румяные картофельные шарики с нежной серединкой и хрустящей корочкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 900
+        },
+        {
+          "id": "ovoschi-na-grile",
+          "name": {
+            "ru": "Овощи на гриле",
+            "kk": "Грильде көкөністер",
+            "en": "Grilled Vegetables"
+          },
+          "description": {
+            "ru": "Ассорти сезонных овощей на гриле с травяным маслом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "ris",
+          "name": {
+            "ru": "Рис",
+            "kk": "Күріш",
+            "en": "Rice"
+          },
+          "description": {
+            "ru": "Рассыпчатый отварной рис",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 700
+        }
+      ]
+    },
+    {
+      "id": "sauces",
+      "section": "kitchen",
+      "name": {
+        "ru": "Соусы",
+        "kk": "Соустар",
+        "en": "Sauces"
+      },
+      "items": [
+        {
+          "id": "adzhika",
+          "name": {
+            "ru": "Аджика",
+            "kk": "Аджика",
+            "en": "Adjika"
+          },
+          "description": {
+            "ru": "Острая грузинская приправа из перца, чеснока и ароматных трав",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 500
+        },
+        {
+          "id": "belyy-sous-chesnochnyy",
+          "name": {
+            "ru": "Белый соус чесночный",
+            "kk": "Сарымсақты ақ соус",
+            "en": "Garlic White Sauce"
+          },
+          "description": {
+            "ru": "Нежный кремовый соус с жареным чесноком и свежей зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 400
+        },
+        {
+          "id": "satsebeli",
+          "name": {
+            "ru": "Сацебели",
+            "kk": "Сацебели",
+            "en": "Satsebeli"
+          },
+          "description": {
+            "ru": "Классический грузинский томатный соус с грецким орехом и специями",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 400
+        },
+        {
+          "id": "shashlychnyy-sous",
+          "name": {
+            "ru": "Шашлычный соус",
+            "kk": "Барбекю соусы",
+            "en": "BBQ Sauce"
+          },
+          "description": {
+            "ru": "Фирменный дымный соус к мясу с мангала",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "section": "kitchen",
+      "name": {
+        "ru": "Десерты",
+        "kk": "Десерттер",
+        "en": "Desserts"
+      },
+      "items": [
+        {
+          "id": "brauni",
+          "name": {
+            "ru": "Брауни",
+            "kk": "Брауни",
+            "en": "Brownie"
+          },
+          "description": {
+            "ru": "Тёплый шоколадный брауни с хрустящей корочкой и тягучей серединкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1590
+        },
+        {
+          "id": "medovik",
+          "name": {
+            "ru": "Медовик",
+            "kk": "Бал торты",
+            "en": "Honey Cake"
+          },
+          "description": {
+            "ru": "Слоёный медовый торт с нежным сметанным кремом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1390
+        },
+        {
+          "id": "molochnaya-devochka",
+          "name": {
+            "ru": "Молочная девочка",
+            "kk": "Сүтті торт",
+            "en": "Milk Girl Cake"
+          },
+          "description": {
+            "ru": "Воздушный торт на основе сгущённого молока с лёгким сливочным кремом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1590
+        },
+        {
+          "id": "morozhenoe",
+          "name": {
+            "ru": "Мороженое",
+            "kk": "Балмұздақ",
+            "en": "Ice Cream"
+          },
+          "description": {
+            "ru": "Шарик сливочного мороженого",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 600
+        },
+        {
+          "id": "napoleon-so-smorodinoy",
+          "name": {
+            "ru": "Наполеон со смородиной",
+            "kk": "Қарақатпен Наполеон торты",
+            "en": "Napoleon with Blackcurrant"
+          },
+          "description": {
+            "ru": "Классический торт Наполеон с кислинкой свежей чёрной смородины",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1900
+        },
+        {
+          "id": "plombir",
+          "name": {
+            "ru": "Пломбир",
+            "kk": "Пломбир",
+            "en": "Plombir Ice Cream"
+          },
+          "description": {
+            "ru": "Классический советский пломбир — насыщенный и кремовый",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1390
+        },
+        {
+          "id": "tartaletka-limonnaya-s-merengoy",
+          "name": {
+            "ru": "Тарталетка лимонная с меренгой",
+            "kk": "Меренгті лимон тарталеткасы",
+            "en": "Lemon Meringue Tartlet"
+          },
+          "description": {
+            "ru": "Хрустящая тарталетка с лимонным курдом и воздушной итальянской меренгой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1290
+        },
+        {
+          "id": "fruktovaya-tarelka",
+          "name": {
+            "ru": "Фруктовая тарелка",
+            "kk": "Жеміс тәрелкесі",
+            "en": "Fruit Platter"
+          },
+          "description": {
+            "ru": "Свежие сезонные фрукты, красиво сервированные на большой тарелке",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 6000
+        },
+        {
+          "id": "chizkeyk-klassicheskiy",
+          "name": {
+            "ru": "Чизкейк классический",
+            "kk": "Классикалық чизкейк",
+            "en": "Classic Cheesecake"
+          },
+          "description": {
+            "ru": "Нежный чизкейк на песочной основе с ванильным кремом и ягодным топпингом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1390
+        }
+      ]
+    },
+    {
+      "id": "kids",
+      "section": "kitchen",
+      "name": {
+        "ru": "Детское меню",
+        "kk": "Балалар мәзірі",
+        "en": "Kids Menu"
+      },
+      "items": [
+        {
+          "id": "blinchiki",
+          "name": {
+            "ru": "Блинчики",
+            "kk": "Блинчиктер",
+            "en": "Pancakes"
+          },
+          "description": {
+            "ru": "Тонкие блинчики со сгущёнкой или джемом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "burger-iz-govyadiny-s-fri",
+          "name": {
+            "ru": "Бургер из говядины с фри",
+            "kk": "Фримен сиыр еті бургері",
+            "en": "Beef Burger with Fries"
+          },
+          "description": {
+            "ru": "Маленький сочный говяжий бургер с хрустящим картофелем фри",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1590
+        },
+        {
+          "id": "burger-iz-kuritsy",
+          "name": {
+            "ru": "Бургер из курицы",
+            "kk": "Тауық бургері",
+            "en": "Chicken Burger"
+          },
+          "description": {
+            "ru": "Нежная куриная котлета в мягкой булочке с листьями салата",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1590
+        },
+        {
+          "id": "kasha-grechnevaya",
+          "name": {
+            "ru": "Каша гречневая",
+            "kk": "Қарақұмық ботқасы",
+            "en": "Buckwheat Porridge"
+          },
+          "description": {
+            "ru": "Рассыпчатая гречневая каша с маслом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "kasha-ovsyanaya",
+          "name": {
+            "ru": "Каша овсяная",
+            "kk": "Сұлы ботқасы",
+            "en": "Oatmeal"
+          },
+          "description": {
+            "ru": "Нежная овсяная каша с молоком — лёгкий и полезный завтрак",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "kurinye-kotlety-s-pyure",
+          "name": {
+            "ru": "Куриные котлеты с пюре",
+            "kk": "Картоп пюресімен тауық котлеті",
+            "en": "Chicken Cutlets with Mash"
+          },
+          "description": {
+            "ru": "Мягкие куриные котлетки с воздушным картофельным пюре",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1590
+        },
+        {
+          "id": "makarony-s-sosiskami",
+          "name": {
+            "ru": "Макароны с сосисками",
+            "kk": "Шұжықпен макарон",
+            "en": "Pasta with Sausages"
+          },
+          "description": {
+            "ru": "Отварные макароны с нежными детскими сосисками",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "makarony-s-syrom",
+          "name": {
+            "ru": "Макароны с сыром",
+            "kk": "Ірімшікпен макарон",
+            "en": "Mac & Cheese"
+          },
+          "description": {
+            "ru": "Макароны в сливочном соусе с запечённым тянущимся сыром",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "mini-hachapuri",
+          "name": {
+            "ru": "Мини-хачапури",
+            "kk": "Мини-хачапури",
+            "en": "Mini Khachapuri"
+          },
+          "description": {
+            "ru": "Маленький хачапури с сулугуни — для самых маленьких гостей",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "nagetsy",
+          "name": {
+            "ru": "Нагетсы",
+            "kk": "Нагетстер",
+            "en": "Nuggets"
+          },
+          "description": {
+            "ru": "Хрустящие куриные наггетсы с любимым соусом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "svezhiy-salat",
+          "name": {
+            "ru": "Свежий салат",
+            "kk": "Жаңа салат",
+            "en": "Fresh Salad"
+          },
+          "description": {
+            "ru": "Свежие овощи кубиками с лёгкой заправкой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "sup-lapsha-po-domashnemu-2",
+          "name": {
+            "ru": "Суп лапша по-домашнему",
+            "kk": "Үй лапша сорпасы",
+            "en": "Homestyle Noodle Soup"
+          },
+          "description": {
+            "ru": "Тёплый куриный бульон с домашней лапшой и зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "fri-detskaya",
+          "name": {
+            "ru": "Фри детская",
+            "kk": "Балалар картоп фри",
+            "en": "Kids French Fries"
+          },
+          "description": {
+            "ru": "Маленькая порция золотистого картофеля фри",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        }
+      ]
+    },
+    {
+      "id": "banquet",
+      "section": "kitchen",
+      "name": {
+        "ru": "Банкетные блюда",
+        "kk": "Банкет тағамдары",
+        "en": "Banquet Dishes"
+      },
+      "items": [
+        {
+          "id": "assorti-iz-shashlykov",
+          "name": {
+            "ru": "Ассорти из шашлыков",
+            "kk": "Шашлық ассортиі",
+            "en": "Assorted Kebabs"
+          },
+          "description": {
+            "ru": "Большое ассорти шашлыков из разных видов мяса — для всей компании",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 15500
+        },
+        {
+          "id": "assorti-tomlennogo-myasa",
+          "name": {
+            "ru": "Ассорти томленного мяса",
+            "kk": "Томленная ет ассортиі",
+            "en": "Assorted Braised Meats"
+          },
+          "description": {
+            "ru": "Медленно томлёное мясо нескольких видов — главное блюдо праздничного стола",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 34900
+        },
+        {
+          "id": "gril-miks",
+          "name": {
+            "ru": "Гриль микс",
+            "kk": "Гриль микс",
+            "en": "Grill Mix"
+          },
+          "description": {
+            "ru": "Большое ассорти мясных позиций с мангала на компанию",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 22000
+        },
+        {
+          "id": "kurinyy-gril-miks",
+          "name": {
+            "ru": "Куриный гриль микс",
+            "kk": "Тауық гриль миксі",
+            "en": "Chicken Grill Mix"
+          },
+          "description": {
+            "ru": "Ассорти куриных позиций на гриле — крылья, окорочка, филе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 14500
+        },
+        {
+          "id": "chanahi",
+          "name": {
+            "ru": "Чанахи",
+            "kk": "Чанахи",
+            "en": "Chanakhi"
+          },
+          "description": {
+            "ru": "Грузинское жаркое из баранины с овощами, томлённое в глиняном горшочке",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 15000
+        }
+      ]
+    },
+    {
+      "id": "beer_snacks",
+      "section": "kitchen",
+      "name": {
+        "ru": "Закуски к пиву",
+        "kk": "Сыраға арналған закускалар",
+        "en": "Beer Snacks"
+      },
+      "items": [
+        {
+          "id": "krylyshki-bbq",
+          "name": {
+            "ru": "Крылышки BBQ",
+            "kk": "BBQ қанаттар",
+            "en": "BBQ Wings"
+          },
+          "description": {
+            "ru": "Сочные крылышки в дымном BBQ-соусе — лучший аккомпанемент к пиву",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "pivnoy-set",
+          "name": {
+            "ru": "Пивной сет",
+            "kk": "Сыра сеті",
+            "en": "Beer Set"
+          },
+          "description": {
+            "ru": "Набор закусок специально подобранных к пиву — чечил, гарлики, орешки",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 4500
+        },
+        {
+          "id": "rzhanye-garliki",
+          "name": {
+            "ru": "Ржаные гарлики",
+            "kk": "Қара бидай гарликтері",
+            "en": "Rye Garlic Bread"
+          },
+          "description": {
+            "ru": "Хрустящие ржаные гренки с чесночным маслом и свежей зеленью",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 890
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "section": "bar",
+      "name": {
+        "ru": "Коктейли",
+        "kk": "Коктейльдер",
+        "en": "Cocktails"
+      },
+      "items": [
+        {
+          "id": "long-island",
+          "name": {
+            "ru": "Long Island",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Пять видов крепкого алкоголя с колой — мощный классический коктейль",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3590
+        },
+        {
+          "id": "aperol-shprits",
+          "name": {
+            "ru": "Апероль шприц",
+            "kk": "Апероль шприц",
+            "en": "Aperol Spritz"
+          },
+          "description": {
+            "ru": "Лёгкий игристый аперитив из апероля и просекко с долькой апельсина",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2990
+        },
+        {
+          "id": "daykiri",
+          "name": {
+            "ru": "Дайкири",
+            "kk": "Дайкири",
+            "en": "Daiquiri"
+          },
+          "description": {
+            "ru": "Освежающий коктейль из рома, свежего лайма и сахарного сиропа",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2000
+        },
+        {
+          "id": "margarita",
+          "name": {
+            "ru": "Маргарита",
+            "kk": "Маргарита",
+            "en": "Margarita"
+          },
+          "description": {
+            "ru": "Классика из текилы, трипл-сека и лаймового сока с солёным ободком",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2000
+        },
+        {
+          "id": "mohito",
+          "name": {
+            "ru": "Мохито",
+            "kk": "Мохито",
+            "en": "Mojito"
+          },
+          "description": {
+            "ru": "Освежающий мятный коктейль с белым ромом, лаймом и содовой на льду",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "pina-kolada",
+          "name": {
+            "ru": "Пина-Колада",
+            "kk": "Пина-Колада",
+            "en": "Piña Colada"
+          },
+          "description": {
+            "ru": "Тропический коктейль из рома, кокосовых сливок и свежего ананаса",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "tekila-sanrayz",
+          "name": {
+            "ru": "Текила Санрайз",
+            "kk": "Текила Санрайз",
+            "en": "Tequila Sunrise"
+          },
+          "description": {
+            "ru": "Яркий градиентный коктейль из текилы, апельсинового сока и гренадина",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2000
+        }
+      ]
+    },
+    {
+      "id": "georgian_cocktails",
+      "section": "bar",
+      "name": {
+        "ru": "Грузинские коктейли",
+        "kk": "Грузин коктейльдері",
+        "en": "Georgian Cocktails"
+      },
+      "items": [
+        {
+          "id": "tbilisi-mule",
+          "name": {
+            "ru": "Tbilisi Mule",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Тбилисский мул — виноградная чача, имбирное пиво и свежий лайм",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2200
+        },
+        {
+          "id": "granatovyy-negroni",
+          "name": {
+            "ru": "Гранатовый Negroni",
+            "kk": "Нар Negroni",
+            "en": "Pomegranate Negroni"
+          },
+          "description": {
+            "ru": "Классический Негрони с чачей и гранатовым ликёром — горько и ярко",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2400
+        },
+        {
+          "id": "gruzinskiy-spritz",
+          "name": {
+            "ru": "Грузинский Spritz",
+            "kk": "Грузин Spritz",
+            "en": "Georgian Spritz"
+          },
+          "description": {
+            "ru": "Лёгкий спритц с грузинским белым вином и просекко на льду",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "krepkiy-batoni",
+          "name": {
+            "ru": "Крепкий батони",
+            "kk": "Күшті батони",
+            "en": "Strong Batoni"
+          },
+          "description": {
+            "ru": "Авторский крепкий коктейль на основе чачи с ароматными горькими ликёрами",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "chacha-sour",
+          "name": {
+            "ru": "Чача Sour",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Освежающий сауэр из виноградной чачи, лимонного сока и яичного белка",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2300
+        }
+      ]
+    },
+    {
+      "id": "nonalco",
+      "section": "bar",
+      "name": {
+        "ru": "Безалкогольные",
+        "kk": "Алкогольсыз",
+        "en": "Non-Alcoholic"
+      },
+      "items": [
+        {
+          "id": "mohito-b-a",
+          "name": {
+            "ru": "Мохито б/а",
+            "kk": "Алкогольсыз мохито",
+            "en": "Virgin Mojito"
+          },
+          "description": {
+            "ru": "Безалкогольный мохито с мятой, свежим лаймом и содовой на льду",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2200
+        },
+        {
+          "id": "tropikana",
+          "name": {
+            "ru": "Тропикана",
+            "kk": "Тропикана",
+            "en": "Tropicana"
+          },
+          "description": {
+            "ru": "Яркий безалкогольный коктейль из манго, маракуйи и тропических соков",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "wines_glass",
+      "section": "bar",
+      "name": {
+        "ru": "Вина по бокалам",
+        "kk": "Бокалмен шараптар",
+        "en": "Wines by Glass"
+      },
+      "items": [
+        {
+          "id": "alazanskaya-dolina-askaneli-150ml",
+          "name": {
+            "ru": "Алазанская долина Askaneli 150ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "vino-domashnee-beloe-150ml",
+          "name": {
+            "ru": "Вино домашнее белое 150ml",
+            "kk": "Үй ақ шарабы 150ml",
+            "en": "House White Wine 150ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "vino-domashnee-krasnoe-150ml",
+          "name": {
+            "ru": "Вино домашнее красное 150ml",
+            "kk": "Үй қызыл шарабы 150ml",
+            "en": "House Red Wine 150ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "vino-domashnee-slivovoe-150ml",
+          "name": {
+            "ru": "Вино домашнее сливовое 150ml",
+            "kk": "Үй алхоры шарабы 150ml",
+            "en": "House Plum Wine 150ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "vino-domashnee-yagodnoe-150ml",
+          "name": {
+            "ru": "Вино домашнее ягодное 150ml",
+            "kk": "Үй жидек шарабы 150ml",
+            "en": "House Berry Wine 150ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "kahetinskaya-dolina-askaneli-150ml",
+          "name": {
+            "ru": "Кахетинская долина Askaneli 150ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1400
+        },
+        {
+          "id": "kindzmarauli-askaneli-150ml",
+          "name": {
+            "ru": "Киндзмараули Askaneli 150ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1700
+        },
+        {
+          "id": "kindzmarauli-marani-150ml",
+          "name": {
+            "ru": "Киндзмараули Marani 150ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1700
+        },
+        {
+          "id": "hvanchkara-askaneli-150ml",
+          "name": {
+            "ru": "Хванчкара Askaneli 150ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3500
+        }
+      ]
+    },
+    {
+      "id": "wines_bottle",
+      "section": "bar",
+      "name": {
+        "ru": "Вина по бутылкам",
+        "kk": "Бутылкамен шараптар",
+        "en": "Wines by Bottle"
+      },
+      "items": [
+        {
+          "id": "alazanskaya-dolina-askaneli-750ml",
+          "name": {
+            "ru": "Алазанская долина Askaneli 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 9000
+        },
+        {
+          "id": "aleksandrauli-marani-750ml",
+          "name": {
+            "ru": "Александраули Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10900
+        },
+        {
+          "id": "vino-domashnee-beloe-1l",
+          "name": {
+            "ru": "Вино домашнее белое 1L",
+            "kk": "Үй ақ шарабы 1L",
+            "en": "House White Wine 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 9000
+        },
+        {
+          "id": "vino-domashnee-krasnoe-1l",
+          "name": {
+            "ru": "Вино домашнее красное 1L",
+            "kk": "Үй қызыл шарабы 1L",
+            "en": "House Red Wine 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 9000
+        },
+        {
+          "id": "vino-domashnee-slivovoe-1l",
+          "name": {
+            "ru": "Вино домашнее сливовое 1L",
+            "kk": "Үй алхоры шарабы 1L",
+            "en": "House Plum Wine 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 9000
+        },
+        {
+          "id": "vino-domashnee-yagodnoe-1l",
+          "name": {
+            "ru": "Вино домашнее ягодное 1L",
+            "kk": "Үй жидек шарабы 1L",
+            "en": "House Berry Wine 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 9000
+        },
+        {
+          "id": "kahetinskaya-dolina-askaneli-750ml",
+          "name": {
+            "ru": "Кахетинская долина Askaneli 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 7000
+        },
+        {
+          "id": "kindzmarauli-marani-750ml",
+          "name": {
+            "ru": "Киндзмараули Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10500
+        },
+        {
+          "id": "manavi-askaneli-750ml",
+          "name": {
+            "ru": "Манави Askaneli 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10700
+        },
+        {
+          "id": "mukuzani-marani-750ml",
+          "name": {
+            "ru": "Мукузани Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10700
+        },
+        {
+          "id": "pirosmani-marani-750ml",
+          "name": {
+            "ru": "Пиросмани Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10900
+        },
+        {
+          "id": "rkatsiteli-askaneli-750ml",
+          "name": {
+            "ru": "Ркацители Askaneli 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10200
+        },
+        {
+          "id": "saperavi-marani-750ml",
+          "name": {
+            "ru": "Саперави Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 10900
+        },
+        {
+          "id": "sikvaruli-750ml",
+          "name": {
+            "ru": "Сикварули 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 7000
+        },
+        {
+          "id": "tvishi-marani-750ml",
+          "name": {
+            "ru": "Твиши Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 11900
+        },
+        {
+          "id": "telavuri-marani-750ml",
+          "name": {
+            "ru": "Телавури Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 8800
+        },
+        {
+          "id": "hvanchkara-askaneli-750ml",
+          "name": {
+            "ru": "Хванчкара Askaneli 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 16500
+        },
+        {
+          "id": "tsinandali-marani-750ml",
+          "name": {
+            "ru": "Цинандали Marani 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 11900
+        },
+        {
+          "id": "campo-viejo-blanco-750ml",
+          "name": {
+            "ru": "Campo Viejo Blanco 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 15000
+        },
+        {
+          "id": "campo-viejo-tempranillo-750ml",
+          "name": {
+            "ru": "Campo Viejo Tempranillo 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 15000
+        },
+        {
+          "id": "cesari-pinot-grigio-750ml",
+          "name": {
+            "ru": "Cesari Pinot Grigio 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 19500
+        },
+        {
+          "id": "domaine-del-herre-gros-manseng-750ml",
+          "name": {
+            "ru": "Domaine del Herre Gros Manseng 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 17900
+        },
+        {
+          "id": "jacobs-creek-shiraz-cabernet-750ml",
+          "name": {
+            "ru": "Jacobs Creek Shiraz Cabernet 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 11900
+        },
+        {
+          "id": "jacobs-creek-sauvignon-blanc-750ml",
+          "name": {
+            "ru": "Jacobs Creek Sauvignon Blanc 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 11900
+        },
+        {
+          "id": "nuala-pinot-noir-750ml",
+          "name": {
+            "ru": "Nuala Pinot Noir 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 26000
+        },
+        {
+          "id": "paladin-syraz-750ml",
+          "name": {
+            "ru": "Paladin Syraz 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 21500
+        }
+      ]
+    },
+    {
+      "id": "sparkling",
+      "section": "bar",
+      "name": {
+        "ru": "Игристые вина",
+        "kk": "Көпіршікті шараптар",
+        "en": "Sparkling Wines"
+      },
+      "items": [
+        {
+          "id": "abrau-dyurso-rozovoe-750ml",
+          "name": {
+            "ru": "Абрау Дюрсо розовое 750ml",
+            "kk": "Абрау Дюрсо қызыл 750ml",
+            "en": "Abrau Durso Rosé 750ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 7500
+        },
+        {
+          "id": "jacobs-creek-sparkling-moscato-750ml",
+          "name": {
+            "ru": "Jacobs Creek Sparkling Moscato 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 15500
+        },
+        {
+          "id": "lambrusco-emilia-750ml",
+          "name": {
+            "ru": "Lambrusco Emilia 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 8500
+        },
+        {
+          "id": "martini-asti-750ml",
+          "name": {
+            "ru": "Martini Asti 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 15000
+        },
+        {
+          "id": "tavernello-lambrusco-750ml",
+          "name": {
+            "ru": "Tavernello Lambrusco 750ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 8500
+        }
+      ]
+    },
+    {
+      "id": "beer",
+      "section": "bar",
+      "name": {
+        "ru": "Пиво",
+        "kk": "Сыра",
+        "en": "Beer"
+      },
+      "items": [
+        {
+          "id": "corona-extra-330ml",
+          "name": {
+            "ru": "Corona Extra 330ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "miller-330ml",
+          "name": {
+            "ru": "Miller 330ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "stella-artois-0-330ml",
+          "name": {
+            "ru": "Stella Artois 0% 330ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1100
+        },
+        {
+          "id": "tsingtao-330ml",
+          "name": {
+            "ru": "Tsingtao 330ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1700
+        },
+        {
+          "id": "praga-300ml",
+          "name": {
+            "ru": "Прага 300ml",
+            "kk": "Прага 300ml",
+            "en": "Praha 300ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 450
+        },
+        {
+          "id": "praga-500ml",
+          "name": {
+            "ru": "Прага 500ml",
+            "kk": "Прага 500ml",
+            "en": "Praha 500ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "praga-line-brew-500ml",
+          "name": {
+            "ru": "Прага Line Brew 500ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "sigma-nefiltr-500ml",
+          "name": {
+            "ru": "Сигма нефильтр 500ml",
+            "kk": "Сигма нефильтр 500ml",
+            "en": "Sigma Unfiltered 500ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1400
+        }
+      ]
+    },
+    {
+      "id": "whisky",
+      "section": "bar",
+      "name": {
+        "ru": "Виски",
+        "kk": "Виски",
+        "en": "Whisky"
+      },
+      "items": [
+        {
+          "id": "ballantine-s-finest-50ml",
+          "name": {
+            "ru": "Ballantine's Finest 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1690
+        },
+        {
+          "id": "chivas-regal-12-y-o-50ml",
+          "name": {
+            "ru": "Chivas Regal 12 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2700
+        },
+        {
+          "id": "chivas-regal-18-y-o-50ml",
+          "name": {
+            "ru": "Chivas Regal 18 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 4600
+        },
+        {
+          "id": "jameson-crested-50ml",
+          "name": {
+            "ru": "Jameson Crested 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2000
+        },
+        {
+          "id": "jameson-original-50ml",
+          "name": {
+            "ru": "Jameson Original 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1890
+        },
+        {
+          "id": "macallan-triple-cask-12-y-o-50ml",
+          "name": {
+            "ru": "Macallan Triple Cask 12 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 5900
+        },
+        {
+          "id": "the-glenlivet-founder-s-reserve-50ml",
+          "name": {
+            "ru": "The Glenlivet Founder's Reserve 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 3200
+        }
+      ]
+    },
+    {
+      "id": "vodka",
+      "section": "bar",
+      "name": {
+        "ru": "Водка",
+        "kk": "Арақ",
+        "en": "Vodka"
+      },
+      "items": [
+        {
+          "id": "absolut-elyx-50ml",
+          "name": {
+            "ru": "Absolut Elyx 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2000
+        },
+        {
+          "id": "absolut-original-50ml",
+          "name": {
+            "ru": "Absolut Original 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "absolut-passionfruit-50ml",
+          "name": {
+            "ru": "Absolut Passionfruit 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "godunoff-50ml",
+          "name": {
+            "ru": "Godunoff 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1000
+        },
+        {
+          "id": "green-steppe-50ml",
+          "name": {
+            "ru": "Green Steppe 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "grey-goose-50ml",
+          "name": {
+            "ru": "Grey Goose 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2200
+        },
+        {
+          "id": "kyzyl-zhar-legend-of-kazakhstan-50ml",
+          "name": {
+            "ru": "Kyzyl Zhar Legend of Kazakhstan 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 900
+        },
+        {
+          "id": "skyy-california-vodka-50ml",
+          "name": {
+            "ru": "Skyy California Vodka 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "stolichnaya-50ml",
+          "name": {
+            "ru": "Столичная 50ml",
+            "kk": "Столичная 50ml",
+            "en": "Stolichnaya 50ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 800
+        },
+        {
+          "id": "tsarskaya-50ml",
+          "name": {
+            "ru": "Царская 50ml",
+            "kk": "Царская 50ml",
+            "en": "Tsarskaya 50ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1400
+        },
+        {
+          "id": "tsarskaya-zolotaya-50ml",
+          "name": {
+            "ru": "Царская золотая 50ml",
+            "kk": "Царская алтын 50ml",
+            "en": "Tsarskaya Gold 50ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        }
+      ]
+    },
+    {
+      "id": "cognac",
+      "section": "bar",
+      "name": {
+        "ru": "Коньяк",
+        "kk": "Коньяк",
+        "en": "Cognac"
+      },
+      "items": [
+        {
+          "id": "ararat-3-y-o-50ml",
+          "name": {
+            "ru": "Ararat 3 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "ararat-5-y-o-50ml",
+          "name": {
+            "ru": "Ararat 5 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1700
+        },
+        {
+          "id": "ararat-cherry-50ml",
+          "name": {
+            "ru": "Ararat Cherry 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1790
+        },
+        {
+          "id": "ararat-ahtamar-10-y-o-50ml",
+          "name": {
+            "ru": "Ararat Ахтамар 10 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1990
+        },
+        {
+          "id": "martell-v-s-50ml",
+          "name": {
+            "ru": "Martell V.S. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "rum",
+      "section": "bar",
+      "name": {
+        "ru": "Ром",
+        "kk": "Ром",
+        "en": "Rum"
+      },
+      "items": [
+        {
+          "id": "havana-club-3-y-o-50ml",
+          "name": {
+            "ru": "Havana Club 3 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "havana-club-7-y-o-50ml",
+          "name": {
+            "ru": "Havana Club 7 Y.O. 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1400
+        },
+        {
+          "id": "havana-club-cuban-spiced-50ml",
+          "name": {
+            "ru": "Havana Club Cuban Spiced 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1700
+        }
+      ]
+    },
+    {
+      "id": "tequila",
+      "section": "bar",
+      "name": {
+        "ru": "Текила",
+        "kk": "Текила",
+        "en": "Tequila"
+      },
+      "items": [
+        {
+          "id": "olmeca-blanco-50ml",
+          "name": {
+            "ru": "Olmeca Blanco 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1490
+        },
+        {
+          "id": "olmeca-gold-50ml",
+          "name": {
+            "ru": "Olmeca Gold 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1590
+        }
+      ]
+    },
+    {
+      "id": "chacha",
+      "section": "bar",
+      "name": {
+        "ru": "Чача",
+        "kk": "Чача",
+        "en": "Chacha"
+      },
+      "items": [
+        {
+          "id": "marani-rkatsiteli-50ml",
+          "name": {
+            "ru": "Marani Ркацители 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "marani-saperavi-50ml",
+          "name": {
+            "ru": "Marani Саперави 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "chacha-vinogradnaya-50ml",
+          "name": {
+            "ru": "Чача виноградная 50ml",
+            "kk": "Жүзім чачасы 50ml",
+            "en": "Grape Chacha 50ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "chacha-medovaya-50ml",
+          "name": {
+            "ru": "Чача медовая 50ml",
+            "kk": "Бал чачасы 50ml",
+            "en": "Honey Chacha 50ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "chacha-vinogradnaya-500ml",
+          "name": {
+            "ru": "Чача виноградная 500ml",
+            "kk": "Жүзім чачасы 500ml",
+            "en": "Grape Chacha 500ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 7000
+        },
+        {
+          "id": "chacha-medovaya-500ml",
+          "name": {
+            "ru": "Чача медовая 500ml",
+            "kk": "Бал чачасы 500ml",
+            "en": "Honey Chacha 500ml"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 7000
+        }
+      ]
+    },
+    {
+      "id": "vermouth",
+      "section": "bar",
+      "name": {
+        "ru": "Вермуты",
+        "kk": "Вермуттар",
+        "en": "Vermouth"
+      },
+      "items": [
+        {
+          "id": "martini-bianca-100ml",
+          "name": {
+            "ru": "Martini Bianca 100ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        }
+      ]
+    },
+    {
+      "id": "tinctures",
+      "section": "bar",
+      "name": {
+        "ru": "Настойки",
+        "kk": "Настойкалар",
+        "en": "Tinctures"
+      },
+      "items": [
+        {
+          "id": "becherovka-50ml",
+          "name": {
+            "ru": "Becherovka 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1100
+        },
+        {
+          "id": "beefeater-50ml",
+          "name": {
+            "ru": "Beefeater 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "j-germeister-50ml",
+          "name": {
+            "ru": "Jägermeister 50ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "j-germeister-500ml",
+          "name": {
+            "ru": "Jägermeister 500ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 12000
+        }
+      ]
+    },
+    {
+      "id": "coffee",
+      "section": "bar",
+      "name": {
+        "ru": "Кофе",
+        "kk": "Кофе",
+        "en": "Coffee"
+      },
+      "items": [
+        {
+          "id": "americano",
+          "name": {
+            "ru": "Americano",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 790
+        },
+        {
+          "id": "cappuccino",
+          "name": {
+            "ru": "Cappuccino",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 890
+        },
+        {
+          "id": "latte",
+          "name": {
+            "ru": "Latte",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 890
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "section": "bar",
+      "name": {
+        "ru": "Чайная коллекция",
+        "kk": "Шай коллекциясы",
+        "en": "Tea Collection"
+      },
+      "items": [
+        {
+          "id": "chay-amurskiy-barbaris",
+          "name": {
+            "ru": "Чай Амурский барбарис",
+            "kk": "Амур бөріқарақаты шайы",
+            "en": "Amur Barberry Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "chay-venetsianskaya-noch-fruktovo-yagodnyy",
+          "name": {
+            "ru": "Чай Венецианская ночь (фруктово-ягодный)",
+            "kk": "Венеция түні шайы (жеміс-жидек)",
+            "en": "Venetian Night Tea (fruit-berry)"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1400
+        },
+        {
+          "id": "chay-imbirnyy",
+          "name": {
+            "ru": "Чай Имбирный",
+            "kk": "Зімбір шайы",
+            "en": "Ginger Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "chay-marokkanskiy",
+          "name": {
+            "ru": "Чай Марокканский",
+            "kk": "Марокко шайы",
+            "en": "Moroccan Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "chay-oblepihovyy",
+          "name": {
+            "ru": "Чай Облепиховый",
+            "kk": "Шырғанақ шайы",
+            "en": "Sea Buckthorn Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "chay-slivochnyy-ulun",
+          "name": {
+            "ru": "Чай Сливочный улун",
+            "kk": "Кілегей улун шайы",
+            "en": "Creamy Oolong Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "chay-tashkentskiy",
+          "name": {
+            "ru": "Чай Ташкентский",
+            "kk": "Ташкент шайы",
+            "en": "Tashkent Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "chay-te-guan-in-zelenyy",
+          "name": {
+            "ru": "Чай Те Гуань Инь (зеленый)",
+            "kk": "Те Гуань Інь (жасыл)",
+            "en": "Tie Guan Yin Tea (green)"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "chay-ulun-mango-zelenyy-s-mango",
+          "name": {
+            "ru": "Чай улун манго (зеленый с манго)",
+            "kk": "Манго улун (жасыл, манго)",
+            "en": "Mango Oolong Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "chay-chernyy-tseylon",
+          "name": {
+            "ru": "Чай черный цейлон",
+            "kk": "Цейлон қара шайы",
+            "en": "Ceylon Black Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "chay-yagodnyy",
+          "name": {
+            "ru": "Чай Ягодный",
+            "kk": "Жидек шайы",
+            "en": "Berry Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "chernyy-zelenyy-chay",
+          "name": {
+            "ru": "Черный / зеленый чай",
+            "kk": "Қара / жасыл шай",
+            "en": "Black / Green Tea"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 700
+        }
+      ]
+    },
+    {
+      "id": "lemonades",
+      "section": "bar",
+      "name": {
+        "ru": "Лимонады",
+        "kk": "Лимонадтар",
+        "en": "Lemonades"
+      },
+      "items": [
+        {
+          "id": "apelsin-marakuyya-1l",
+          "name": {
+            "ru": "Апельсин-Маракуйя 1л",
+            "kk": "Апельсин-Маракуйя 1л",
+            "en": "Orange-Passionfruit 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "apelsin-marakuyya-0-5l",
+          "name": {
+            "ru": "Апельсин-Маракуйя 0,5л",
+            "kk": "Апельсин-Маракуйя 0,5л",
+            "en": "Orange-Passionfruit 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "kivi-laym-1l",
+          "name": {
+            "ru": "Киви-Лайм 1л",
+            "kk": "Киви-Лайм 1л",
+            "en": "Kiwi-Lime 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "kivi-laym-0-5l",
+          "name": {
+            "ru": "Киви-Лайм 0,5л",
+            "kk": "Киви-Лайм 0,5л",
+            "en": "Kiwi-Lime 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "kokosovyy-1l",
+          "name": {
+            "ru": "Кокосовый 1л",
+            "kk": "Кокос лимонады 1л",
+            "en": "Coconut Lemonade 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "letniy-1l",
+          "name": {
+            "ru": "Летний 1л",
+            "kk": "Жазғы лимонад 1л",
+            "en": "Summer Lemonade 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "letniy-0-5l",
+          "name": {
+            "ru": "Летний 0,5л",
+            "kk": "Жазғы лимонад 0,5л",
+            "en": "Summer Lemonade 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "mango-marakuyya-1l",
+          "name": {
+            "ru": "Манго-Маракуйя 1л",
+            "kk": "Манго-Маракуйя 1л",
+            "en": "Mango-Passionfruit 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "mango-marakuyya-0-5l",
+          "name": {
+            "ru": "Манго-Маракуйя 0,5л",
+            "kk": "Манго-Маракуйя 0,5л",
+            "en": "Mango-Passionfruit 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "mohito-1l",
+          "name": {
+            "ru": "Мохито 1л",
+            "kk": "Мохито лимонады 1л",
+            "en": "Mojito Lemonade 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "mohito-0-5l",
+          "name": {
+            "ru": "Мохито 0,5л",
+            "kk": "Мохито лимонады 0,5л",
+            "en": "Mojito Lemonade 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "tropicheskiy-1l",
+          "name": {
+            "ru": "Тропический 1л",
+            "kk": "Тропикалық лимонад 1л",
+            "en": "Tropical Lemonade 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "tropicheskiy-0-5l",
+          "name": {
+            "ru": "Тропический 0,5л",
+            "kk": "Тропикалық лимонад 0,5л",
+            "en": "Tropical Lemonade 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "yabloko-grusha-0-5l",
+          "name": {
+            "ru": "Яблоко-груша 0,5л",
+            "kk": "Алма-алмұрт 0,5л",
+            "en": "Apple-Pear 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        },
+        {
+          "id": "yagodnyy-1l",
+          "name": {
+            "ru": "Ягодный 1л",
+            "kk": "Жидек лимонады 1л",
+            "en": "Berry Lemonade 1L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "yagodnyy-0-5l",
+          "name": {
+            "ru": "Ягодный 0,5л",
+            "kk": "Жидек лимонады 0,5л",
+            "en": "Berry Lemonade 0.5L"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 950
+        }
+      ]
+    },
+    {
+      "id": "smoothies",
+      "section": "bar",
+      "name": {
+        "ru": "Смузи",
+        "kk": "Смузи",
+        "en": "Smoothies"
+      },
+      "items": [
+        {
+          "id": "fruktovyy-smuzi",
+          "name": {
+            "ru": "Фруктовый смузи",
+            "kk": "Жеміс смузи",
+            "en": "Fruit Smoothie"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "yagodnyy-smuzi",
+          "name": {
+            "ru": "Ягодный смузи",
+            "kk": "Жидек смузи",
+            "en": "Berry Smoothie"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        }
+      ]
+    },
+    {
+      "id": "fresh",
+      "section": "bar",
+      "name": {
+        "ru": "Фреш",
+        "kk": "Фреш",
+        "en": "Fresh Juices"
+      },
+      "items": [
+        {
+          "id": "fresh-apelsinovyy",
+          "name": {
+            "ru": "Фреш апельсиновый",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "fresh-morkovno-yablochnyy",
+          "name": {
+            "ru": "Фреш морковно-яблочный",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "fresh-yablochno-apelsinovyy",
+          "name": {
+            "ru": "Фреш яблочно-апельсиновый",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        },
+        {
+          "id": "fresh-yablochnyy",
+          "name": {
+            "ru": "Фреш яблочный",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2500
+        }
+      ]
+    },
+    {
+      "id": "milkshakes",
+      "section": "bar",
+      "name": {
+        "ru": "Милк шейки",
+        "kk": "Милк шейктер",
+        "en": "Milkshakes"
+      },
+      "items": [
+        {
+          "id": "glyasse",
+          "name": {
+            "ru": "Гляссе",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Молочный коктейль с шариком пломбира и двойным эспрессо",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "klubnichnyy",
+          "name": {
+            "ru": "Клубничный",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Нежный молочный коктейль с клубничным сиропом и свежей клубникой",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "molochnyy-banan",
+          "name": {
+            "ru": "Молочный банан",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Густой классический банановый молочный коктейль",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "molochnyy-shokolad",
+          "name": {
+            "ru": "Молочный шоколад",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Насыщенный шоколадный коктейль с какао и ванильным мороженым",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        },
+        {
+          "id": "snikers",
+          "name": {
+            "ru": "Сникерс",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "Молочный коктейль с арахисовой пастой, карамелью и шоколадом",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1800
+        }
+      ]
+    },
+    {
+      "id": "drinks",
+      "section": "bar",
+      "name": {
+        "ru": "Напитки",
+        "kk": "Сусындар",
+        "en": "Drinks"
+      },
+      "items": [
+        {
+          "id": "borjomi-500ml",
+          "name": {
+            "ru": "Borjomi 500ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1300
+        },
+        {
+          "id": "coca-cola-sprite-250ml",
+          "name": {
+            "ru": "Coca-Cola / Sprite 250ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 700
+        },
+        {
+          "id": "coca-cola-sprite-500ml",
+          "name": {
+            "ru": "Coca-Cola / Sprite 500ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 700
+        },
+        {
+          "id": "coca-cola-sprite-1l",
+          "name": {
+            "ru": "Coca-Cola / Sprite 1L",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "red-bull",
+          "name": {
+            "ru": "Red Bull",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "kompot-dadiani-0-5l",
+          "name": {
+            "ru": "Компот Дадиани 0,5л",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 900
+        },
+        {
+          "id": "kompot-dadiani-1-5l",
+          "name": {
+            "ru": "Компот Дадиани 1,5л",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1600
+        },
+        {
+          "id": "mineralnaya-voda-bonaqua-500ml",
+          "name": {
+            "ru": "Минеральная вода BonAqua 500ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 400
+        },
+        {
+          "id": "mineralnaya-voda-bonaqua-1l",
+          "name": {
+            "ru": "Минеральная вода BonAqua 1L",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 600
+        },
+        {
+          "id": "mineralnaya-voda-turan-500ml",
+          "name": {
+            "ru": "Минеральная вода Turan 500ml",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 900
+        },
+        {
+          "id": "natahtari-v-assortimente",
+          "name": {
+            "ru": "Натахтари в ассортименте",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1200
+        },
+        {
+          "id": "soki-piko-v-assortimente",
+          "name": {
+            "ru": "Соки Piko в ассортименте",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1500
+        },
+        {
+          "id": "soki-swell-v-assortimente",
+          "name": {
+            "ru": "Соки Swell в ассортименте",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 2300
+        }
+      ]
+    },
+    {
+      "id": "bar_snacks",
+      "section": "bar",
+      "name": {
+        "ru": "Закуски",
+        "kk": "Закускалар",
+        "en": "Bar Snacks"
+      },
+      "items": [
+        {
+          "id": "arahis",
+          "name": {
+            "ru": "Арахис",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 790
+        },
+        {
+          "id": "kurt",
+          "name": {
+            "ru": "Курт",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 490
+        },
+        {
+          "id": "fistashki",
+          "name": {
+            "ru": "Фисташки",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1100
+        },
+        {
+          "id": "chechil",
+          "name": {
+            "ru": "Чечил",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 990
+        },
+        {
+          "id": "chipsy",
+          "name": {
+            "ru": "Чипсы",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 590
+        },
+        {
+          "id": "chipsy-pringles",
+          "name": {
+            "ru": "Чипсы Pringles",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "description": {
+            "ru": "[TODO]",
+            "kk": "[TODO]",
+            "en": "[TODO]"
+          },
+          "price": 1290
+        }
+      ]
+    }
+  ]
+}

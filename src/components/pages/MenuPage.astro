@@ -1,0 +1,20 @@
+---
+// Страница меню (общая для всех языков). Наполнение — этап 6.
+// Названия блюд пока только на русском; для kk и en — t('todo.translation').
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { useTranslations, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<BaseLayout lang={lang} route="menu" title={t('nav.menu')}>
+  <section class="mx-auto max-w-5xl px-4 py-12">
+    <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{t('nav.menu')}</h1>
+    <p class="mt-8 text-rose-ash-dark">[TODO: меню — этап 6]</p>
+  </section>
+</BaseLayout>

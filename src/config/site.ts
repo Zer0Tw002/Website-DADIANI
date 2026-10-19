@@ -1,6 +1,7 @@
 // ЕДИНСТВЕННОЕ место, где хранятся контакты и ссылки ресторана.
 // Остальные файлы берут данные отсюда. Ничего из этого не дублировать в других местах.
-// Значения "[TODO: ...]" — данных пока нет, их нужно получить от ресторана.
+// Значения "[TODO: ...]" — данных пока нет или они ещё не подтверждены рестораном.
+// Данные, собранные с kamiqr, лежат в content/restaurant-info.md (сюда пока не перенесены).
 
 export const site = {
   name: 'DADIANI',
@@ -16,6 +17,12 @@ export const site = {
   address: {
     ru: '[TODO: адрес]',
     kk: '[TODO: мекенжай]',
+    en: '[TODO: address]',
+  },
+  hours: {
+    ru: '[TODO: режим работы]',
+    kk: '[TODO: жұмыс уақыты]',
+    en: '[TODO: opening hours]',
   },
   mapUrl: '[TODO: ссылка на 2ГИС / Яндекс.Карты]',
   instagram: '[TODO: ссылка на Instagram]',
@@ -24,3 +31,8 @@ export const site = {
     wolt: '[TODO: ссылка на Wolt]',
   },
 } as const;
+
+// Ссылка на WhatsApp с готовым текстом сообщения
+export function whatsappLink(text: string): string {
+  return `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(text)}`;
+}

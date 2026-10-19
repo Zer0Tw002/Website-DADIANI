@@ -1,0 +1,66 @@
+---
+// Шапка: логотип, переключатель языка РУ / ҚАЗ / EN, разделы сайта.
+import logo from '../../assets/logo/logo-tight.svg';
+import { site } from '../config/site';
+import { languages, langs, pathFor, routes, useTranslations, type Lang, type RouteKey } from '../i18n/ui';
+
+interface Props {
+  lang: Lang;
+  route: RouteKey;
+}
+
+const { lang, route } = Astro.props;
+const t = useTranslations(lang);
+const navKeys = Object.keys(routes) as RouteKey[];
+---
+
+<header class="bg-wine text-cream">
+  <div class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 pt-4">
+    <a href={pathFor(lang, 'home')} class="block shrink-0" aria-label={site.name}>
+      <img src={logo.src} alt={site.name} width="390" height="286" class="h-16 w-auto sm:h-20" />
+    </a>
+    <nav aria-label={t('lang.label')}>
+      <ul class="flex gap-1 text-sm font-semibold">
+        {
+          langs.map((l) => (
+            <li>
+              <a
+                href={pathFor(l, route)}
+                hreflang={l}
+                lang={l}
+                title={languages[l].name}
+                aria-current={l === lang ? 'true' : undefined}
+                class:list={[
+                  'block rounded-md px-2.5 py-1.5 tracking-wide',
+                  l === lang ? 'bg-cream text-wine' : 'text-blush hover:text-cream',
+                ]}
+              >
+                {languages[l].label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+  </div>
+  <nav aria-label={t('nav.label')} class="mx-auto max-w-5xl px-4">
+    <ul class="flex gap-6 overflow-x-auto py-3 font-display text-sm tracking-[0.12em] uppercase">
+      {
+        navKeys.map((key) => (
+          <li>
+            <a
+              href={pathFor(lang, key)}
+              aria-current={key === route ? 'page' : undefined}
+              class:list={[
+                'block border-b-2 py-1 whitespace-nowrap',
+                key === route ? 'border-coral text-cream' : 'border-transparent text-blush hover:text-cream',
+              ]}
+            >
+              {t(`nav.${key}`)}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
