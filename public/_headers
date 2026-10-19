@@ -1,0 +1,46 @@
+# Заголовки для Cloudflare Pages (см. TECHNICAL.md, раздел «Кэширование»).
+# ВАЖНО: если адрес подходит под несколько правил, Cloudflare склеивает одинаковые заголовки
+# через запятую — поэтому Cache-Control задан только в правилах, которые не пересекаются.
+
+# Для всех адресов: защитные заголовки
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# Файлы сборки (CSS, JS, фото блюд): в имени есть отпечаток содержимого (например,
+# index.B7x2.css), при изменении файла меняется и имя — можно кэшировать «навсегда».
+/_astro/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Шрифты: имена без отпечатка. Если когда-нибудь заменить файл шрифта — дать ему НОВОЕ имя.
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Значки и картинка превью: имена без отпечатка — кэш на сутки
+/favicon.svg
+  Cache-Control: public, max-age=86400
+/favicon-32.png
+  Cache-Control: public, max-age=86400
+/apple-touch-icon.png
+  Cache-Control: public, max-age=86400
+/og-image.png
+  Cache-Control: public, max-age=86400
+
+# Страницы (HTML), sitemap и robots: браузер каждый раз сверяется с сервером,
+# поэтому изменения меню и цен видны сразу после публикации
+/
+  Cache-Control: public, max-age=0, must-revalidate
+/menu/
+  Cache-Control: public, max-age=0, must-revalidate
+/about/
+  Cache-Control: public, max-age=0, must-revalidate
+/kk/*
+  Cache-Control: public, max-age=0, must-revalidate
+/en/*
+  Cache-Control: public, max-age=0, must-revalidate
+/404.html
+  Cache-Control: public, max-age=0, must-revalidate
+/sitemap.xml
+  Cache-Control: public, max-age=0, must-revalidate
+/robots.txt
+  Cache-Control: public, max-age=0, must-revalidate
