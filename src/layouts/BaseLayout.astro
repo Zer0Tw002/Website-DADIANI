@@ -12,9 +12,11 @@ interface Props {
   lang: Lang;
   route: RouteKey;
   title?: string;
+  // Компактный подвал в одну-две строки (на главной, где адрес и часы уже есть в отдельном блоке)
+  compactFooter?: boolean;
 }
 
-const { lang, route, title } = Astro.props;
+const { lang, route, title, compactFooter = false } = Astro.props;
 const t = useTranslations(lang);
 const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('tagline')}`;
 ---
@@ -50,7 +52,7 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('t
     <main id="content" class="flex-1">
       <slot />
     </main>
-    <Footer lang={lang} />
+    <Footer lang={lang} compact={compactFooter} />
     {SCROLL_BUTTON && <ScrollButton lang={lang} />}
   </body>
 </html>

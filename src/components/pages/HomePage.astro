@@ -16,7 +16,7 @@ interface Props {
 const { lang } = Astro.props;
 ---
 
-<BaseLayout lang={lang} route="home">
+<BaseLayout lang={lang} route="home" compactFooter>
   <HomeHero lang={lang} />
   <div class="mx-auto grid max-w-5xl grid-cols-1 gap-14 px-4 py-12 sm:gap-16 sm:py-16">
     <PopularDishes lang={lang} />
