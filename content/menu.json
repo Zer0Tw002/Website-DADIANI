@@ -118,9 +118,10 @@
       },
       "description": {
         "ru": "Овощное блюдо из тушеных баклажанов, томатов, сладкого перца, зелени и специй",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Бұқтырылған баялды, қызанақ, тәтті бұрыш, көк шөп пен дәмдеуіштерден жасалған көкөніс тағамы",
+        "en": "Vegetable dish of stewed eggplant, tomatoes, sweet peppers, herbs and spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1800,
       "photo": "salaty--adzhapsandal.jpeg",
       "available": true,
@@ -143,9 +144,10 @@
       },
       "description": {
         "ru": "Сочные помидоры, тонкие ломтики лука и ароматная зелень, приправленные острым перцем.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шырынды қызанақ, жұқа туралған пияз бен хош иісті көк шөп, ащы бұрыш қосылған.",
+        "en": "Juicy tomatoes, thinly sliced onion and fragrant herbs, seasoned with hot pepper."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1500,
       "photo": "salaty--achi-chuk.jpeg",
       "available": true,
@@ -167,9 +169,10 @@
       },
       "description": {
         "ru": "Сочные овощи, ароматная брынза, маслины и душистое оливковое масло",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шырынды көкөністер, хош иісті брынза, зәйтүн және иісті зәйтүн майы",
+        "en": "Juicy vegetables, flavourful brynza cheese, olives and fragrant olive oil"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2190,
       "photo": "salaty--grecheskiy.jpeg",
       "available": true,
@@ -191,9 +194,10 @@
       },
       "description": {
         "ru": "Сочные томаты, болгарский перец и нежная говядина с кинзой и кунжутом под соевой заправкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шырынды қызанақ, болгар бұрышы және кинза мен күнжіт қосылған жұмсақ сиыр еті, соя тұздығымен",
+        "en": "Juicy tomatoes, bell pepper and tender beef with coriander and sesame in a soy dressing"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2200,
       "photo": "salaty--metehi.png",
       "available": true,
@@ -216,9 +220,10 @@
       },
       "description": {
         "ru": "Копчёный сулугуни, курица, огурцы, шампиньоны, гранат под нежным соусом на основе майонеза",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ысталған сулугуни, тауық еті, қияр, шампиньон, анар, майонез негізіндегі жұмсақ тұздықпен",
+        "en": "Smoked suluguni, chicken, cucumbers, champignons and pomegranate in a mild mayonnaise-based sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2790,
       "photo": null,
       "available": true,
@@ -240,9 +245,10 @@
       },
       "description": {
         "ru": "Свежие помидоры, огурцы, ореховая заправка с кинзой и специями. Легенда каждого грузинского застолья.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жаңа піскен қызанақ, қияр, кинза мен дәмдеуіштер қосылған жаңғақ тұздығы. Әр грузин дастарханының аңызы.",
+        "en": "Fresh tomatoes and cucumbers with a walnut dressing, coriander and spices. A legend of every Georgian feast."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1800,
       "photo": "salaty--ovoschnoy-salat-po-gruzinski.jpeg",
       "available": true,
@@ -265,9 +271,10 @@
       },
       "description": {
         "ru": "Руккола, сочные креветки, томаты черри и пармезан под медово-горчичной заправкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Рукола, шырынды асшаян, черри қызанағы және пармезан, бал-қыша тұздығымен",
+        "en": "Arugula, juicy shrimp, cherry tomatoes and parmesan with a honey-mustard dressing"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3200,
       "photo": null,
       "available": true,
@@ -289,9 +296,10 @@
       },
       "description": {
         "ru": "Помидоры черри, имеретинский сыр, маслины, зелень",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Черри қызанағы, имерет ірімшігі, зәйтүн, көк шөп",
+        "en": "Cherry tomatoes, Imeretian cheese, olives, herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1990,
       "photo": null,
       "available": true,
@@ -313,9 +321,10 @@
       },
       "description": {
         "ru": "Слабосолёная семга, микс-салат, свежие овощи, лимонная заправка",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Аздап тұздалған ақсерке, салат жапырақтары, жаңа көкөністер, лимон тұздығы",
+        "en": "Lightly salted salmon, mixed greens, fresh vegetables, lemon dressing"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3000,
       "photo": null,
       "available": true,
@@ -338,9 +347,10 @@
       },
       "description": {
         "ru": "Нежные кусочки сельди, укрытые слоями отварных овощей и яиц, щедро пропитанные майонезом.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пісірілген көкөністер мен жұмыртқа қабаттарымен жабылған, майонезге мол қаныққан жұмсақ майшабақ кесектері.",
+        "en": "Tender pieces of herring under layers of boiled vegetables and eggs, generously dressed with mayonnaise."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2100,
       "photo": null,
       "available": true,
@@ -362,9 +372,10 @@
       },
       "description": {
         "ru": "Хрустящий баклажан, черри, вырезка, кинза, азиатская заправка",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қытырлақ баялды, черри, сиыр сүбесі, кинза, азиялық тұздық",
+        "en": "Crispy eggplant, cherry tomatoes, beef tenderloin, coriander, Asian-style dressing"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2500,
       "photo": "salaty--teplyy-salat-s-baklazhanami.png",
       "available": true,
@@ -387,9 +398,10 @@
       },
       "description": {
         "ru": "Свежие листья салата, хрустящие гренки, нежные креветки и тонкая стружка пармезана, заправленные классическим соусом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жаңа салат жапырақтары, қытырлақ кептірілген нан, жұмсақ асшаян және жұқа пармезан жоңқасы, классикалық тұздықпен",
+        "en": "Fresh lettuce, crunchy croutons, tender shrimp and thin shavings of parmesan with the classic dressing"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3000,
       "photo": null,
       "available": true,
@@ -412,9 +424,10 @@
       },
       "description": {
         "ru": "Нежные кусочки курицы, хрустящие гренки и тонкая стружка пармезана, сочные листья айсберг, под нежной сливочной заправкой.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жұмсақ тауық еті, қытырлақ кептірілген нан, жұқа пармезан жоңқасы, айсберг салатының шырынды жапырақтары, жұмсақ кілегей тұздығымен.",
+        "en": "Tender chicken, crunchy croutons, thin shavings of parmesan and crisp iceberg lettuce with a creamy dressing."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2390,
       "photo": "salaty--tsezar.jpeg",
       "available": true,
@@ -436,9 +449,10 @@
       },
       "description": {
         "ru": "Помидоры, огурцы, зелень, светофор",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қызанақ, қияр, көк шөп, түрлі түсті тәтті бұрыш",
+        "en": "Tomatoes, cucumbers, herbs, bell peppers of three colours"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1800,
       "photo": "salaty--chaban-salat.png",
       "available": true,
@@ -460,9 +474,10 @@
       },
       "description": {
         "ru": "Казы, жая, язык говяжий, говядина копченная",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қазы, жая, сиыр тілі, ысталған сиыр еті",
+        "en": "Kazy and zhaya (traditional horse-meat delicacies), beef tongue, smoked beef"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 7400,
       "photo": null,
       "available": true,
@@ -484,9 +499,10 @@
       },
       "description": {
         "ru": "Брынза, свежие огурцы, помидоры, светофор, редиска, зелень, зелёный лук",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Брынза, жаңа қияр, қызанақ, түрлі түсті тәтті бұрыш, шалғам, көк шөп, жасыл пияз",
+        "en": "Brynza cheese, fresh cucumbers, tomatoes, bell peppers of three colours, radishes, herbs, spring onion"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3500,
       "photo": null,
       "available": true,
@@ -508,9 +524,10 @@
       },
       "description": {
         "ru": "Квашеная капуста, маринованные черри, шампиньоны, солёные огурцы, корнишоны",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ашытылған қырыққабат, маринадталған черри, шампиньон, тұздалған қияр, корнишон",
+        "en": "Sauerkraut, pickled cherry tomatoes, champignons, pickled cucumbers, gherkins"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3000,
       "photo": null,
       "available": true,
@@ -532,9 +549,10 @@
       },
       "description": {
         "ru": "Соленья, чёрный хлеб, горчица, хрен",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Тұздалған көкөністер, қара нан, қыша, хрен",
+        "en": "Pickles, rye bread, mustard, horseradish"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3000,
       "photo": null,
       "available": true,
@@ -556,9 +574,10 @@
       },
       "description": {
         "ru": "пармезан, копчёный сулугуни, гауда, фетакса, сыр с плесенью, моцарелла",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пармезан, ысталған сулугуни, гауда, фетакса, көгерген ірімшік, моцарелла",
+        "en": "Parmesan, smoked suluguni, gouda, fetaxa, blue cheese, mozzarella"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 5500,
       "photo": null,
       "available": true,
@@ -580,9 +599,10 @@
       },
       "description": {
         "ru": "Свежие сезонные фрукты и ягоды",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Маусымдық жаңа жемістер мен жидектер",
+        "en": "Fresh seasonal fruit and berries"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 6000,
       "photo": null,
       "available": true,
@@ -605,9 +625,10 @@
       },
       "description": {
         "ru": "Нежные рулеты из баклажана с начинкой из острой пасты с орехами.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ішіне жаңғақ қосылған ащы паста салынған жұмсақ баялды орамдары.",
+        "en": "Tender eggplant rolls filled with a spicy walnut paste."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2500,
       "photo": "zakuski--baklazhan-ruletiki.jpeg",
       "available": true,
@@ -629,9 +650,10 @@
       },
       "description": {
         "ru": "Долма из виноградных листьев с нежной начинкой из мяса, риса и ароматных трав, приготовленная по традиционному рецепту",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жүзім жапырағына оралған ет, күріш және хош иісті шөптерден жасалған жұмсақ толтырма, дәстүрлі рецепт бойынша",
+        "en": "Grape leaves with a tender filling of meat, rice and fragrant herbs, made to a traditional recipe"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1800,
       "photo": null,
       "available": true,
@@ -654,9 +676,10 @@
       },
       "description": {
         "ru": "Национальное блюдо Грузии, приготовленное из красной фасоли, зелени и специй",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қызыл бұршақ, көк шөп пен дәмдеуіштерден дайындалған Грузияның ұлттық тағамы",
+        "en": "A national dish of Georgia made from red beans, herbs and spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1990,
       "photo": "zakuski--lobio.jpeg",
       "available": true,
@@ -679,9 +702,10 @@
       },
       "description": {
         "ru": "Нежная курица под традиционным грузинским соусом баже, который готовится из грецких орехов со специями и пряностями",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Грек жаңғағы, дәмдеуіштер мен хош иісті шөптерден жасалатын дәстүрлі грузин баже тұздығындағы жұмсақ тауық еті",
+        "en": "Tender chicken in traditional Georgian bazhe sauce made from walnuts, spices and aromatic herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2600,
       "photo": "zakuski--satsivi.jpeg",
       "available": true,
@@ -703,9 +727,10 @@
       },
       "description": {
         "ru": "Баранья корейка, фасоль, картофель, томаты",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қойдың қабырға еті, бұршақ, картоп, қызанақ",
+        "en": "Lamb loin, beans, potatoes, tomatoes"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3300,
       "photo": null,
       "available": true,
@@ -727,9 +752,10 @@
       },
       "description": {
         "ru": "Баранья рулька, бульон, зелень, лук репчатый",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қойдың сирақ еті, сорпа, көк шөп, пияз",
+        "en": "Lamb shank, broth, herbs, onion"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3300,
       "photo": "supy--buglama.png",
       "available": true,
@@ -751,9 +777,10 @@
       },
       "description": {
         "ru": "Сочная начинка из нежной говядины, приправленной специями. Подаются со сметаной и бульоном для полного удовольствия.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Дәмдеуіштер қосылған жұмсақ сиыр етінен шырынды толтырма. Қаймақ пен сорпамен беріледі.",
+        "en": "Juicy filling of tender spiced beef. Served with sour cream and broth."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1900,
       "photo": null,
       "available": true,
@@ -775,9 +802,10 @@
       },
       "description": {
         "ru": "Куриная грудинка, лапша, бульон",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Тауықтың төс еті, кеспе, сорпа",
+        "en": "Chicken breast, noodles, broth"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1600,
       "photo": null,
       "available": true,
@@ -800,9 +828,10 @@
       },
       "description": {
         "ru": "Том ям с креветками, мидиями, лососем и кальмаром в насыщенном остро-кислом бульоне с грибами и кокосовым молоком",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Асшаян, мидия, ақсерке және кальмар қосылған, саңырауқұлақ пен кокос сүті бар қою ащы-қышқыл сорпа",
+        "en": "Tom yum with shrimp, mussels, salmon and squid in a rich hot-and-sour broth with mushrooms and coconut milk"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3200,
       "photo": null,
       "available": true,
@@ -825,9 +854,10 @@
       },
       "description": {
         "ru": "Густой суп на говяжьем бульоне с томатами, ароматными специями и рисом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қызанақ, хош иісті дәмдеуіштер мен күріш қосылған сиыр етінің қою сорпасы",
+        "en": "Thick beef-broth soup with tomatoes, aromatic spices and rice"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1900,
       "photo": "supy--harcho.png",
       "available": true,
@@ -849,9 +879,10 @@
       },
       "description": {
         "ru": "Насыщенный бульон с нежной бараниной, картофелем, луком, томатами и чесноком",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жұмсақ қой еті, картоп, пияз, қызанақ және сарымсақ қосылған қою сорпа",
+        "en": "Rich broth with tender lamb, potatoes, onion, tomatoes and garlic"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2500,
       "photo": "supy--hashlama.png",
       "available": true,
@@ -874,9 +905,10 @@
       },
       "description": {
         "ru": "Хинкали с говядиной, свежая кинза в красном пряном грузинском соусе",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Сиыр еті салынған хинкали, жаңа кинза, қызыл ащы грузин тұздығында",
+        "en": "Beef khinkali with fresh coriander in a spicy red Georgian sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2700,
       "photo": "hinkali--hinkali-po-batumski.png",
       "available": true,
@@ -899,9 +931,10 @@
       },
       "description": {
         "ru": "Хинкали с сыром и грибами в фирменном сливочно-чесночном соусе",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ірімшік пен саңырауқұлақ салынған хинкали, фирмалық кілегей-сарымсақ тұздығында",
+        "en": "Cheese and mushroom khinkali in our signature creamy garlic sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2700,
       "photo": "hinkali--hinkali-po-tbilisi.png",
       "available": true,
@@ -924,9 +957,10 @@
       },
       "description": {
         "ru": "Тбилисские хинкали с двойной порцией сочного мясного фарша",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шырынды ет тартпасының екі есе порциясы салынған Тбилиси хинкалиі",
+        "en": "Tbilisi-style khinkali with a double portion of juicy minced meat"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2700,
       "photo": null,
       "available": true,
@@ -948,9 +982,10 @@
       },
       "description": {
         "ru": "Нежное тесто и сочная начинка из говядины",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жұмсақ қамыр және сиыр етінен шырынды толтырма",
+        "en": "Delicate dough with a juicy beef filling"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2490,
       "photo": null,
       "available": true,
@@ -973,9 +1008,10 @@
       },
       "description": {
         "ru": "Хинкали с нежной начинкой из сулугуни и шампиньонов",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Сулугуни мен шампиньоннан жұмсақ толтырмасы бар хинкали",
+        "en": "Khinkali with a delicate filling of suluguni and champignons"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2390,
       "photo": null,
       "available": true,
@@ -997,9 +1033,10 @@
       },
       "description": {
         "ru": "Паста с белым соусом и с куриной грудкой с сыром пармезан",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ақ тұздық, тауықтың төс еті және пармезан ірімшігі қосылған паста",
+        "en": "Pasta in a white sauce with chicken breast and parmesan"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2800,
       "photo": null,
       "available": true,
@@ -1022,9 +1059,10 @@
       },
       "description": {
         "ru": "Кусочки томленой баранины с черносливом и овощами",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қара өрік пен көкөністер қосылған бұқтырылған қой етінің кесектері",
+        "en": "Pieces of slow-braised lamb with prunes and vegetables"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3300,
       "photo": "goryachie-blyuda--baranina-s-chernoslivom.png",
       "available": true,
@@ -1046,9 +1084,10 @@
       },
       "description": {
         "ru": "Жареная печень с луком и грузинскими специями",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пияз бен грузин дәмдеуіштері қосылып қуырылған бауыр",
+        "en": "Fried liver with onion and Georgian spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2400,
       "photo": "goryachie-blyuda--dzhigari.png",
       "available": true,
@@ -1070,9 +1109,10 @@
       },
       "description": {
         "ru": "Яркие специи и насыщенный вкус",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ашық дәмдеуіштер мен қанық дәм",
+        "en": "Bold spices and a rich flavour"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2800,
       "photo": null,
       "available": true,
@@ -1095,9 +1135,10 @@
       },
       "description": {
         "ru": "Говядина и шампиньоны в сливочном соусе под сырной корочкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ірімшік қабығы астындағы кілегей тұздығындағы сиыр еті мен шампиньон",
+        "en": "Beef and champignons in a cream sauce under a cheese crust"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3590,
       "photo": null,
       "available": true,
@@ -1120,9 +1161,10 @@
       },
       "description": {
         "ru": "Куриное филе и шампиньоны в сливочном соусе под сырной корочкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ірімшік қабығы астындағы кілегей тұздығындағы тауық еті мен шампиньон",
+        "en": "Chicken fillet and champignons in a cream sauce under a cheese crust"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3590,
       "photo": null,
       "available": true,
@@ -1144,9 +1186,10 @@
       },
       "description": {
         "ru": "Сочный судак с деликатным вкусом, окутанный сливочным соусом с приятной текстурой лопающихся икринок",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Нәзік дәмді шырынды көксерке, жарылатын уылдырық түйіршіктері бар кілегей тұздығымен",
+        "en": "Juicy pike perch with a delicate flavour, in a cream sauce with bursting pearls of caviar"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3690,
       "photo": null,
       "available": true,
@@ -1168,9 +1211,10 @@
       },
       "description": {
         "ru": "Нежное куриное филе в сливочно-чесночном соусе с зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Көк шөп қосылған кілегей-сарымсақ тұздығындағы жұмсақ тауық еті",
+        "en": "Tender chicken fillet in a creamy garlic sauce with herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2500,
       "photo": null,
       "available": true,
@@ -1192,9 +1236,10 @@
       },
       "description": {
         "ru": "Грузинское жаркое из баранины с картофелем и луком на сковороде",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Табада картоп пен пияз қосылып қуырылған қой етінен грузин қуырдағы",
+        "en": "Georgian pan-roast of lamb with potatoes and onion"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2790,
       "photo": null,
       "available": true,
@@ -1216,9 +1261,10 @@
       },
       "description": {
         "ru": "Оджахури из баранины в насыщенном грибном соусе",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қою саңырауқұлақ тұздығындағы қой етінен оджахури",
+        "en": "Lamb ojakhuri in a rich mushroom sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2990,
       "photo": null,
       "available": true,
@@ -1240,9 +1286,10 @@
       },
       "description": {
         "ru": "Кусочки обжаренной говядины, картофелем, аджикой, свежей зеленью и луком.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Картоп, аджика, жаңа көк шөп және пияз қосылып қуырылған сиыр етінің кесектері.",
+        "en": "Pieces of pan-fried beef with potatoes, adjika, fresh herbs and onion."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2790,
       "photo": "goryachie-blyuda--odzhahuri.png",
       "available": true,
@@ -1265,9 +1312,10 @@
       },
       "description": {
         "ru": "Сочное мясо, обжаренное с картофелем и луком, утопает в нежном сливочно-грибном соусе.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Картоп пен пияз қосылып қуырылған шырынды ет, жұмсақ кілегей-саңырауқұлақ тұздығында.",
+        "en": "Juicy meat pan-fried with potatoes and onion, smothered in a creamy mushroom sauce."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2990,
       "photo": null,
       "available": true,
@@ -1290,9 +1338,10 @@
       },
       "description": {
         "ru": "Сочный стейк из мраморной говядины на гриле, степень прожарки по желанию",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Гриль-де пісірілген мәрмәр сиыр етінен шырынды стейк, пісу дәрежесі қалауыңызша",
+        "en": "Juicy marbled beef steak from the grill, cooked to your liking"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 5490,
       "photo": null,
       "available": true,
@@ -1315,9 +1364,10 @@
       },
       "description": {
         "ru": "Паста с классическим соусом из мясного фарша с томатами, базиликом с сыром пармезан",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қызанақ, райхан қосылған ет тартпасынан классикалық тұздық және пармезан ірімшігі бар паста",
+        "en": "Pasta with a classic sauce of minced meat, tomatoes and basil, with parmesan"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2600,
       "photo": null,
       "available": true,
@@ -1340,9 +1390,10 @@
       },
       "description": {
         "ru": "Стейк семги, микс салата, лимон, икра",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ақсерке стейгі, салат жапырақтары, лимон, уылдырық",
+        "en": "Salmon steak, mixed greens, lemon, caviar"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 4500,
       "photo": "goryachie-blyuda--semga-v-slivochnom-souse.jpeg",
       "available": true,
@@ -1365,9 +1416,10 @@
       },
       "description": {
         "ru": "Нежный стейк семги с полезным гарниром",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пайдалы гарнирі бар жұмсақ ақсерке стейгі",
+        "en": "Tender salmon steak with a healthy side"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 4200,
       "photo": null,
       "available": true,
@@ -1390,9 +1442,10 @@
       },
       "description": {
         "ru": "Классический T-bone из мраморной говядины на гриле",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Гриль-де пісірілген мәрмәр сиыр етінен классикалық T-bone",
+        "en": "Classic T-bone of marbled beef from the grill"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 5490,
       "photo": null,
       "available": true,
@@ -1415,9 +1468,10 @@
       },
       "description": {
         "ru": "Нежная томлёная говядина с душистыми травами и ароматными специями",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Хош иісті шөптер мен дәмдеуіштер қосылған жұмсақ бұқтырылған сиыр еті",
+        "en": "Tender slow-braised beef with fragrant herbs and aromatic spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3900,
       "photo": null,
       "available": true,
@@ -1439,9 +1493,10 @@
       },
       "description": {
         "ru": "Нежное филе ягнёнка томлёное в домашнем сметанном соусе",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Үй қаймағы тұздығында бұқтырылған жұмсақ қозы еті",
+        "en": "Tender lamb fillet slow-braised in a homemade sour cream sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3690,
       "photo": null,
       "available": true,
@@ -1463,9 +1518,10 @@
       },
       "description": {
         "ru": "Ягнёнок с тархуном, ткемали и белым вином — весеннее грузинское блюдо",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Тархун, ткемали және ақ шарап қосылған қозы еті — көктемгі грузин тағамы",
+        "en": "Lamb with tarragon, tkemali and white wine — a Georgian spring dish"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 4300,
       "photo": "goryachie-blyuda--chakapuli.png",
       "available": true,
@@ -1488,9 +1544,10 @@
       },
       "description": {
         "ru": "Цыпленок томленый с луком и грузинскими специями",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пияз бен грузин дәмдеуіштері қосылып бұқтырылған балапан еті",
+        "en": "Chicken slow-braised with onion and Georgian spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2800,
       "photo": "goryachie-blyuda--chahohbili.png",
       "available": true,
@@ -1512,9 +1569,10 @@
       },
       "description": {
         "ru": "Тушеная телятина в собственном соку с томатами",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қызанақ қосылып өз шырынында бұқтырылған бұзау еті",
+        "en": "Veal stewed in its own juices with tomatoes"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3590,
       "photo": "goryachie-blyuda--chashashuli.png",
       "available": true,
@@ -1536,9 +1594,10 @@
       },
       "description": {
         "ru": "Цыпленок, запеченный в сметанно-сливочном соусе с чесноком, сванской солью и свежей кинзой.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Сарымсақ, сван тұзы және жаңа кинза қосылған қаймақ-кілегей тұздығында пісірілген балапан еті.",
+        "en": "Chicken baked in a sour cream and cream sauce with garlic, Svan salt and fresh coriander."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3600,
       "photo": "goryachie-blyuda--shkmeruli.png",
       "available": true,
@@ -1560,9 +1619,10 @@
       },
       "description": {
         "ru": "Нежные баклажаны на углях с ароматными специями и свежей зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Хош иісті дәмдеуіштер мен жаңа көк шөп қосылған, шоқта пісірілген жұмсақ баялды",
+        "en": "Tender eggplant grilled over coals with aromatic spices and fresh herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 990,
       "photo": null,
       "available": true,
@@ -1585,9 +1645,10 @@
       },
       "description": {
         "ru": "Сочные кусочки говядины на шампуре, маринованные в луке и специях",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пияз бен дәмдеуіштерге маринадталған, шампурдағы шырынды сиыр етінің кесектері",
+        "en": "Juicy pieces of beef on a skewer, marinated in onion and spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 800,
       "photo": "shashlyki--govyadina-kuskovoy.png",
       "available": true,
@@ -1610,9 +1671,10 @@
       },
       "description": {
         "ru": "Баранья корейка на кости, приготовленная на мангале до румяной корочки",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Мангалда қызарғанша пісірілген, сүйегі бар қойдың қабырға еті",
+        "en": "Lamb loin on the bone, cooked on the mangal grill to a golden crust"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3200,
       "photo": "shashlyki--koreyka.png",
       "available": true,
@@ -1634,9 +1696,10 @@
       },
       "description": {
         "ru": "Хрустящие куриные крылышки в пряном маринаде, зажаренные на углях",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ащы маринадтағы, шоқта қуырылған қытырлақ тауық қанаттары",
+        "en": "Crispy chicken wings in a spicy marinade, grilled over coals"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1850,
       "photo": "shashlyki--kurinye-krylyshki.png",
       "available": true,
@@ -1658,9 +1721,10 @@
       },
       "description": {
         "ru": "Рубленый фарш из баранины с луком и специями на шампуре",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Пияз бен дәмдеуіштер қосылған қой етінің тартпасы, шампурда",
+        "en": "Minced lamb with onion and spices on a skewer"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 800,
       "photo": "shashlyki--lyulya-kebab.png",
       "available": true,
@@ -1683,9 +1747,10 @@
       },
       "description": {
         "ru": "Люля кебаб в лодочке со специями и сыром",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Дәмдеуіштер мен ірімшік қосылған, қайық пішінді нандағы люля кебаб",
+        "en": "Lyulya kebab in a bread boat with spices and cheese"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3990,
       "photo": "shashlyki--lyulya-po-adzharskiy.jpeg",
       "available": true,
@@ -1707,9 +1772,10 @@
       },
       "description": {
         "ru": "Сезонные овощи, томлённые на углях с оливковым маслом и чесноком",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Зәйтүн майы мен сарымсақ қосылып шоқта пісірілген маусымдық көкөністер",
+        "en": "Seasonal vegetables roasted over coals with olive oil and garlic"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1200,
       "photo": "garniry--ovoschi-na-mangale.png",
       "available": true,
@@ -1733,9 +1799,10 @@
       },
       "description": {
         "ru": "Золотистые куриные ножки в ароматном маринаде с чесноком и зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Сарымсақ пен көк шөп қосылған хош иісті маринадтағы алтын түсті тауық сандары",
+        "en": "Golden chicken legs in a fragrant marinade with garlic and herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1400,
       "photo": "shashlyki--okorochka.jpeg",
       "available": true,
@@ -1758,9 +1825,10 @@
       },
       "description": {
         "ru": "Нежная говяжья печень в сальнике, зажаренная на мангале",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шарбыға оралып мангалда қуырылған жұмсақ сиыр бауыры",
+        "en": "Tender beef liver wrapped in caul fat, grilled on the mangal"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 800,
       "photo": null,
       "available": true,
@@ -1782,9 +1850,10 @@
       },
       "description": {
         "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "",
+        "en": ""
       },
+      "descriptionStatus": "нет описания",
       "price": 1600,
       "photo": "shashlyki--semechki.png",
       "available": true,
@@ -1808,9 +1877,10 @@
       },
       "description": {
         "ru": "Нежное утиное филе на углях с гранатовым соусом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Анар тұздығымен шоқта пісірілген жұмсақ үйрек еті",
+        "en": "Tender duck fillet grilled over coals with pomegranate sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 800,
       "photo": "shashlyki--utinoe-file.png",
       "available": true,
@@ -1833,9 +1903,10 @@
       },
       "description": {
         "ru": "Свежая форель целиком на мангале с лимоном, розмарином и зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Лимон, розмарин және көк шөп қосылып мангалда тұтас пісірілген жаңа бахтах",
+        "en": "Whole fresh trout grilled on the mangal with lemon, rosemary and herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3900,
       "photo": null,
       "available": true,
@@ -1857,9 +1928,10 @@
       },
       "description": {
         "ru": "Набор из трёх видов хачапури — идеально для большой компании",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Үш түрлі хачапуриден тұратын жиынтық — үлкен топқа таптырмас таңдау",
+        "en": "A set of three kinds of khachapuri — ideal for a large group"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 8000,
       "photo": null,
       "available": true,
@@ -1881,9 +1953,10 @@
       },
       "description": {
         "ru": "Традиционный грузинский пирог с сочной мясной начинкой и свежей зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шырынды ет толтырмасы мен жаңа көк шөбі бар дәстүрлі грузин бәліші",
+        "en": "A traditional Georgian pie with a juicy meat filling and fresh herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 3300,
       "photo": "hachapuri--kubdari.png",
       "available": true,
@@ -1906,9 +1979,10 @@
       },
       "description": {
         "ru": "Хачапури-лодочка с большим количеством огненной начинки из Имеретинского сыра и тертого Сулугуни. Запекается до золотой корочки со сливочным маслом и куриным яйцом.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Имерет ірімшігі мен үгітілген сулугуниден мол толтырмасы бар қайық пішінді хачапури. Сары май мен тауық жұмыртқасы қосылып, алтын түсті қабыққа дейін пісіріледі.",
+        "en": "Boat-shaped khachapuri with a generous filling of Imeretian cheese and grated suluguni, baked to a golden crust with butter and an egg."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2600,
       "photo": "hachapuri--adzharskiy.jpeg",
       "available": true,
@@ -1931,9 +2005,10 @@
       },
       "description": {
         "ru": "Мацони, с щедрой начинкой из имеретинского сыра",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Мацони, имерет ірімшігінен мол толтырмасымен",
+        "en": "Made with matsoni, with a generous filling of Imeretian cheese"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2900,
       "photo": "hachapuri--imeretinskiy.jpeg",
       "available": true,
@@ -1956,9 +2031,10 @@
       },
       "description": {
         "ru": "Хачапури с двойной порцией сыра",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Екі есе ірімшігі бар хачапури",
+        "en": "Khachapuri with a double portion of cheese"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2700,
       "photo": "hachapuri--megrelskiy.jpeg",
       "available": true,
@@ -1981,9 +2057,10 @@
       },
       "description": {
         "ru": "Ассорти свежеиспечённого хлеба, лаваша и тонис пури к столу",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Дастарханға жаңа пісірілген нан, лаваш және тонис пури (грузин наны)",
+        "en": "Freshly baked bread, lavash and tonis puri (Georgian bread) for the table"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 850,
       "photo": "vypechka--hlebnaya-korzina.png",
       "available": true,
@@ -2006,9 +2083,10 @@
       },
       "description": {
         "ru": "Половинная порция хлебной корзины",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Нан себетінің жарты порциясы",
+        "en": "Half portion of the bread basket"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 500,
       "photo": null,
       "available": true,
@@ -2031,9 +2109,10 @@
       },
       "description": {
         "ru": "Брокколи на гриле, посыпанная хрустящим пармезаном с чесночным маслом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қытырлақ пармезан мен сарымсақ майы себілген гриль-брокколи",
+        "en": "Grilled broccoli topped with crispy parmesan and garlic butter"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1200,
       "photo": null,
       "available": true,
@@ -2056,9 +2135,10 @@
       },
       "description": {
         "ru": "Тонко нарезанные кабачки на гриле с оливковым маслом и травами",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Зәйтүн майы мен шөптер қосылған, гриль-де пісірілген жұқа кабачок",
+        "en": "Thinly sliced grilled zucchini with olive oil and herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 800,
       "photo": null,
       "available": true,
@@ -2081,9 +2161,10 @@
       },
       "description": {
         "ru": "Золотистый хрустящий картофель фри",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Алтын түсті қытырлақ фри картобы",
+        "en": "Golden, crispy French fries"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 800,
       "photo": null,
       "available": true,
@@ -2105,9 +2186,10 @@
       },
       "description": {
         "ru": "Запечённые дольки картофеля в пряных специях с хрустящей корочкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ащы дәмдеуіштер қосылып пісірілген, қытырлақ қабығы бар картоп кесектері",
+        "en": "Baked potato wedges with spicy seasoning and a crispy crust"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 900,
       "photo": "garniry--kartofelnye-dolki.jpeg",
       "available": true,
@@ -2129,9 +2211,10 @@
       },
       "description": {
         "ru": "Румяные картофельные шарики с нежной серединкой и хрустящей корочкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Іші жұмсақ, сырты қытырлақ қызарған картоп шарлары",
+        "en": "Golden potato balls, soft inside with a crispy crust"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 900,
       "photo": null,
       "available": true,
@@ -2153,9 +2236,10 @@
       },
       "description": {
         "ru": "Ассорти сезонных овощей на гриле с травяным маслом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Шөп майы қосылған гриль-де пісірілген маусымдық көкөністер",
+        "en": "Assorted seasonal vegetables from the grill with herb butter"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1200,
       "photo": null,
       "available": true,
@@ -2179,9 +2263,10 @@
       },
       "description": {
         "ru": "Рассыпчатый отварной рис",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Үгітілмелі пісірілген күріш",
+        "en": "Fluffy boiled rice"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 700,
       "photo": "garniry--ris.png",
       "available": true,
@@ -2203,9 +2288,10 @@
       },
       "description": {
         "ru": "Острая грузинская приправа из перца, чеснока и ароматных трав",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Бұрыш, сарымсақ және хош иісті шөптерден жасалған ащы грузин дәмдеуіші",
+        "en": "Hot Georgian relish of peppers, garlic and aromatic herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 500,
       "photo": null,
       "available": true,
@@ -2227,9 +2313,10 @@
       },
       "description": {
         "ru": "Нежный кремовый соус с жареным чесноком и свежей зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қуырылған сарымсақ пен жаңа көк шөп қосылған жұмсақ кілегейлі тұздық",
+        "en": "Mild creamy sauce with roasted garlic and fresh herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 400,
       "photo": null,
       "available": true,
@@ -2251,9 +2338,10 @@
       },
       "description": {
         "ru": "Классический грузинский томатный соус с грецким орехом и специями",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Грек жаңғағы мен дәмдеуіштер қосылған классикалық грузин қызанақ тұздығы",
+        "en": "Classic Georgian tomato sauce with walnuts and spices"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 400,
       "photo": null,
       "available": true,
@@ -2275,9 +2363,10 @@
       },
       "description": {
         "ru": "Фирменный дымный соус к мясу с мангала",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Мангал етіне арналған фирмалық ысталған дәмді тұздық",
+        "en": "Our signature smoky sauce for meat from the mangal"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 500,
       "photo": null,
       "available": true,
@@ -2299,9 +2388,10 @@
       },
       "description": {
         "ru": "Тёплый шоколадный брауни с хрустящей корочкой и тягучей серединкой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Сырты қытырлақ, іші созылмалы жылы шоколад брауни",
+        "en": "Warm chocolate brownie with a crisp top and gooey centre"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1590,
       "photo": null,
       "available": true,
@@ -2323,9 +2413,10 @@
       },
       "description": {
         "ru": "Слоёный медовый торт с нежным сметанным кремом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жұмсақ қаймақ кремі бар қабатты бал торты",
+        "en": "Layered honey cake with a delicate sour cream frosting"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1390,
       "photo": null,
       "available": true,
@@ -2348,9 +2439,10 @@
       },
       "description": {
         "ru": "Воздушный торт на основе сгущённого молока с лёгким сливочным кремом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жеңіл кілегей кремі бар, қоюлатылған сүт негізіндегі ауадай торт",
+        "en": "Airy cake made with condensed milk and a light cream frosting"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1590,
       "photo": null,
       "available": true,
@@ -2373,9 +2465,10 @@
       },
       "description": {
         "ru": "Шарик сливочного мороженого",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Бір шар кілегейлі балмұздақ",
+        "en": "A scoop of creamy ice cream"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 600,
       "photo": null,
       "available": true,
@@ -2397,9 +2490,10 @@
       },
       "description": {
         "ru": "Классический торт Наполеон с кислинкой свежей чёрной смородины",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Жаңа қарақаттың қышқылтым дәмі бар классикалық Наполеон торты",
+        "en": "Classic Napoleon cake with the tartness of fresh blackcurrant"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1900,
       "photo": null,
       "available": true,
@@ -2422,9 +2516,10 @@
       },
       "description": {
         "ru": "Классический советский пломбир — насыщенный и кремовый",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Классикалық кеңестік пломбир — қою әрі кілегейлі",
+        "en": "Classic Soviet-style plombir ice cream — rich and creamy"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1390,
       "photo": null,
       "available": true,
@@ -2446,9 +2541,10 @@
       },
       "description": {
         "ru": "Хрустящая тарталетка с лимонным курдом и воздушной итальянской меренгой",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Лимон кремі және ауадай итальян меренгасы бар қытырлақ тарталетка",
+        "en": "Crisp tartlet with lemon curd and airy Italian meringue"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1290,
       "photo": null,
       "available": true,
@@ -2470,9 +2566,10 @@
       },
       "description": {
         "ru": "Свежие сезонные фрукты, красиво сервированные на большой тарелке",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Үлкен тәрелкеге әдемі әзірленген маусымдық жаңа жемістер",
+        "en": "Fresh seasonal fruit, beautifully arranged on a large platter"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 6000,
       "photo": null,
       "available": true,
@@ -2495,9 +2592,10 @@
       },
       "description": {
         "ru": "Нежный чизкейк на песочной основе с ванильным кремом и ягодным топпингом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Құмды негіздегі, ваниль кремі мен жидек топпингі бар жұмсақ чизкейк",
+        "en": "Creamy cheesecake on a shortcrust base with vanilla cream and berry topping"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 1390,
       "photo": null,
       "available": true,
@@ -2519,9 +2617,10 @@
       },
       "description": {
         "ru": "Корейка, крылышки, люля кебаб, говядина, баклажан кебаб, овощи гриль, картофель фри и дольки, соус шашлычный",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қабырға еті, қанаттар, люля кебаб, сиыр еті, баялды кебаб, гриль көкөністер, фри картобы мен картоп кесектері, шашлық тұздығы",
+        "en": "Lamb loin, chicken wings, lyulya kebab, beef, eggplant kebab, grilled vegetables, French fries and potato wedges, barbecue sauce"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 15500,
       "photo": null,
       "available": true,
@@ -2544,9 +2643,10 @@
       },
       "description": {
         "ru": "Сочетание мягкой, сочной шеи баранины, аппетитной рульки и ароматных ребрышек говядины. Гарнир из овощей гриль — кабачки, томаты, баклажаны и шампиньоны — добавляет свежесть и вкус, а картофель по-домашнему делает блюдо по-настоящему сытным. Это простое и вкусное угощение, которое порадует всех гостей за столом.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қойдың жұмсақ, шырынды мойын еті, тәбет ашатын сирақ және хош иісті сиыр қабырғасы. Гриль көкөністерінен жасалған гарнир — кабачок, қызанақ, баялды және шампиньон — тағамға балғындық береді, ал үйдегідей картоп оны шынымен тойымды етеді. Барлық қонақтарды қуантатын қарапайым әрі дәмді тағам.",
+        "en": "Soft, juicy lamb neck, hearty shank and aromatic beef ribs. A side of grilled vegetables — zucchini, tomatoes, eggplant and champignons — adds freshness, and home-style potatoes make the dish truly filling. A simple, delicious treat for everyone at the table."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 34900,
       "photo": null,
       "available": true,
@@ -2569,9 +2669,10 @@
       },
       "description": {
         "ru": "Стейк Рибай, медальоны, корейка, овощи на гриле, стейк из сёмги, картофель фри, картофельные дольки, соусы свитчили, барбекю, шашлычный",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Рибай стейгі, медальондар, қабырға еті, гриль көкөністер, ақсерке стейгі, фри картобы, картоп кесектері, свитчили, барбекю және шашлық тұздықтары",
+        "en": "Ribeye steak, medallions, lamb loin, grilled vegetables, salmon steak, French fries, potato wedges, sweet chili, barbecue and kebab sauces"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 22000,
       "photo": null,
       "available": true,
@@ -2594,9 +2695,10 @@
       },
       "description": {
         "ru": "Шашлык из крылышек, цыпленок табака, запеченная грудка, киевская котлета, овощи на гриле, картофель фри, картофельные дольки, стейк из сёмги",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Қанаттан жасалған шашлық, табака балапаны, пісірілген төс еті, киев котлеті, гриль көкөністер, фри картобы, картоп кесектері, ақсерке стейгі",
+        "en": "Chicken wing kebab, chicken tabaka, baked chicken breast, chicken Kiev, grilled vegetables, French fries, potato wedges, salmon steak"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 14500,
       "photo": null,
       "available": true,
@@ -2619,9 +2721,10 @@
       },
       "description": {
         "ru": "Чанахи — это изысканное грузинское блюдо, которое сочетает в себе ароматную говядину, нежные баклажаны, сочные помидоры и мягкий картофель. Мясо пропитывается соками свежих овощей и ароматами специй, становясь особенно нежным и насыщенным. Каждая порция — это гармония вкусов и традиций, которая подарит гостям настоящее гастрономическое удовольствие. Чанахи — идеальный выбор для тех, кто ценит душевные и сытные блюда на праздничном столе.",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Чанахи — хош иісті сиыр еті, жұмсақ баялды, шырынды қызанақ пен жұмсақ картопты біріктіретін талғампаз грузин тағамы. Ет жаңа көкөністердің шырыны мен дәмдеуіштердің хош иісіне қанығып, ерекше жұмсақ әрі қанық болады. Әр порция — дәм мен дәстүрдің үйлесімі, қонақтарға нағыз гастрономиялық ләззат сыйлайды. Чанахи — мерекелік дастарханға жылы әрі тойымды тағамдарды бағалайтындар үшін тамаша таңдау.",
+        "en": "Chanakhi is a refined Georgian dish that brings together aromatic beef, tender eggplant, juicy tomatoes and soft potatoes. The meat soaks up the juices of fresh vegetables and the aroma of spices, becoming especially tender and rich. Every portion is a harmony of flavour and tradition that gives guests true gastronomic pleasure. Chanakhi is an ideal choice for those who love hearty, soulful dishes on a festive table."
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 15000,
       "photo": null,
       "available": true,
@@ -2644,9 +2747,10 @@
       },
       "description": {
         "ru": "Сочные крылышки в дымном BBQ-соусе — лучший аккомпанемент к пиву",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Ысталған BBQ тұздығындағы шырынды қанаттар — сыраға таптырмас тағам",
+        "en": "Juicy wings in a smoky BBQ sauce — the perfect match for beer"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 2500,
       "photo": null,
       "available": true,
@@ -2668,9 +2772,10 @@
       },
       "description": {
         "ru": "Крылья барбекю, пивные креветки, хрустящие тортилья и луковые кольца, подаются с соусами",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Барбекю қанаттары, сыраға арналған асшаян, қытырлақ тортилья және пияз сақиналары, тұздықтармен беріледі",
+        "en": "Barbecue wings, beer-snack shrimp, crispy tortilla chips and onion rings, served with sauces"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 4500,
       "photo": null,
       "available": true,
@@ -2679,7 +2784,8 @@
         "price": "dkgroup",
         "descriptionSource": "instagram",
         "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "nameEn": "dkgroup, не проверено",
+        "note": "«Пивные креветки» переведено как закуска к пиву (beer-snack shrimp) — если это креветки в пивном кляре, исправить."
       }
     },
     {
@@ -2692,9 +2798,10 @@
       },
       "description": {
         "ru": "Хрустящие ржаные гренки с чесночным маслом и свежей зеленью",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "kk": "Сарымсақ майы мен жаңа көк шөп қосылған қытырлақ қара бидай кептірілген наны",
+        "en": "Crispy rye croutons with garlic butter and fresh herbs"
       },
+      "descriptionStatus": "перевод не проверен",
       "price": 890,
       "photo": null,
       "available": true,
@@ -2719,6 +2826,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 4790,
       "photo": null,
       "available": false,
@@ -2744,6 +2852,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 2390,
       "photo": null,
       "available": false,
@@ -2769,6 +2878,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 5500,
       "photo": null,
       "available": false,
@@ -2794,6 +2904,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 2390,
       "photo": null,
       "available": false,
@@ -2819,6 +2930,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 4790,
       "photo": null,
       "available": false,
@@ -2844,6 +2956,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 1950,
       "photo": null,
       "available": false,
@@ -2869,6 +2982,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 5590,
       "photo": null,
       "available": false,
@@ -2894,6 +3008,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 2900,
       "photo": null,
       "available": false,
@@ -2919,6 +3034,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 3390,
       "photo": null,
       "available": false,
@@ -2944,6 +3060,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 2790,
       "photo": null,
       "available": false,
@@ -2969,6 +3086,7 @@
         "kk": "[TODO: перевод]",
         "en": "[TODO: перевод]"
       },
+      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
       "price": 5390,
       "photo": null,
       "available": false,
