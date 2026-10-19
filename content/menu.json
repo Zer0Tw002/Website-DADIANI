@@ -1,6 +1,15 @@
 {
   "_readme": "Меню сайта. Как править — см. content/README.md. Поле check — служебные пометки (откуда данные), на сайте не показывается.",
   "currency": "KZT",
+  "_featuredNote": "Популярные блюда на главной: id блюд из списка items (только с фото от 500 px)",
+  "featured": [
+    "hachapuri-po-adzharski",
+    "hinkali-po-batumski",
+    "harcho",
+    "chahohbili",
+    "satsivi",
+    "lyulya-kebab-po-adzharski"
+  ],
   "categories": [
     {
       "id": "salads",

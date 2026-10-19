@@ -34,7 +34,7 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('t
   </head>
   <body class="flex min-h-screen flex-col font-sans">
     <a
-      href="#main"
+      href="#content"
       class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-cream focus:px-3 focus:py-2"
     >
       {t('skip')}
@@ -47,7 +47,7 @@ const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('t
       )
     }
     <Header lang={lang} route={route} />
-    <main id="main" class="flex-1">
+    <main id="content" class="flex-1">
       <slot />
     </main>
     <Footer lang={lang} />

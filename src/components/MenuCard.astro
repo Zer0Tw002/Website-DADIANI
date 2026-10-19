@@ -16,7 +16,10 @@ const desc = localized(item.description, lang);
 const photo = photoFor(item.photo);
 ---
 
-<article class="flex gap-4 rounded-xl border border-blush/70 bg-white/70 p-3 sm:p-4">
+<article
+  id={item.id}
+  class="flex scroll-mt-20 gap-4 rounded-xl border border-blush/70 bg-white/70 p-3 target:border-coral target:ring-2 target:ring-coral sm:p-4"
+>
   {
     photo && (
       <Image

@@ -1,0 +1,63 @@
+---
+// «Популярные блюда»: 6 блюд из featured в menu.json, каждая карточка ведёт к блюду в меню.
+import { Image } from 'astro:assets';
+import { featuredItems, formatPrice, localized } from '../../lib/menu';
+import { pathFor, useTranslations, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const dishes = featuredItems();
+const menuPath = pathFor(lang, 'menu');
+---
+
+{
+  dishes.length > 0 && (
+    <section aria-labelledby="popular-title" class="grid gap-5">
+      <div class="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+        <h2 id="popular-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
+          {t('home.popular')}
+        </h2>
+        <a href={menuPath} class="font-semibold text-pomegranate-dark underline-offset-4 hover:underline">
+          {t('home.allMenu')} →
+        </a>
+      </div>
+      <ul class="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+        {dishes.map(({ item, photo }) => {
+          const name = localized(item.name, lang);
+          return (
+            <li>
+              <a
+                href={`${menuPath}#${item.id}`}
+                class="group flex h-full flex-col overflow-hidden rounded-xl border border-blush/70 bg-white/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wine"
+              >
+                <Image
+                  src={photo}
+                  alt=""
+                  width={320}
+                  height={320}
+                  widths={[180, 320, 480].filter((w) => w <= photo.width)}
+                  sizes="(min-width: 1024px) 320px, 50vw"
+                  format="webp"
+                  quality={75}
+                  loading="lazy"
+                  decoding="async"
+                  class="aspect-square w-full object-cover transition group-hover:brightness-105 motion-reduce:transition-none"
+                />
+                <div class="flex flex-1 flex-col gap-1 p-3 sm:p-4">
+                  <h3 class="font-semibold leading-snug break-words" lang={name.lang !== lang ? name.lang : undefined}>
+                    {name.text}
+                  </h3>
+                  <p class="mt-auto font-semibold text-pomegranate-dark tabular-nums">{formatPrice(item.price)}</p>
+                </div>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  )
+}

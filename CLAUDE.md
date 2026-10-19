@@ -103,6 +103,8 @@
 - `src/components/` — шапка, подвал и другие части страниц.
 - `src/i18n/ui.ts` — языки, адреса страниц, переводы интерфейса.
 - `src/lib/menu.ts` — чтение `content/menu.json`, фото блюд, формат цены, запасной русский текст.
+- `src/lib/promotions.ts` — чтение `content/promotions.json` (акции на главной).
+- `src/components/home/` — блоки главной: первый экран, популярные блюда, акции, доставка, адрес.
 - `src/components/MenuCard.astro` — карточка блюда (фото через `astro:assets`, WebP, ленивая загрузка).
 - `src/config/status.ts` — пометка «Концепт-версия», запрет индексации, кнопка прокрутки (`SCROLL_BUTTON`).
 - `content/README.md` — инструкция для владельца: как править меню.

@@ -53,6 +53,17 @@ export function formatPrice(price: number): string {
   return price.toLocaleString('ru-RU').replace(/\s/g, ' ') + ' ₸';
 }
 
+// Популярные блюда для главной: список featured из menu.json. Берём только доступные блюда
+// с фото не меньше 500 px (маленькие фото в крупной карточке выглядели бы мутно).
+export function featuredItems(): { item: MenuItem; photo: ImageMetadata }[] {
+  const items = menuData.items as MenuItem[];
+  return menuData.featured
+    .map((id) => items.find((i) => i.id === id))
+    .filter((i): i is MenuItem => !!i && i.available)
+    .map((item) => ({ item, photo: photoFor(item.photo) }))
+    .filter((x): x is { item: MenuItem; photo: ImageMetadata } => !!x.photo && Math.min(x.photo.width, x.photo.height) >= 500);
+}
+
 // Категории в порядке из menu.json, только доступные блюда, пустые категории пропускаются
 export function menuCategories(): MenuCategory[] {
   return menuData.categories

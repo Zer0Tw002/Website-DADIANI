@@ -1,0 +1,40 @@
+---
+// «Доставка»: кнопки Яндекс Еда и Wolt. Кнопка показывается, только когда её ссылка в site.ts
+// заполнена (не [TODO]); если ни одной ссылки нет — блок не выводится совсем.
+import { isFilled, site } from '../../config/site';
+import { useTranslations, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const links = [
+  { url: site.delivery.yandexEda, label: t('delivery.yandex') },
+  { url: site.delivery.wolt, label: t('delivery.wolt') },
+].filter((d) => isFilled(d.url));
+---
+
+{
+  links.length > 0 && (
+    <section aria-labelledby="delivery-title" class="grid gap-4">
+      <h2 id="delivery-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
+        {t('delivery.title')}
+      </h2>
+      <p>{t('delivery.text')}</p>
+      <div class="flex flex-wrap gap-3">
+        {links.map((d) => (
+          <a
+            href={d.url}
+            target="_blank"
+            rel="noopener"
+            class="inline-flex min-h-12 items-center justify-center rounded-xl border-2 border-wine px-6 py-3 font-semibold text-wine hover:bg-wine hover:text-cream focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wine"
+          >
+            {d.label}
+          </a>
+        ))}
+      </div>
+    </section>
+  )
+}

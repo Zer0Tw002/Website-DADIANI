@@ -1,0 +1,55 @@
+---
+// «Акции и бизнес-ланч»: текстовые карточки из content/promotions.json (без фото).
+// Строки без данных (нет расписания или цены) просто не выводятся.
+import { formatPrice } from '../../lib/menu';
+import { promotions } from '../../lib/promotions';
+import { useTranslations, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const items = promotions(lang);
+const attr = (l: Lang) => (l !== lang ? l : undefined);
+---
+
+{
+  items.length > 0 && (
+    <section aria-labelledby="promos-title" class="grid gap-5">
+      <h2 id="promos-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
+        {t('home.promos')}
+      </h2>
+      <ul class="grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-2">
+        {items.map((p) => (
+          <li class="flex flex-col gap-2 rounded-xl border border-blush/70 bg-white/70 p-4 sm:p-5">
+            {p.schedule && (
+              <p
+                class="font-display text-xs font-semibold tracking-[0.14em] text-pomegranate-dark uppercase"
+                lang={attr(p.schedule.lang)}
+              >
+                {p.schedule.text}
+              </p>
+            )}
+            <div class="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-0.5">
+              <h3 class="text-lg font-semibold leading-snug break-words" lang={attr(p.title.lang)}>
+                {p.title.text}
+              </h3>
+              {p.price !== null && (
+                <p class="shrink-0 text-lg font-semibold text-pomegranate-dark tabular-nums">
+                  {p.priceFrom ? t('price.from').replace('{price}', formatPrice(p.price)) : formatPrice(p.price)}
+                </p>
+              )}
+            </div>
+            {p.description.text && (
+              <p class="text-rose-ash-dark" lang={attr(p.description.lang)}>
+                {p.description.text}
+              </p>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  )
+}

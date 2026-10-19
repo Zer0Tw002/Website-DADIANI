@@ -1,0 +1,53 @@
+---
+// «Адрес и часы работы»: адрес, режим, 2ГИС, обслуживание, вопрос в WhatsApp. Данные — site.ts.
+import { isFilled, phoneHref, site, whatsappLink } from '../../config/site';
+import { useTranslations, type Lang } from '../../i18n/ui';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const label = 'font-display text-xs tracking-[0.16em] text-rose-ash-dark uppercase';
+const link = 'font-semibold text-pomegranate-dark underline-offset-4 hover:underline';
+---
+
+<section aria-labelledby="visit-title" class="grid gap-5">
+  <h2 id="visit-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">{t('home.visit')}</h2>
+  <div class="grid gap-6 rounded-2xl border border-blush/70 bg-white/70 p-5 sm:grid-cols-2 sm:p-8">
+    <div class="grid content-start gap-2">
+      <h3 class={label}>{t('footer.address')}</h3>
+      <p class="text-lg">{site.address[lang]}</p>
+      {
+        isFilled(site.map2gis) && (
+          <a href={site.map2gis} target="_blank" rel="noopener" class={link}>
+            {t('footer.route')}
+          </a>
+        )
+      }
+    </div>
+    <div class="grid content-start gap-2">
+      <h3 class={label}>{t('footer.hours')}</h3>
+      <p class="text-lg">{site.hours[lang]}</p>
+      {site.serviceFee > 0 && <p class="text-rose-ash-dark">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
+    </div>
+    <div class="flex flex-wrap items-center gap-x-6 gap-y-3 sm:col-span-2">
+      <a
+        href={whatsappLink(t('whatsapp.message'))}
+        target="_blank"
+        rel="noopener"
+        class="inline-flex min-h-12 items-center justify-center rounded-xl bg-leaf-dark px-5 py-3 font-semibold text-white hover:brightness-110 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-leaf-dark"
+      >
+        {t('actions.question')}
+      </a>
+      {
+        isFilled(site.phone) && (
+          <a href={phoneHref(site.phone)} class="text-lg font-semibold whitespace-nowrap hover:underline">
+            {site.phone}
+          </a>
+        )
+      }
+    </div>
+  </div>
+</section>

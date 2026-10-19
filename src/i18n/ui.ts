@@ -59,6 +59,14 @@ const ru = {
   'common.soon': 'Раздел скоро появится.',
   'scroll.down': 'Вниз, к адресу и контактам',
   'scroll.up': 'Наверх, к началу страницы',
+  'hero.eyebrow': 'Гамарджоба, Шымкент!',
+  'hero.slogan': 'Грузинская кухня с душой и гостеприимством — ждём вас!',
+  'hero.book': 'Забронировать столик',
+  'home.popular': 'Популярные блюда',
+  'home.allMenu': 'Всё меню',
+  'home.promos': 'Акции и бизнес-ланч',
+  'price.from': 'от {price}',
+  'home.visit': 'Адрес и часы работы',
   'todo.translation': '[TODO: перевод]',
 };
 
@@ -98,6 +106,14 @@ const kk: Dict = {
   'common.soon': 'Бөлім жақында пайда болады.',
   'scroll.down': 'Төмен, мекенжай мен байланысқа',
   'scroll.up': 'Жоғары, бет басына',
+  'hero.eyebrow': 'Гамарджоба, Шымкент!',
+  'hero.slogan': 'Грузин тағамдары және қонақжайлылық — біз сіздерді күтеміз!',
+  'hero.book': 'Үстел брондау',
+  'home.popular': 'Танымал тағамдар',
+  'home.allMenu': 'Толық мәзір',
+  'home.promos': 'Акциялар мен бизнес-ланч',
+  'price.from': '{price} бастап',
+  'home.visit': 'Мекенжай және жұмыс уақыты',
   'todo.translation': '[TODO: аударма]',
 };
 
@@ -135,6 +151,14 @@ const en: Dict = {
   'common.soon': 'This section is coming soon.',
   'scroll.down': 'Down to address and contacts',
   'scroll.up': 'Back to top',
+  'hero.eyebrow': 'Gamarjoba, Shymkent!',
+  'hero.slogan': 'Georgian cuisine with soul and hospitality — we look forward to seeing you!',
+  'hero.book': 'Book a table',
+  'home.popular': 'Popular dishes',
+  'home.allMenu': 'Full menu',
+  'home.promos': 'Offers and business lunch',
+  'price.from': 'from {price}',
+  'home.visit': 'Address and opening hours',
   'todo.translation': '[TODO: translation]',
 };
 

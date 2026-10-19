@@ -1,30 +1,28 @@
 ---
-// Главная страница (общая для всех языков). Полное наполнение — этап 7.
+// Главная страница (общая для всех языков).
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BookingForm from '../BookingForm.astro';
-import ContactActions from '../ContactActions.astro';
-import { site } from '../../config/site';
-import { useTranslations, type Lang } from '../../i18n/ui';
+import DeliveryBlock from '../home/DeliveryBlock.astro';
+import HomeHero from '../home/HomeHero.astro';
+import PopularDishes from '../home/PopularDishes.astro';
+import Promotions from '../home/Promotions.astro';
+import VisitInfo from '../home/VisitInfo.astro';
+import type { Lang } from '../../i18n/ui';
 
 interface Props {
   lang: Lang;
 }
 
 const { lang } = Astro.props;
-const t = useTranslations(lang);
 ---
 
 <BaseLayout lang={lang} route="home">
-  <div class="mx-auto grid max-w-5xl grid-cols-1 gap-10 px-4 py-10 sm:py-12">
-    <section class="grid gap-6">
-      <div>
-        <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{site.name}</h1>
-        <p class="mt-2 text-rose-ash-dark">{t('tagline')}</p>
-      </div>
-      <ContactActions lang={lang} />
-    </section>
-
+  <HomeHero lang={lang} />
+  <div class="mx-auto grid max-w-5xl grid-cols-1 gap-14 px-4 py-12 sm:gap-16 sm:py-16">
+    <PopularDishes lang={lang} />
+    <Promotions lang={lang} />
     <BookingForm lang={lang} />
-    <!-- TODO (этап 7): акции, фото, о ресторане -->
+    <DeliveryBlock lang={lang} />
+    <VisitInfo lang={lang} />
   </div>
 </BaseLayout>

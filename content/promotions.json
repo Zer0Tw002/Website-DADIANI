@@ -1,0 +1,97 @@
+{
+  "_readme": "Акции на главной странице. Как править — см. content/README.md. Поле check — служебные пометки, на сайте не показываются. Пустая строка в schedule или price: null — строка на сайте не выводится.",
+  "promotions": [
+    {
+      "id": "hinkali-wednesday",
+      "available": true,
+      "title": { "ru": "Хинкальная среда", "kk": "Хинкали сәрсенбісі", "en": "Khinkali Wednesday" },
+      "description": {
+        "ru": "Все виды хинкали — по 1 990 ₸. Действует в заведении и на вынос.",
+        "kk": "Хинкалидің барлық түрі — 1 990 ₸-ден. Мейрамханада және алып кетуге жарамды.",
+        "en": "All kinds of khinkali for 1,990 ₸. Available for dine-in and takeaway."
+      },
+      "price": 1990,
+      "priceFrom": false,
+      "schedule": { "ru": "Каждую среду", "kk": "Әр сәрсенбі сайын", "en": "Every Wednesday" },
+      "check": {
+        "status": "не подтверждено",
+        "source": "Instagram, скриншот 1792421406552",
+        "todo": "Время действия; за какую порцию цена (сколько штук); актуальна ли акция. Переводы kk/en не проверены."
+      }
+    },
+    {
+      "id": "lunch-georgian",
+      "available": true,
+      "title": { "ru": "Грузинский бизнес-ланч", "kk": "Грузин бизнес-ланчы", "en": "Georgian business lunch" },
+      "description": {
+        "ru": "Суп харчо, грузинский салат, хинкали с говядиной, хачапури, фруктовая нарезка.",
+        "kk": "Харчо сорпасы, грузин салаты, сиыр етімен хинкали, хачапури, жеміс тілімдері.",
+        "en": "Kharcho soup, Georgian salad, beef khinkali, khachapuri, sliced fruit."
+      },
+      "price": 3990,
+      "priceFrom": false,
+      "schedule": { "ru": "12:00–16:00", "kk": "12:00–16:00", "en": "12:00–16:00" },
+      "check": {
+        "status": "не подтверждено",
+        "source": "Instagram, скриншоты 1792422484247, 1792422490030",
+        "todo": "Дни недели; сколько хинкали и какой хачапури. Переводы kk/en не проверены."
+      }
+    },
+    {
+      "id": "lunch-european",
+      "available": true,
+      "title": { "ru": "Европейский бизнес-ланч", "kk": "Еуропалық бизнес-ланч", "en": "European business lunch" },
+      "description": {
+        "ru": "Суп том ям, салат цезарь, круассан, паста альфредо, фруктовая нарезка.",
+        "kk": "Том ям сорпасы, цезарь салаты, круассан, альфредо пастасы, жеміс тілімдері.",
+        "en": "Tom yum soup, Caesar salad, croissant, pasta Alfredo, sliced fruit."
+      },
+      "price": 4990,
+      "priceFrom": false,
+      "schedule": { "ru": "12:00–16:00", "kk": "12:00–16:00", "en": "12:00–16:00" },
+      "check": {
+        "status": "не подтверждено",
+        "source": "Instagram, скриншоты 1792422484247, 1792422495698",
+        "todo": "Дни недели; входит ли рис (есть на фото). Переводы kk/en не проверены."
+      }
+    },
+    {
+      "id": "birthday",
+      "available": true,
+      "title": { "ru": "День рождения в DADIANI", "kk": "DADIANI-дегі туған күн", "en": "Birthday at DADIANI" },
+      "description": {
+        "ru": "Отмечайте день рождения у нас: скидка 10% и бокал вина в подарок.",
+        "kk": "Туған күніңізді бізде тойлаңыз: 10% жеңілдік және сыйлыққа бір бокал шарап.",
+        "en": "Celebrate your birthday with us: 10% off and a glass of wine on the house."
+      },
+      "price": null,
+      "priceFrom": false,
+      "schedule": { "ru": "", "kk": "", "en": "" },
+      "check": {
+        "status": "не подтверждено",
+        "source": "Instagram, скриншот 1792421396006",
+        "alcohol": true,
+        "todo": "Условия (документ, сколько дней до/после, на что скидка, минимальный чек); безалкогольная замена подарка; можно ли показывать на сайте подарок-вино (реклама алкоголя). Переводы kk/en не проверены."
+      }
+    },
+    {
+      "id": "gap",
+      "available": true,
+      "title": { "ru": "ГӘП в DADIANI", "kk": "DADIANI-де гәп", "en": "Gap gatherings at DADIANI" },
+      "description": {
+        "ru": "Проведите гэп от 5 до 15 человек у нас — в подарок литр белого вина и хачапури по-мегрельски.",
+        "kk": "5-тен 15 адамға дейінгі гәпті бізде өткізіңіз — сыйлыққа бір литр ақ шарап және мегрел хачапуриі.",
+        "en": "Host your gap (a traditional get-together) for 5 to 15 people with us and get a litre of white wine and a Megrelian khachapuri on the house."
+      },
+      "price": null,
+      "priceFrom": false,
+      "schedule": { "ru": "", "kk": "", "en": "" },
+      "check": {
+        "status": "не подтверждено",
+        "source": "Instagram, скриншот 1792421392488",
+        "alcohol": true,
+        "todo": "Условия (бронь заранее, минимальный чек); безалкогольная замена подарка; можно ли показывать на сайте подарок-вино (реклама алкоголя). Переводы kk/en не проверены."
+      }
+    }
+  ]
+}
