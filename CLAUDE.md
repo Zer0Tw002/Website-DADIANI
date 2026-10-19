@@ -98,7 +98,8 @@
   его не всегда завершает).
 
 ## Структура папок
-- `src/pages/` (+ `kk/`, `en/`) — адреса страниц; содержимое — в `src/components/pages/`.
+- `src/pages/` (+ `kk/`, `en/`) — адреса страниц; содержимое — в `src/components/pages/`. 404: `404.astro` в каждом языке; `kk/404.html` и `en/404.html` раскладывает маленький шаг в `astro.config.mjs` (Cloudflare показывает ближайший 404.html).
+- `src/pages/sitemap.xml.ts`, `src/pages/robots.txt.ts`, `src/lib/seo.ts` — для поисковиков, включаются флагом `SEO_ENABLED`.
 - `src/layouts/BaseLayout.astro` — общий шаблон (head, шапка, подвал, запрет индексации).
 - `src/components/` — шапка, подвал и другие части страниц.
 - `src/i18n/ui.ts` — языки, адреса страниц, переводы интерфейса.

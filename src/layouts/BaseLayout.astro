@@ -16,9 +16,11 @@ interface Props {
   title?: string;
   // Компактный подвал в одну-две строки (на главной, где адрес и часы уже есть в отдельном блоке)
   compactFooter?: boolean;
+  // Страница 404: всегда noindex, без canonical/hreflang и без разметки для поисковиков
+  notFound?: boolean;
 }
 
-const { lang, route, title, compactFooter = false } = Astro.props;
+const { lang, route, title, compactFooter = false, notFound = false } = Astro.props;
 const t = useTranslations(lang);
 const pageTitle = title ? `${title} — ${site.name}` : `${site.name} — ${t('tagline')}`;
 const description = route === 'menu' ? t('meta.menu') : route === 'about' ? t('meta.about') : t('meta.description');
@@ -32,13 +34,19 @@ const ogImage = new URL('/og-image.png', Astro.site).href;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {NOINDEX && <meta name="robots" content="noindex" />}
+    {(NOINDEX || notFound) && <meta name="robots" content="noindex" />}
     <meta name="theme-color" content="#2A0508" />
     <title>{pageTitle}</title>
     <meta name="description" content={description} />
-    <link rel="canonical" href={canonical} />
-    {langs.map((l) => <link rel="alternate" hreflang={l} href={new URL(pathFor(l, route), Astro.site)} />)}
-    <link rel="alternate" hreflang="x-default" href={new URL(pathFor('ru', route), Astro.site)} />
+    {
+      !notFound && (
+        <>
+          <link rel="canonical" href={canonical} />
+          {langs.map((l) => <link rel="alternate" hreflang={l} href={new URL(pathFor(l, route), Astro.site)} />)}
+          <link rel="alternate" hreflang="x-default" href={new URL(pathFor('ru', route), Astro.site)} />
+        </>
+      )
+    }
     <link rel="preload" href="/fonts/inter-cyrillic.woff2" as="font" type="font/woff2" crossorigin />
 
     <!-- Значки сайта (созданы scripts/make-images.mjs) -->
@@ -65,7 +73,7 @@ const ogImage = new URL('/og-image.png', Astro.site).href;
     <meta name="twitter:image:alt" content={t('og.imageAlt')} />
 
     <!-- Разметка «Restaurant» для поисковиков — только когда сайт не концепт (SEO_ENABLED) -->
-    {SEO_ENABLED && <script is:inline type="application/ld+json" set:html={JSON.stringify(restaurantJsonLd(lang))} />}
+    {SEO_ENABLED && !notFound && <script is:inline type="application/ld+json" set:html={JSON.stringify(restaurantJsonLd(lang))} />}
   </head>
   <!-- Отступ снизу на телефоне — под закреплённую нижнюю панель (MobileBar), чтобы она не закрывала подвал -->
   <body
@@ -87,7 +95,7 @@ const ogImage = new URL('/og-image.png', Astro.site).href;
         </div>
       )
     }
-    <Header lang={lang} route={route} />
+    <Header lang={lang} route={route} highlight={!notFound} />
     <main id="content" class="flex-1">
       <slot />
     </main>

@@ -7,9 +7,11 @@ import { languages, langs, pathFor, routes, useTranslations, type Lang, type Rou
 interface Props {
   lang: Lang;
   route: RouteKey;
+  // false — не подсвечивать текущий раздел (страница 404)
+  highlight?: boolean;
 }
 
-const { lang, route } = Astro.props;
+const { lang, route, highlight = true } = Astro.props;
 const t = useTranslations(lang);
 const navKeys = Object.keys(routes) as RouteKey[];
 ---
@@ -50,10 +52,10 @@ const navKeys = Object.keys(routes) as RouteKey[];
           <li>
             <a
               href={pathFor(lang, key)}
-              aria-current={key === route ? 'page' : undefined}
+              aria-current={highlight && key === route ? 'page' : undefined}
               class:list={[
                 'block border-b-2 py-1 whitespace-nowrap',
-                key === route ? 'border-coral text-cream' : 'border-transparent text-blush hover:text-cream',
+                highlight && key === route ? 'border-coral text-cream' : 'border-transparent text-blush hover:text-cream',
               ]}
             >
               {t(`nav.${key}`)}
