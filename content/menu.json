@@ -576,7 +576,7 @@
       "name": {
         "ru": "Фруктовая нарезка",
         "kk": "Жеміс нарезкасы",
-        "en": "Fruit Platter"
+        "en": "Sliced Fruit"
       },
       "description": {
         "ru": "Свежие сезонные фрукты и ягоды",
@@ -591,7 +591,8 @@
         "price": "dkgroup",
         "descriptionSource": "dkgroup (не проверено)",
         "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "nameEn": "dkgroup, не проверено",
+        "note": "en изменено (было «Fruit Platter», как у «Фруктовая тарелка» в десертах). Возможно, это одно блюдо (обе по 6000) — уточнить у ресторана."
       }
     },
     {
@@ -1653,7 +1654,7 @@
       "name": {
         "ru": "Люля кебаб",
         "kk": "Люля кебаб",
-        "en": "Lula Kebab"
+        "en": "Lyulya Kebab"
       },
       "description": {
         "ru": "Рубленый фарш из баранины с луком и специями на шампуре",
@@ -1678,7 +1679,7 @@
       "name": {
         "ru": "Люля кебаб по-аджарски",
         "kk": "Аджар стилінде люля кебаб",
-        "en": "Adjarian Lula Kebab"
+        "en": "Adjarian Lyulya Kebab"
       },
       "description": {
         "ru": "Люля кебаб в лодочке со специями и сыром",
@@ -1702,7 +1703,7 @@
       "name": {
         "ru": "Овощи на мангале",
         "kk": "Мангалда көкөністер",
-        "en": "Grilled Vegetables"
+        "en": "Vegetables from the Mangal Grill"
       },
       "description": {
         "ru": "Сезонные овощи, томлённые на углях с оливковым маслом и чесноком",
@@ -1718,7 +1719,8 @@
         "descriptionSource": "dkgroup (не проверено)",
         "nameKk": "dkgroup, не проверено",
         "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1690
+        "instagramPrice": 1690,
+        "note": "en изменено (было «Grilled Vegetables», как у «Овощи на гриле» в гарнирах)."
       }
     },
     {
@@ -2163,7 +2165,8 @@
         "descriptionSource": "dkgroup (не проверено)",
         "nameKk": "dkgroup, не проверено",
         "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1400
+        "instagramPrice": 1400,
+        "note": "Не путать с «Овощи на мангале» (Шашлыки) — в Instagram это разные блюда."
       }
     },
     {
@@ -2478,7 +2481,8 @@
         "price": "dkgroup",
         "descriptionSource": "dkgroup (не проверено)",
         "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "nameEn": "dkgroup, не проверено",
+        "note": "Возможно, то же блюдо, что «Фруктовая нарезка» (Холодные закуски) — уточнить."
       }
     },
     {
