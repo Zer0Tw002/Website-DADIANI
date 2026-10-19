@@ -25,7 +25,7 @@ const menuPath = pathFor(lang, 'menu');
           {t('home.allMenu')} →
         </a>
       </div>
-      <ul class="grid grid-cols-2 gap-3 sm:gap-4 lg:grid-cols-3">
+      <ul class="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
         {dishes.map(({ item, photo }) => {
           const name = localized(item.name, lang);
           return (
@@ -40,7 +40,7 @@ const menuPath = pathFor(lang, 'menu');
                   width={320}
                   height={320}
                   widths={[180, 320, 480].filter((w) => w <= photo.width)}
-                  sizes="(min-width: 1024px) 320px, 50vw"
+                  sizes="(min-width: 1024px) 320px, (min-width: 768px) 33vw, 50vw"
                   format="webp"
                   quality={75}
                   loading="lazy"
