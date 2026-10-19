@@ -65,9 +65,9 @@
       "id": "delivery",
       "title": { "ru": "Доставка", "kk": "Жеткізу", "en": "Delivery" },
       "text": {
-        "ru": "Заказывайте доставку через приложения Wolt и Яндекс Еда.",
-        "kk": "Жеткізуге Wolt және Яндекс Еда қосымшалары арқылы тапсырыс беріңіз.",
-        "en": "Order delivery through the Wolt and Yandex Eats apps."
+        "ru": "Заказывайте доставку через приложения Wolt и Яндекс.Еда.",
+        "kk": "Жеткізуге Wolt және Яндекс.Еда қосымшалары арқылы тапсырыс беріңіз.",
+        "en": "Order delivery through the Wolt and Yandex Eda apps."
       },
       "check": "Instagram (сторис «Заказывайте доставку через приложения — WOLT и ЯНДЕКС»). Ссылок пока нет."
     }
