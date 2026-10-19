@@ -1,6 +1,6 @@
 ---
 // Подвал: адрес, режим работы, контакты. Все данные — из src/config/site.ts.
-import { site, whatsappLink } from '../config/site';
+import { isFilled, phoneHref, site, whatsappLink } from '../config/site';
 import { IS_CONCEPT } from '../config/status';
 import { useTranslations, type Lang } from '../i18n/ui';
 
@@ -11,6 +11,7 @@ interface Props {
 const { lang } = Astro.props;
 const t = useTranslations(lang);
 const year = new Date().getFullYear();
+const link = 'text-coral underline-offset-4 hover:underline';
 ---
 
 <footer class="bg-wine text-cream">
@@ -27,6 +28,13 @@ const year = new Date().getFullYear();
     <div>
       <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.address')}</h2>
       <p class="mt-2">{site.address[lang]}</p>
+      {
+        isFilled(site.map2gis) && (
+          <a href={site.map2gis} class:list={['mt-1 inline-block', link]} target="_blank" rel="noopener">
+            {t('footer.route')}
+          </a>
+        )
+      }
     </div>
     <div>
       <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.hours')}</h2>
@@ -35,13 +43,29 @@ const year = new Date().getFullYear();
     <div>
       <h2 class="font-display text-xs tracking-[0.16em] text-rose-ash uppercase">{t('footer.contacts')}</h2>
       <ul class="mt-2 grid gap-1">
-        <li>{site.phone}</li>
+        {
+          isFilled(site.phone) && (
+            <li>
+              <a href={phoneHref(site.phone)} class="whitespace-nowrap hover:underline">
+                {site.phone}
+              </a>
+            </li>
+          )
+        }
         <li>
-          <a href={whatsappLink(t('whatsapp.message'))} class="text-coral underline-offset-4 hover:underline">
+          <a href={whatsappLink(t('whatsapp.message'))} class={link} target="_blank" rel="noopener">
             {t('footer.whatsapp')}
           </a>
         </li>
-        <li>Instagram: {site.instagram}</li>
+        {
+          isFilled(site.instagram) && (
+            <li>
+              <a href={site.instagram} class={link} target="_blank" rel="noopener">
+                Instagram
+              </a>
+            </li>
+          )
+        }
       </ul>
     </div>
   </div>
