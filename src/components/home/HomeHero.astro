@@ -1,5 +1,6 @@
 ---
 // Первый экран главной: без фото, винный фон, крупное название, слоган, две кнопки.
+import LogoOrnament from './LogoOrnament.astro';
 import { site } from '../../config/site';
 import { pathFor, useTranslations, type Lang } from '../../i18n/ui';
 
@@ -25,15 +26,19 @@ const btn =
   </div>
   <div
     aria-hidden="true"
-    class="pointer-events-none absolute -right-16 -bottom-16 size-72 rotate-45 rounded-3xl border border-blush/15 sm:size-96"
+    class="pointer-events-none absolute -right-16 -bottom-16 size-72 rotate-45 rounded-3xl border border-blush/15 sm:size-96 md:hidden"
   >
   </div>
   <div
     aria-hidden="true"
-    class="pointer-events-none absolute -right-4 -bottom-4 size-48 rotate-45 rounded-2xl border border-coral/20 sm:size-72"
+    class="pointer-events-none absolute -right-4 -bottom-4 size-48 rotate-45 rounded-2xl border border-coral/20 sm:size-72 md:hidden"
   >
   </div>
 
+  <!-- Крупный бледный орнамент из логотипа справа (только от 768 px, чтобы не мешать тексту на телефоне) -->
+  <LogoOrnament
+    class="pointer-events-none absolute top-1/2 hidden -translate-y-1/2 text-blush opacity-[0.07] md:block md:-right-24 md:size-[26rem] lg:right-[max(1rem,calc((100%-64rem)/2))] lg:size-[32rem] lg:opacity-[0.09]"
+  />
   <div class="relative mx-auto max-w-5xl px-4 pt-10 pb-12 sm:pt-16 sm:pb-20">
     <p class="font-display text-sm tracking-[0.2em] text-coral uppercase">{t('hero.eyebrow')}</p>
     <h1
@@ -43,7 +48,7 @@ const btn =
       {site.name}
     </h1>
     <p class="mt-2 font-display text-sm tracking-[0.2em] text-rose-ash uppercase sm:text-base">{t('tagline')}</p>
-    <p class="mt-6 max-w-xl text-lg text-blush sm:text-xl">{t('hero.slogan')}</p>
+    <p class="mt-6 max-w-2xl text-lg text-balance text-blush sm:text-xl">{t('hero.slogan')}</p>
     <div class="mt-8 flex flex-col gap-3 sm:flex-row">
       <a href="#booking" class:list={[btn, 'bg-coral text-wine hover:bg-blush']}>{t('hero.book')}</a>
       <a href={pathFor(lang, 'menu')} class:list={[btn, 'border-2 border-blush/60 text-cream hover:border-cream']}>

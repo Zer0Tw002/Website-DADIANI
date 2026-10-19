@@ -1,0 +1,53 @@
+---
+// Контурный орнамент из логотипа: ромб с розеткой, круг, четыре листа (без надписей).
+// Геометрия повторяет assets/logo/logo.svg, но только тонкими линиями одного цвета —
+// цвет берётся из currentColor, прозрачность задаёт тот, кто вставляет компонент.
+interface Props {
+  class?: string;
+}
+
+const { class: className } = Astro.props;
+const leaf = 'M0,-17 C12,-7 12,10 0,15 C-12,10 -12,-7 0,-17 Z';
+const leaves = [
+  [36, -36, 45],
+  [36, 36, 135],
+  [-36, 36, 225],
+  [-36, -36, 315],
+];
+---
+
+<svg
+  viewBox="-72 -72 144 144"
+  fill="none"
+  stroke="currentColor"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+  class={className}
+>
+  <g stroke-width="1.2" vector-effect="non-scaling-stroke">
+    <circle r="67" vector-effect="non-scaling-stroke"></circle>
+    <path d="M0,-56 L56,0 L0,56 L-56,0 Z" vector-effect="non-scaling-stroke"></path>
+    <path d="M0,-50 L50,0 L0,50 L-50,0 Z" vector-effect="non-scaling-stroke"></path>
+    <path d="M0,-38 L38,0 L0,38 L-38,0 Z" vector-effect="non-scaling-stroke"></path>
+    <rect x="-21" y="-21" width="42" height="42" rx="8" vector-effect="non-scaling-stroke"></rect>
+    <circle r="12.5" vector-effect="non-scaling-stroke"></circle>
+    <circle r="4" vector-effect="non-scaling-stroke"></circle>
+    {
+      [
+        [0, -56],
+        [0, 56],
+        [-56, 0],
+        [56, 0],
+      ].map(([cx, cy]) => <circle cx={cx} cy={cy} r="11.5" vector-effect="non-scaling-stroke" />)
+    }
+    {
+      leaves.map(([x, y, r]) => (
+        <g transform={`translate(${x} ${y}) rotate(${r})`}>
+          <path d={leaf} vector-effect="non-scaling-stroke" />
+          <path d="M0,-6 L0,8" vector-effect="non-scaling-stroke" />
+        </g>
+      ))
+    }
+  </g>
+</svg>

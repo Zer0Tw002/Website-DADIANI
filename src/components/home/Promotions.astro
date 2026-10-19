@@ -21,7 +21,7 @@ const attr = (l: Lang) => (l !== lang ? l : undefined);
       <h2 id="promos-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
         {t('home.promos')}
       </h2>
-      <ul class="grid grid-cols-1 gap-3 sm:gap-4 md:grid-cols-2">
+      <ul class:list={['grid grid-cols-1 gap-3 sm:gap-4', items.length % 3 === 0 ? 'md:grid-cols-3' : 'md:grid-cols-2']}>
         {items.map((p) => (
           <li class="flex flex-col gap-2 rounded-xl border border-blush/70 bg-white/70 p-4 sm:p-5">
             {p.schedule && (
