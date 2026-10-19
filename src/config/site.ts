@@ -34,9 +34,10 @@ export const site = {
   // Показывается на странице меню и в подвале. 0 — строка не показывается.
   serviceFee: 15,
 
+  // Страницы ресторана в приложениях доставки (даны владельцем проекта 2026-10-19)
   delivery: {
-    yandexEda: '[TODO: ссылка на Яндекс.Еду]',
-    wolt: '[TODO: ссылка на Wolt]',
+    yandexEda: 'https://eda.yandex.kz/ru-kz/r/dadiani_lvqmp?placeSlug=dadiani_lvqmp',
+    wolt: 'https://wolt.com/ru/kaz/shymkent/restaurant/dadiani',
   },
 } as const;
 
