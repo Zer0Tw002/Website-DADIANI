@@ -19,13 +19,10 @@
       `developer.whatsapp` в `src/config/site.ts`).
 - [x] Выдуманное меню, акции и «О нас»; заглушка логотипа «LOGO»; новые значки и превью ссылки.
 - [ ] Проверить казахские и английские тексты демо у носителя языка (переводы разработчика).
-- [ ] Опубликовать: `git push` (сайт на Cloudflare обновится сам) — только по просьбе владельца.
-- [ ] Сменить адрес `dadiani.pages.dev` на нейтральный. У Cloudflare Pages адрес проекта
-      поменять нельзя: создать новый проект Pages из того же репозитория с новым именем
-      (например `restoran-demo` → `restoran-demo.pages.dev`), затем поменять `url`
-      в `src/config/site.ts` и удалить старый проект `dadiani`.
-- [ ] По желанию: переименовать репозиторий на GitHub (Settings → Repository name),
-      например в `restaurant-site-template`. Cloudflare подхватит новое имя сам.
+- [x] Опубликовано: https://restoran-demo-1cw.pages.dev (`url` в `src/config/site.ts`).
+- [x] Репозиторий на GitHub переименован в `restaurant-site-template`.
+- [ ] Удалить старый проект Cloudflare Pages (бывший `dadiani`, адрес `dadiani.pages.dev`):
+      у Pages адрес проекта не меняется, поэтому для демо создан новый проект `restoran-demo`.
 - [ ] Местная папка `content/reference/` (скриншоты Instagram DADIANI, не в git) — удалить,
       если больше не нужна.
 
@@ -69,9 +66,10 @@
 - Показать клиенту `content/README.md` — как самому менять меню, цены и акции.
 
 ## Хостинг (Cloudflare Pages)
-- [x] Демо опубликовано на Cloudflare Pages: https://dadiani.pages.dev
-      (проект `dadiani`, ветка `main`; каждый push в `main` обновляет сайт автоматически).
-      До push там ещё старая версия DADIANI.
+- [x] Демо опубликовано на Cloudflare Pages: https://restoran-demo-1cw.pages.dev
+      (проект `restoran-demo`, репозиторий `restaurant-site-template`, ветка `main`;
+      каждый push в `main` обновляет сайт автоматически). Адрес `….pages.dev` задаётся
+      при создании проекта и потом не меняется — переименование меняет только подпись.
 - Доступ Cloudflare к GitHub выдан только к одному репозиторию (Only select repositories).
 - Cloudflare называет Pages «legacy» и продвигает Workers. Pages пока работает;
   если Cloudflare объявит его отключение — перенести сайт на Workers (статический
