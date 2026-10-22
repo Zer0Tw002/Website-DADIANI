@@ -1,6 +1,7 @@
 ---
 // Мини-форма бронирования. Ничего не отправляет на сервер: собирает текст
 // и открывает WhatsApp с готовым сообщением на номер из site.ts.
+import DemoHint from './DemoHint.astro';
 import Hours from './Hours.astro';
 import { site } from '../config/site';
 import { useTranslations, type Lang } from '../i18n/ui';
@@ -20,6 +21,7 @@ const label = 'block text-sm font-semibold';
 <section id="booking" aria-labelledby="booking-title" class="rounded-2xl border border-blush bg-white/60 p-5 sm:p-8">
   <h2 id="booking-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">{t('booking.title')}</h2>
   <p class="mt-2 max-w-prose text-rose-ash-dark">{t('booking.intro')}</p>
+  <DemoHint text={t('demo.hint.booking')} class="mt-3" />
 
   <form
     class="mt-6 grid gap-4 sm:grid-cols-2"

@@ -1,0 +1,33 @@
+---
+// Пунктирная рамка вместо фото в демо-версии: значок фотоаппарата и подпись («Фото блюда»).
+// Размер и форму (aspect-square и т.п.) задаёт тот, кто вставляет компонент, через class.
+interface Props {
+  label: string;
+  class?: string;
+}
+
+const { label, class: className } = Astro.props;
+---
+
+<div
+  class:list={[
+    'flex flex-col items-center justify-center gap-2 border-2 border-dashed border-rose-ash/50 bg-blush/25 p-3 text-center text-rose-ash-dark',
+    className,
+  ]}
+>
+  <svg
+    viewBox="0 0 24 24"
+    width="28"
+    height="28"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="1.6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+  >
+    <path d="M4 7h3l2-3h6l2 3h3a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1z"></path>
+    <circle cx="12" cy="13" r="3.5"></circle>
+  </svg>
+  <span class="text-xs font-semibold sm:text-sm">{label}</span>
+</div>

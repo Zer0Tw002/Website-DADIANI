@@ -3,10 +3,10 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
-import { site } from '../config/site';
+import { developer, site, whatsappLink } from '../config/site';
 import MobileBar from '../components/MobileBar.astro';
 import ScrollButton from '../components/ScrollButton.astro';
-import { IS_CONCEPT, MOBILE_BAR, NOINDEX, SCROLL_BUTTON, SEO_ENABLED } from '../config/status';
+import { DEMO, IS_CONCEPT, MOBILE_BAR, NOINDEX, SCROLL_BUTTON, SEO_ENABLED } from '../config/status';
 import { restaurantJsonLd } from '../lib/seo';
 import { langs, pathFor, useTranslations, type Lang, type RouteKey } from '../i18n/ui';
 
@@ -92,6 +92,21 @@ const ogImage = new URL('/og-image.png', Astro.site).href;
       IS_CONCEPT && (
         <div role="note" class="bg-pomegranate-dark px-4 py-1 text-center text-xs font-semibold text-cream sm:py-1.5">
           {t('concept.notice')}
+        </div>
+      )
+    }
+    {
+      DEMO && (
+        <div role="note" class="bg-pomegranate-dark px-4 py-2 text-center text-sm text-cream">
+          <span class="font-semibold">{t('demo.notice')}</span>{' '}
+          <a
+            href={whatsappLink(t('demo.message'), developer.whatsapp)}
+            target="_blank"
+            rel="noopener"
+            class="font-semibold whitespace-nowrap text-blush underline underline-offset-4 hover:text-cream"
+          >
+            {t('demo.cta')} →
+          </a>
         </div>
       )
     }

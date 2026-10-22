@@ -1,6 +1,7 @@
 ---
 // Страница меню (общая для всех языков). Данные — content/menu.json.
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import DemoHint from '../DemoHint.astro';
 import MenuCard from '../MenuCard.astro';
 import { site } from '../../config/site';
 import { localized, menuCategories } from '../../lib/menu';
@@ -19,6 +20,7 @@ const categories = menuCategories();
   <div class="mx-auto max-w-5xl px-4 pt-10 sm:pt-12">
     <h1 class="font-display text-3xl font-light tracking-[0.16em] uppercase">{t('nav.menu')}</h1>
     {site.serviceFee > 0 && <p class="mt-2 text-rose-ash-dark">{t('service.fee').replace('{n}', String(site.serviceFee))}</p>}
+    <DemoHint text={t('demo.hint.menu')} class="mt-4" />
   </div>
 
   <!-- Лента категорий: закреплена вверху при прокрутке, на телефоне листается пальцем -->

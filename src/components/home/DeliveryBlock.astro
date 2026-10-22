@@ -2,6 +2,7 @@
 // «Доставка»: кнопки Яндекс.Еда и Wolt. Кнопка показывается, только когда её ссылка в site.ts
 // заполнена (не [TODO]); если ни одной ссылки нет — блок не выводится совсем.
 // id="delivery" — сюда ведёт кнопка «Доставка» нижней панели на телефоне.
+import DemoHint from '../DemoHint.astro';
 import { deliveryLinks } from '../../lib/links';
 import { useTranslations, type Lang } from '../../i18n/ui';
 
@@ -20,6 +21,7 @@ const links = deliveryLinks(lang);
       <h2 id="delivery-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
         {t('delivery.title')}
       </h2>
+      <DemoHint text={t('demo.hint.delivery')} />
       <p>{t('delivery.text')}</p>
       <div class="flex flex-wrap gap-3">
         {links.map((d) => (

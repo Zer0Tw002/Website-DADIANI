@@ -1,5 +1,6 @@
 ---
 // «Адрес и часы работы»: адрес, режим, 2ГИС, обслуживание, вопрос в WhatsApp. Данные — site.ts.
+import DemoHint from '../DemoHint.astro';
 import Hours from '../Hours.astro';
 import { isFilled, phoneHref, site, whatsappLink } from '../../config/site';
 import { useTranslations, type Lang } from '../../i18n/ui';
@@ -17,6 +18,7 @@ const link = 'font-semibold text-pomegranate-dark underline-offset-4 hover:under
 
 <section aria-labelledby="visit-title" class="grid gap-5">
   <h2 id="visit-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">{title ?? t('home.visit')}</h2>
+  <DemoHint text={t('demo.hint.visit')} />
   <div class="grid gap-6 rounded-2xl border border-blush/70 bg-white/70 p-5 sm:grid-cols-2 sm:p-8">
     <div class="grid content-start gap-2">
       <h3 class={label}>{t('footer.address')}</h3>

@@ -2,6 +2,7 @@
 import type { ImageMetadata } from 'astro';
 import menuData from '../../content/menu.json';
 import { isFilled } from '../config/site';
+import { DEMO } from '../config/status';
 import type { Lang } from '../i18n/ui';
 
 type Localized = { ru: string; kk: string; en: string };
@@ -55,13 +56,17 @@ export function formatPrice(price: number): string {
 
 // Популярные блюда для главной: список featured из menu.json. Берём только доступные блюда
 // с фото не меньше 500 px (маленькие фото в крупной карточке выглядели бы мутно).
-export function featuredItems(): { item: MenuItem; photo: ImageMetadata }[] {
+// В демо-версии (DEMO) блюда без фото тоже берём — вместо фото будет пунктирная рамка (photo: null).
+export function featuredItems(): { item: MenuItem; photo: ImageMetadata | null }[] {
   const items = menuData.items as MenuItem[];
   return menuData.featured
     .map((id) => items.find((i) => i.id === id))
     .filter((i): i is MenuItem => !!i && i.available)
-    .map((item) => ({ item, photo: photoFor(item.photo) }))
-    .filter((x): x is { item: MenuItem; photo: ImageMetadata } => !!x.photo && Math.min(x.photo.width, x.photo.height) >= 500);
+    .map((item) => {
+      const photo = photoFor(item.photo);
+      return { item, photo: photo && Math.min(photo.width, photo.height) >= 500 ? photo : null };
+    })
+    .filter((x) => x.photo || DEMO);
 }
 
 // Категории в порядке из menu.json, только доступные блюда, пустые категории пропускаются

@@ -2,9 +2,12 @@
 // Страница «О нас» (общая для всех языков). Все тексты — content/about.json.
 import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import DemoHint from '../DemoHint.astro';
+import PhotoPlaceholder from '../PhotoPlaceholder.astro';
 import VisitInfo from '../home/VisitInfo.astro';
 import about from '../../../content/about.json';
 import { isFilled, site } from '../../config/site';
+import { DEMO } from '../../config/status';
 import { localized, menuCategories, photoFor } from '../../lib/menu';
 import { pathFor, useTranslations, type Lang, type RouteKey } from '../../i18n/ui';
 
@@ -42,6 +45,7 @@ const btn =
         {lead.text}
       </p>
       <p class="max-w-2xl text-lg text-balance sm:text-xl" lang={attr(intro.lang)}>{intro.text}</p>
+      <DemoHint text={t('demo.hint.about')} />
     </section>
 
     <section aria-labelledby="expect-title" class="grid gap-5">
@@ -97,6 +101,17 @@ const btn =
                   {p.name.text}
                 </figcaption>
               </figure>
+            </li>
+          ))}
+        </ul>
+      )
+    }
+    {
+      photos.length === 0 && DEMO && (
+        <ul class="grid grid-cols-3 gap-2 sm:gap-4">
+          {(['demo.photo.hall', 'demo.photo.dish', 'demo.photo.team'] as const).map((key) => (
+            <li>
+              <PhotoPlaceholder label={t(key)} class="aspect-square rounded-xl sm:aspect-[4/5]" />
             </li>
           ))}
         </ul>

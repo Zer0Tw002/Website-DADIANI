@@ -1,6 +1,9 @@
 ---
 // «Популярные блюда»: 6 блюд из featured в menu.json, каждая карточка ведёт к блюду в меню.
+// Блюдо без фото (только в демо-версии) — пунктирная рамка «Фото блюда».
 import { Image } from 'astro:assets';
+import DemoHint from '../DemoHint.astro';
+import PhotoPlaceholder from '../PhotoPlaceholder.astro';
 import { featuredItems, formatPrice, localized } from '../../lib/menu';
 import { pathFor, useTranslations, type Lang } from '../../i18n/ui';
 
@@ -25,6 +28,7 @@ const menuPath = pathFor(lang, 'menu');
           {t('home.allMenu')} →
         </a>
       </div>
+      <DemoHint text={t('demo.hint.dishes')} />
       <ul class="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3">
         {dishes.map(({ item, photo }) => {
           const name = localized(item.name, lang);
@@ -34,19 +38,23 @@ const menuPath = pathFor(lang, 'menu');
                 href={`${menuPath}#${item.id}`}
                 class="group flex h-full flex-col overflow-hidden rounded-xl border border-blush/70 bg-white/70 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-wine"
               >
-                <Image
-                  src={photo}
-                  alt=""
-                  width={320}
-                  height={320}
-                  widths={[180, 320, 480].filter((w) => w <= photo.width)}
-                  sizes="(min-width: 1024px) 320px, (min-width: 768px) 33vw, 50vw"
-                  format="webp"
-                  quality={75}
-                  loading="lazy"
-                  decoding="async"
-                  class="aspect-square w-full object-cover transition group-hover:brightness-105 motion-reduce:transition-none"
-                />
+                {photo ? (
+                  <Image
+                    src={photo}
+                    alt=""
+                    width={320}
+                    height={320}
+                    widths={[180, 320, 480].filter((w) => w <= photo.width)}
+                    sizes="(min-width: 1024px) 320px, (min-width: 768px) 33vw, 50vw"
+                    format="webp"
+                    quality={75}
+                    loading="lazy"
+                    decoding="async"
+                    class="aspect-square w-full object-cover transition group-hover:brightness-105 motion-reduce:transition-none"
+                  />
+                ) : (
+                  <PhotoPlaceholder label={t('demo.photo.dish')} class="m-2 mb-0 aspect-square rounded-lg" />
+                )}
                 <div class="flex flex-1 flex-col gap-1 p-3 sm:p-4">
                   <h3 class="font-semibold leading-snug break-words" lang={name.lang !== lang ? name.lang : undefined}>
                     {name.text}

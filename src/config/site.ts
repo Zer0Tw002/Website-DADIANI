@@ -58,7 +58,13 @@ export function phoneHref(phone: string): string {
   return 'tel:' + phone.replace(/[^\d+]/g, '');
 }
 
-// Ссылка на WhatsApp с готовым текстом сообщения
-export function whatsappLink(text: string): string {
-  return `https://wa.me/${site.whatsapp}?text=${encodeURIComponent(text)}`;
+// Ссылка на WhatsApp с готовым текстом сообщения (по умолчанию — номер заведения)
+export function whatsappLink(text: string, number: string = site.whatsapp): string {
+  return `https://wa.me/${number}?text=${encodeURIComponent(text)}`;
 }
+
+// Контакт разработчика сайта: кнопка «Хочу такой сайт» в демо-версии (DEMO в status.ts).
+// Формат: только цифры, с кодом страны, без "+".
+export const developer = {
+  whatsapp: '77079284883',
+};

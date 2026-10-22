@@ -1,6 +1,7 @@
 ---
 // «Акции и бизнес-ланч»: текстовые карточки из content/promotions.json (без фото).
 // Строки без данных (нет расписания или цены) просто не выводятся.
+import DemoHint from '../DemoHint.astro';
 import { formatPrice } from '../../lib/menu';
 import { promotions } from '../../lib/promotions';
 import { useTranslations, type Lang } from '../../i18n/ui';
@@ -21,6 +22,7 @@ const attr = (l: Lang) => (l !== lang ? l : undefined);
       <h2 id="promos-title" class="font-display text-2xl font-light tracking-[0.12em] uppercase">
         {t('home.promos')}
       </h2>
+      <DemoHint text={t('demo.hint.promos')} />
       <ul class:list={['grid grid-cols-1 gap-3 sm:gap-4', items.length % 3 === 0 ? 'md:grid-cols-3' : 'md:grid-cols-2']}>
         {items.map((p) => (
           <li class="flex flex-col gap-2 rounded-xl border border-blush/70 bg-white/70 p-4 sm:p-5">
