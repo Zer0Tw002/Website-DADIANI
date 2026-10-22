@@ -1,82 +1,61 @@
 {
-  "_readme": "Тексты страницы «О нас». Как править — см. content/README.md. Поля check — служебные пометки, на сайте не показываются. Только факты из наших данных: не добавлять историю, шефа, награды и т.п. без подтверждения ресторана.",
+  "_readme": "Тексты страницы «О нас». Как править — см. content/README.md. Сейчас здесь ВЫДУМАННЫЕ тексты демо-версии: для сайта клиента заменить на его тексты (только факты от клиента). Поля check — служебные пометки, на сайте не показываются.",
   "check": {
-    "intro": "Вступление — описание ресторана с kamiqr (ru и kk — как на kamiqr; en — перевод разработчика, перевод не проверен).",
-    "kk": "Казахский текст блоков «Что вас ждёт» и кнопок — перевод разработчика, не проверен.",
-    "en": "перевод не проверен",
-    "todo": "Запросить у ресторана текст «о нас» (история, что отличает кухню) и фото зала — см. HANDOFF.md."
+    "status": "пример (демо)",
+    "kkEn": "Казахский и английский тексты — перевод разработчика, не проверен."
   },
   "title": { "ru": "О нас", "kk": "Біз туралы", "en": "About us" },
   "lead": {
-    "ru": "Гамарджоба, Шымкент!",
-    "kk": "Гамарджоба, Шымкент!",
-    "en": "Gamarjoba, Shymkent!"
+    "ru": "Добро пожаловать!",
+    "kk": "Қош келдіңіз!",
+    "en": "Welcome!"
   },
   "intro": {
-    "ru": "DADIANI — ресторан грузинской кухни в Шымкенте. Грузинская кухня с душой и гостеприимством — ждём вас!",
-    "kk": "DADIANI — Шымкенттегі грузин асханасының мейрамханасы. Грузин тағамдары және қонақжайлылық — біз сіздерді күтеміз!",
-    "en": "DADIANI is a Georgian restaurant in Shymkent. Georgian cuisine with soul and hospitality — we look forward to seeing you!"
+    "ru": "Уютное кафе в центре Шымкента: домашняя кухня, свежая выпечка и тёплый приём. Ждём вас с семьёй и друзьями!",
+    "kk": "Шымкент орталығындағы жайлы кафе: үй тағамдары, жаңа піскен тоқаштар және жылы қарсы алу. Сізді отбасыңызбен және достарыңызбен күтеміз!",
+    "en": "A cozy cafe in the center of Shymkent: home-style cooking, fresh pastries and a warm welcome. We look forward to seeing you with family and friends!"
   },
   "expectTitle": { "ru": "Что вас ждёт", "kk": "Сізді не күтеді", "en": "What to expect" },
   "expect": [
     {
       "id": "cuisine",
-      "title": { "ru": "Грузинская кухня", "kk": "Грузин асханасы", "en": "Georgian cuisine" },
+      "title": { "ru": "Домашняя кухня", "kk": "Үй тағамдары", "en": "Home-style cooking" },
       "text": {
-        "ru": "Хинкали, хачапури, шашлыки с мангала, супы и горячие блюда — всё меню на сайте.",
-        "kk": "Хинкали, хачапури, мангалда пісірілген шашлық, сорпалар мен ыстық тағамдар — толық мәзір сайтта.",
-        "en": "Khinkali, khachapuri, kebabs from the mangal grill, soups and hot dishes — see the full menu on the site."
+        "ru": "Плов, лагман, манты, шашлык, супы и десерты — всё меню на сайте.",
+        "kk": "Палау, лағман, манты, шашлық, сорпалар мен десерттер — толық мәзір сайтта.",
+        "en": "Plov, lagman, manti, shashlik, soups and desserts — see the full menu on the site."
       },
-      "link": "menu",
-      "check": "Из меню (content/menu.json)."
+      "link": "menu"
     },
     {
       "id": "business-lunch",
       "title": { "ru": "Бизнес-ланч", "kk": "Бизнес-ланч", "en": "Business lunch" },
       "text": {
-        "ru": "С 12:00 до 16:00 — грузинский и европейский варианты.",
-        "kk": "12:00-ден 16:00-ге дейін — грузиндік және еуропалық нұсқалар.",
-        "en": "From 12:00 to 16:00 — Georgian and European options."
-      },
-      "check": "Instagram (афиша бизнес-ланчей); дни недели неизвестны; не подтверждено."
+        "ru": "По будням с 12:00 до 15:00 — салат, суп, горячее и напиток.",
+        "kk": "Жұмыс күндері 12:00-ден 15:00-ге дейін — салат, сорпа, ыстық тағам және сусын.",
+        "en": "On weekdays from 12:00 to 15:00 — salad, soup, main course and a drink."
+      }
     },
     {
-      "id": "groups",
-      "title": { "ru": "Блюда на компанию", "kk": "Топқа арналған тағамдар", "en": "Dishes for groups" },
+      "id": "banquets",
+      "title": { "ru": "Банкеты", "kk": "Банкеттер", "en": "Banquets" },
       "text": {
-        "ru": "Шашлык ассорти, гриль микс, чанахи и другие большие блюда для всего стола.",
-        "kk": "Шашлық ассортиі, гриль микс, чанахи және бүкіл дастарханға арналған басқа да үлкен тағамдар.",
-        "en": "Assorted kebabs, grill mix, chanakhi and other large dishes for the whole table."
-      },
-      "link": "menu",
-      "check": "Из меню, раздел «Банкетные блюда»."
-    },
-    {
-      "id": "birthday",
-      "title": { "ru": "Дни рождения", "kk": "Туған күндер", "en": "Birthdays" },
-      "text": {
-        "ru": "Отмечайте день рождения в DADIANI — забронируйте стол заранее.",
-        "kk": "Туған күніңізді DADIANI-де тойлаңыз — үстелді алдын ала брондаңыз.",
-        "en": "Celebrate your birthday at DADIANI — book a table in advance."
-      },
-      "check": "Instagram (акция «Ваш день рождения в Dadiani»). Условия акции (скидка, подарок-вино) здесь не упоминаются — акция скрыта до проверки."
+        "ru": "Дни рождения, юбилеи и корпоративы — забронируйте зал заранее.",
+        "kk": "Туған күндер, мерейтойлар және корпоративтер — залды алдын ала брондаңыз.",
+        "en": "Birthdays, anniversaries and corporate parties — book the hall in advance."
+      }
     },
     {
       "id": "delivery",
       "title": { "ru": "Доставка", "kk": "Жеткізу", "en": "Delivery" },
       "text": {
-        "ru": "Заказывайте доставку через приложения Wolt и Яндекс.Еда.",
-        "kk": "Жеткізуге Wolt және Яндекс.Еда қосымшалары арқылы тапсырыс беріңіз.",
-        "en": "Order delivery through the Wolt and Yandex Eda apps."
-      },
-      "check": "Instagram (сторис «Заказывайте доставку через приложения — WOLT и ЯНДЕКС»). Ссылок пока нет."
+        "ru": "Заказывайте доставку через приложения Яндекс Еда и Wolt.",
+        "kk": "Жеткізуге Яндекс Еда және Wolt қосымшалары арқылы тапсырыс беріңіз.",
+        "en": "Order delivery through the Yandex Eda and Wolt apps."
+      }
     }
   ],
-  "photos": [
-    { "file": "goryachie-blyuda--shkmeruli.png", "dish": "shkmeruli" },
-    { "file": "goryachie-blyuda--chashashuli.png", "dish": "chashashuli" },
-    { "file": "hachapuri--kubdari.png", "dish": "kubdari" }
-  ],
+  "photos": [],
   "findTitle": { "ru": "Как нас найти", "kk": "Бізді қалай табуға болады", "en": "How to find us" },
   "bookButton": { "ru": "Забронировать столик", "kk": "Үстел брондау", "en": "Book a table" },
   "instagramButton": { "ru": "Мы в Instagram", "kk": "Біз Instagram-да", "en": "Follow us on Instagram" }
