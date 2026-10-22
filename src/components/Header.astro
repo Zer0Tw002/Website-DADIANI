@@ -18,8 +18,8 @@ const navKeys = Object.keys(routes) as RouteKey[];
 
 <header class="bg-wine text-cream">
   <div class="mx-auto flex max-w-5xl items-center justify-between gap-4 px-4 pt-2 sm:pt-4">
-    <a href={pathFor(lang, 'home')} class="block shrink-0" aria-label={site.name}>
-      <img src={logo.src} alt={site.name} width="390" height="286" class="h-11 w-auto sm:h-20" />
+    <a href={pathFor(lang, 'home')} class="block shrink-0" aria-label={site.name[lang]}>
+      <img src={logo.src} alt={site.name[lang]} width="390" height="286" class="h-11 w-auto sm:h-20" />
     </a>
     <nav aria-label={t('lang.label')}>
       <ul class="flex gap-1 text-xs font-semibold sm:text-sm">

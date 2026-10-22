@@ -10,7 +10,7 @@ export function restaurantJsonLd(lang: Lang) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Restaurant',
-    name: site.name,
+    name: site.name[lang],
     description: t('meta.description'),
     url: abs(pathFor(lang, 'home')),
     image: abs('/og-image.png'),
@@ -22,7 +22,7 @@ export function restaurantJsonLd(lang: Lang) {
       addressCountry: site.addressParts.country,
     },
     openingHours: site.openingHoursSchema,
-    servesCuisine: 'Georgian',
+    servesCuisine: site.cuisine,
     menu: abs(pathFor(lang, 'menu')),
     acceptsReservations: true,
     ...(isFilled(site.map2gis) ? { hasMap: site.map2gis } : {}),
