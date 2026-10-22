@@ -1,27 +1,34 @@
 // Создаёт статичные картинки сайта из логотипа (assets/logo/logo.svg) с помощью sharp
 // (он уже стоит вместе с Astro, новых библиотек не нужно):
-//   public/og-image.png        — превью ссылки 1200×630 (логотип на винном фоне, без фото блюд)
-//   public/favicon.svg         — значок сайта (эмблема на винном фоне)
+//   public/og-image.png        — превью ссылки 1200×630 (логотип на винном фоне)
+//   public/favicon.svg         — значок сайта (логотип на винном квадрате)
 //   public/favicon-32.png      — значок 32×32
 //   public/apple-touch-icon.png — значок 180×180 для iPhone
 // Запуск: node scripts/make-images.mjs  (после замены логотипа — запустить снова и закоммитить)
+//
+// Логотип вставляется целиком, по его viewBox. Если у логотипа клиента вытянутая форма и значок
+// получается мелким, лучше нарисовать для значка отдельную квадратную эмблему.
 import fs from 'node:fs';
 import sharp from 'sharp';
 
 const WINE = '#2A0508';
 const logo = fs.readFileSync(new URL('../assets/logo/logo.svg', import.meta.url), 'utf8');
 
-// Эмблема логотипа (ромб с розеткой) — первая группа <g transform="translate(300 206)">…</g>
-const emblem = logo.slice(logo.indexOf('<g transform="translate(300 206)">'), logo.indexOf('<path d="M142.9'));
-// Логотип целиком без внешнего <svg>: эмблема + надписи
-const logoInner = logo.slice(logo.indexOf('<g transform="translate(300 206)">'), logo.lastIndexOf('</svg>'));
+// Размеры логотипа из viewBox и его содержимое без внешнего <svg>
+const [, , vbW, vbH] = logo.match(/viewBox="([^"]+)"/)[1].split(/[\s,]+/).map(Number);
+const inner = logo.slice(logo.indexOf('>', logo.indexOf('<svg')) + 1, logo.lastIndexOf('</svg>'));
 
-// Тонкий контур эмблемы для фона превью (как орнамент на первом экране сайта)
+// Логотип, вписанный в прямоугольник w×h с центром в (cx, cy)
+function placed(cx, cy, w, h) {
+  const scale = Math.min(w / vbW, h / vbH);
+  return `<g transform="translate(${cx - (vbW * scale) / 2} ${cy - (vbH * scale) / 2}) scale(${scale})">${inner}</g>`;
+}
+
+// Тонкий контур для фона превью (как орнамент на первом экране сайта)
 const outline = `
   <g fill="none" stroke="#E6B5A9" stroke-width="1.4" stroke-linejoin="round">
-    <circle r="67"/><path d="M0,-56 L56,0 L0,56 L-56,0 Z"/><path d="M0,-38 L38,0 L0,38 L-38,0 Z"/>
-    <rect x="-21" y="-21" width="42" height="42" rx="8"/><circle r="12.5"/>
-    <circle cy="-56" r="11.5"/><circle cy="56" r="11.5"/><circle cx="-56" r="11.5"/><circle cx="56" r="11.5"/>
+    <circle r="67"/><circle r="61"/><path d="M0,-56 L56,0 L0,56 L-56,0 Z"/><path d="M0,-40 L40,0 L0,40 L-40,0 Z"/>
+    <circle r="20"/><circle r="6"/>
   </g>`;
 
 const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
@@ -35,13 +42,12 @@ const og = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" vi
   <rect width="1200" height="630" fill="url(#glow)"/>
   <g opacity="0.08" transform="translate(130 315) scale(3.1)">${outline}</g>
   <g opacity="0.08" transform="translate(1070 315) scale(3.1)">${outline}</g>
-  <!-- логотип: в исходнике содержимое занимает примерно x 105–495, y 128–414 -->
-  <g transform="translate(600 315) scale(1.55) translate(-300 -271)">${logoInner}</g>
+  ${placed(600, 315, 640, 420)}
 </svg>`;
 
-const icon = (size) => `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="-80 -80 160 160">
-  <rect x="-80" y="-80" width="160" height="160" rx="32" fill="${WINE}"/>
-  <g transform="scale(1.02) translate(-300 -206)">${emblem}</g>
+const icon = (size) => `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}" viewBox="0 0 160 160">
+  <rect width="160" height="160" rx="32" fill="${WINE}"/>
+  ${placed(80, 80, 136, 136)}
 </svg>`;
 
 fs.mkdirSync(new URL('../public/', import.meta.url), { recursive: true });

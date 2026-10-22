@@ -1,19 +1,12 @@
 ---
-// Контурный орнамент из логотипа: ромб с розеткой, круг, четыре листа (без надписей).
-// Геометрия повторяет assets/logo/logo.svg, но только тонкими линиями одного цвета —
-// цвет берётся из currentColor, прозрачность задаёт тот, кто вставляет компонент.
+// Контурный орнамент для фона: круги и вложенные ромбы тонкими линиями одного цвета.
+// Цвет берётся из currentColor, прозрачность задаёт тот, кто вставляет компонент.
+// Для сайта клиента орнамент можно сделать по мотивам его логотипа.
 interface Props {
   class?: string;
 }
 
 const { class: className } = Astro.props;
-const leaf = 'M0,-17 C12,-7 12,10 0,15 C-12,10 -12,-7 0,-17 Z';
-const leaves = [
-  [36, -36, 45],
-  [36, 36, 135],
-  [-36, 36, 225],
-  [-36, -36, 315],
-];
 ---
 
 <svg
@@ -25,29 +18,12 @@ const leaves = [
   focusable="false"
   class={className}
 >
-  <g stroke-width="1.2" vector-effect="non-scaling-stroke">
+  <g stroke-width="1.2">
     <circle r="67" vector-effect="non-scaling-stroke"></circle>
+    <circle r="61" vector-effect="non-scaling-stroke"></circle>
     <path d="M0,-56 L56,0 L0,56 L-56,0 Z" vector-effect="non-scaling-stroke"></path>
-    <path d="M0,-50 L50,0 L0,50 L-50,0 Z" vector-effect="non-scaling-stroke"></path>
-    <path d="M0,-38 L38,0 L0,38 L-38,0 Z" vector-effect="non-scaling-stroke"></path>
-    <rect x="-21" y="-21" width="42" height="42" rx="8" vector-effect="non-scaling-stroke"></rect>
-    <circle r="12.5" vector-effect="non-scaling-stroke"></circle>
-    <circle r="4" vector-effect="non-scaling-stroke"></circle>
-    {
-      [
-        [0, -56],
-        [0, 56],
-        [-56, 0],
-        [56, 0],
-      ].map(([cx, cy]) => <circle cx={cx} cy={cy} r="11.5" vector-effect="non-scaling-stroke" />)
-    }
-    {
-      leaves.map(([x, y, r]) => (
-        <g transform={`translate(${x} ${y}) rotate(${r})`}>
-          <path d={leaf} vector-effect="non-scaling-stroke" />
-          <path d="M0,-6 L0,8" vector-effect="non-scaling-stroke" />
-        </g>
-      ))
-    }
+    <path d="M0,-40 L40,0 L0,40 L-40,0 Z" vector-effect="non-scaling-stroke"></path>
+    <circle r="20" vector-effect="non-scaling-stroke"></circle>
+    <circle r="6" vector-effect="non-scaling-stroke"></circle>
   </g>
 </svg>
