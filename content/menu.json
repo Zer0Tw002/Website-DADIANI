@@ -1,14 +1,14 @@
 {
-  "_readme": "Меню сайта. Как править — см. content/README.md. Поле check — служебные пометки (откуда данные), на сайте не показывается.",
+  "_readme": "Меню сайта. Как править — см. content/README.md. Сейчас здесь ВЫДУМАННОЕ меню демо-версии: для сайта клиента заменить на его блюда и цены. Поле check — служебные пометки, на сайте не показывается.",
   "currency": "KZT",
-  "_featuredNote": "Популярные блюда на главной: id блюд из списка items (только с фото от 500 px)",
+  "_featuredNote": "Популярные блюда на главной: id блюд из списка items (с фото от 500 px; в демо-версии — и без фото)",
   "featured": [
-    "hachapuri-po-adzharski",
-    "hinkali-po-batumski",
-    "harcho",
-    "chahohbili",
-    "satsivi",
-    "lyulya-kebab-po-adzharski"
+    "plov",
+    "lagman",
+    "lamb-shashlik",
+    "caesar",
+    "manty",
+    "cheesecake"
   ],
   "categories": [
     {
@@ -20,35 +20,11 @@
       }
     },
     {
-      "id": "cold",
-      "name": {
-        "ru": "Холодные закуски",
-        "kk": "Суық закускалар",
-        "en": "Cold Appetizers"
-      }
-    },
-    {
-      "id": "hot_app",
-      "name": {
-        "ru": "Горячие закуски",
-        "kk": "Ыстық закускалар",
-        "en": "Hot Appetizers"
-      }
-    },
-    {
       "id": "soups",
       "name": {
         "ru": "Супы",
         "kk": "Сорпалар",
         "en": "Soups"
-      }
-    },
-    {
-      "id": "khinkali",
-      "name": {
-        "ru": "Хинкали",
-        "kk": "Хинкали",
-        "en": "Khinkali"
       }
     },
     {
@@ -62,33 +38,17 @@
     {
       "id": "grill",
       "name": {
-        "ru": "Шашлыки",
-        "kk": "Шашлықтар",
+        "ru": "Гриль",
+        "kk": "Гриль",
         "en": "Grill"
-      }
-    },
-    {
-      "id": "baking",
-      "name": {
-        "ru": "Выпечка",
-        "kk": "Нан өнімдері",
-        "en": "Pastries"
       }
     },
     {
       "id": "sides",
       "name": {
-        "ru": "Гарниры",
-        "kk": "Қосымша тағамдар",
-        "en": "Side Dishes"
-      }
-    },
-    {
-      "id": "sauces",
-      "name": {
-        "ru": "Соусы",
-        "kk": "Соустар",
-        "en": "Sauces"
+        "ru": "Гарниры и хлеб",
+        "kk": "Гарнирлер мен нан",
+        "en": "Sides and Bread"
       }
     },
     {
@@ -98,78 +58,32 @@
         "kk": "Десерттер",
         "en": "Desserts"
       }
-    },
-    {
-      "id": "banquet",
-      "name": {
-        "ru": "Банкетные блюда",
-        "kk": "Банкет тағамдары",
-        "en": "Banquet Dishes"
-      }
-    },
-    {
-      "id": "beer_snacks",
-      "name": {
-        "ru": "Закуски к пиву",
-        "kk": "Сыраға арналған закускалар",
-        "en": "Beer Snacks"
-      }
     }
   ],
   "items": [
     {
-      "id": "adzhapsandali",
+      "id": "caesar",
       "category": "salads",
       "name": {
-        "ru": "Аджапсандали",
-        "kk": "Аджапсандали",
-        "en": "Adjapsandali"
+        "ru": "Цезарь с курицей",
+        "kk": "Тауық етімен Цезарь",
+        "en": "Chicken Caesar Salad"
       },
       "description": {
-        "ru": "Овощное блюдо из тушеных баклажанов, томатов, сладкого перца, зелени и специй",
-        "kk": "Бұқтырылған баялды, қызанақ, тәтті бұрыш, көк шөп пен дәмдеуіштерден жасалған көкөніс тағамы",
-        "en": "Vegetable dish of stewed eggplant, tomatoes, sweet peppers, herbs and spices"
+        "ru": "Салат романо, куриное филе, сухарики, пармезан, соус цезарь",
+        "kk": "Романо салаты, тауық филесі, кептірілген нан, пармезан, цезарь тұздығы",
+        "en": "Romaine lettuce, chicken fillet, croutons, parmesan, Caesar dressing"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1800,
-      "photo": "salaty--adzhapsandal.jpeg",
+      "price": 2900,
+      "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1990
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "achi-chuk",
-      "category": "salads",
-      "name": {
-        "ru": "Ачи-чук",
-        "kk": "Ачи-чук",
-        "en": "Achi-Chuk"
-      },
-      "description": {
-        "ru": "Сочные помидоры, тонкие ломтики лука и ароматная зелень, приправленные острым перцем.",
-        "kk": "Шырынды қызанақ, жұқа туралған пияз бен хош иісті көк шөп, ащы бұрыш қосылған.",
-        "en": "Juicy tomatoes, thinly sliced onion and fragrant herbs, seasoned with hot pepper."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1500,
-      "photo": "salaty--achi-chuk.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "grecheskiy",
+      "id": "greek",
       "category": "salads",
       "name": {
         "ru": "Греческий",
@@ -177,2239 +91,436 @@
         "en": "Greek Salad"
       },
       "description": {
-        "ru": "Сочные овощи, ароматная брынза, маслины и душистое оливковое масло",
-        "kk": "Шырынды көкөністер, хош иісті брынза, зәйтүн және иісті зәйтүн майы",
-        "en": "Juicy vegetables, flavourful brynza cheese, olives and fragrant olive oil"
+        "ru": "Огурцы, томаты, сладкий перец, маслины, сыр фета, оливковое масло",
+        "kk": "Қияр, қызанақ, тәтті бұрыш, зәйтүн, фета ірімшігі, зәйтүн майы",
+        "en": "Cucumbers, tomatoes, sweet peppers, olives, feta cheese, olive oil"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2190,
-      "photo": "salaty--grecheskiy.jpeg",
+      "price": 2400,
+      "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "metehi",
+      "id": "achichuk",
       "category": "salads",
       "name": {
-        "ru": "Метехи",
-        "kk": "Метехи",
-        "en": "Metekhi Salad"
+        "ru": "Аччик-чучук",
+        "kk": "Аччик-чучук",
+        "en": "Achichuk"
       },
       "description": {
-        "ru": "Сочные томаты, болгарский перец и нежная говядина с кинзой и кунжутом под соевой заправкой",
-        "kk": "Шырынды қызанақ, болгар бұрышы және кинза мен күнжіт қосылған жұмсақ сиыр еті, соя тұздығымен",
-        "en": "Juicy tomatoes, bell pepper and tender beef with coriander and sesame in a soy dressing"
+        "ru": "Томаты, лук, острый перец, зелень",
+        "kk": "Қызанақ, пияз, ащы бұрыш, көк шөп",
+        "en": "Tomatoes, onion, hot pepper, herbs"
       },
-      "descriptionStatus": "перевод не проверен",
+      "price": 1500,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "olivier",
+      "category": "salads",
+      "name": {
+        "ru": "Оливье",
+        "kk": "Оливье",
+        "en": "Olivier Salad"
+      },
+      "description": {
+        "ru": "Картофель, морковь, яйцо, огурцы, говядина, майонез",
+        "kk": "Картоп, сәбіз, жұмыртқа, қияр, сиыр еті, майонез",
+        "en": "Potatoes, carrots, egg, pickles, beef, mayonnaise"
+      },
       "price": 2200,
-      "photo": "salaty--metehi.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2590
-      }
-    },
-    {
-      "id": "nezhnyy-salat-s-kopchenym-suluguni",
-      "category": "salads",
-      "name": {
-        "ru": "Нежный салат с копченым сулугуни",
-        "kk": "Ысталған сулугунимен нәзік салат",
-        "en": "Tender Salad with Smoked Suluguni"
-      },
-      "description": {
-        "ru": "Копчёный сулугуни, курица, огурцы, шампиньоны, гранат под нежным соусом на основе майонеза",
-        "kk": "Ысталған сулугуни, тауық еті, қияр, шампиньон, анар, майонез негізіндегі жұмсақ тұздықпен",
-        "en": "Smoked suluguni, chicken, cucumbers, champignons and pomegranate in a mild mayonnaise-based sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2790,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "ovoschnoy-salat-po-gruzinski",
-      "category": "salads",
+      "id": "shorpo",
+      "category": "soups",
       "name": {
-        "ru": "Овощной салат по-грузински",
-        "kk": "Грузинша көкөніс салаты",
-        "en": "Georgian Vegetable Salad"
+        "ru": "Шорпо",
+        "kk": "Сорпа",
+        "en": "Shorpo"
       },
       "description": {
-        "ru": "Свежие помидоры, огурцы, ореховая заправка с кинзой и специями. Легенда каждого грузинского застолья.",
-        "kk": "Жаңа піскен қызанақ, қияр, кинза мен дәмдеуіштер қосылған жаңғақ тұздығы. Әр грузин дастарханының аңызы.",
-        "en": "Fresh tomatoes and cucumbers with a walnut dressing, coriander and spices. A legend of every Georgian feast."
+        "ru": "Наваристый бульон из баранины с картофелем, морковью и зеленью",
+        "kk": "Қой етінен қою сорпа, картоп, сәбіз, көк шөп",
+        "en": "Rich lamb broth with potatoes, carrots and herbs"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1800,
-      "photo": "salaty--ovoschnoy-salat-po-gruzinski.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1900
-      }
-    },
-    {
-      "id": "rukkola-s-krevetkami",
-      "category": "salads",
-      "name": {
-        "ru": "Руккола с креветками",
-        "kk": "Асшаянмен рукола",
-        "en": "Arugula with Shrimp"
-      },
-      "description": {
-        "ru": "Руккола, сочные креветки, томаты черри и пармезан под медово-горчичной заправкой",
-        "kk": "Рукола, шырынды асшаян, черри қызанағы және пармезан, бал-қыша тұздығымен",
-        "en": "Arugula, juicy shrimp, cherry tomatoes and parmesan with a honey-mustard dressing"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3200,
+      "price": 2300,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "salat-s-tomatami-i-imeretinskim-syrom",
-      "category": "salads",
+      "id": "borscht",
+      "category": "soups",
       "name": {
-        "ru": "Салат с томатами и имеретинским сыром",
-        "kk": "Қызанақ пен имерет ірімшігімен салат",
-        "en": "Salad with Tomatoes & Imeretian Cheese"
+        "ru": "Борщ",
+        "kk": "Борщ",
+        "en": "Borscht"
       },
       "description": {
-        "ru": "Помидоры черри, имеретинский сыр, маслины, зелень",
-        "kk": "Черри қызанағы, имерет ірімшігі, зәйтүн, көк шөп",
-        "en": "Cherry tomatoes, Imeretian cheese, olives, herbs"
+        "ru": "Свёкла, капуста, говядина, сметана",
+        "kk": "Қызылша, қырыққабат, сиыр еті, қаймақ",
+        "en": "Beetroot, cabbage, beef, sour cream"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1990,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "salat-semga-s-ovoschami",
-      "category": "salads",
-      "name": {
-        "ru": "Салат семга с овощами",
-        "kk": "Семга мен көкөністер салаты",
-        "en": "Salmon & Vegetable Salad"
-      },
-      "description": {
-        "ru": "Слабосолёная семга, микс-салат, свежие овощи, лимонная заправка",
-        "kk": "Аздап тұздалған ақсерке, салат жапырақтары, жаңа көкөністер, лимон тұздығы",
-        "en": "Lightly salted salmon, mixed greens, fresh vegetables, lemon dressing"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3690
-      }
-    },
-    {
-      "id": "seld-pod-shuboy",
-      "category": "salads",
-      "name": {
-        "ru": "Сельдь под шубой",
-        "kk": "Тұздалған балық «шуба астында»",
-        "en": "Herring under a Fur Coat"
-      },
-      "description": {
-        "ru": "Нежные кусочки сельди, укрытые слоями отварных овощей и яиц, щедро пропитанные майонезом.",
-        "kk": "Пісірілген көкөністер мен жұмыртқа қабаттарымен жабылған, майонезге мол қаныққан жұмсақ майшабақ кесектері.",
-        "en": "Tender pieces of herring under layers of boiled vegetables and eggs, generously dressed with mayonnaise."
-      },
-      "descriptionStatus": "перевод не проверен",
       "price": 2100,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "teplyy-salat-s-hrustyaschimi-baklazhanami",
-      "category": "salads",
+      "id": "chicken-noodle",
+      "category": "soups",
       "name": {
-        "ru": "Теплый салат с хрустящими баклажанами",
-        "kk": "Қытырлақ баклажанмен жылы салат",
-        "en": "Warm Salad with Crispy Eggplant"
+        "ru": "Куриный суп с лапшой",
+        "kk": "Кеспе қосылған тауық сорпасы",
+        "en": "Chicken Noodle Soup"
       },
       "description": {
-        "ru": "Хрустящий баклажан, черри, вырезка, кинза, азиатская заправка",
-        "kk": "Қытырлақ баялды, черри, сиыр сүбесі, кинза, азиялық тұздық",
-        "en": "Crispy eggplant, cherry tomatoes, beef tenderloin, coriander, Asian-style dressing"
+        "ru": "Домашняя лапша, куриное филе, зелень",
+        "kk": "Үй кеспесі, тауық филесі, көк шөп",
+        "en": "Homemade noodles, chicken fillet, herbs"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2500,
-      "photo": "salaty--teplyy-salat-s-baklazhanami.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2800
-      }
-    },
-    {
-      "id": "tsezar-s-krevetkami",
-      "category": "salads",
-      "name": {
-        "ru": "Цезарь с креветками",
-        "kk": "Асшаянмен Цезарь",
-        "en": "Caesar with Shrimp"
-      },
-      "description": {
-        "ru": "Свежие листья салата, хрустящие гренки, нежные креветки и тонкая стружка пармезана, заправленные классическим соусом",
-        "kk": "Жаңа салат жапырақтары, қытырлақ кептірілген нан, жұмсақ асшаян және жұқа пармезан жоңқасы, классикалық тұздықпен",
-        "en": "Fresh lettuce, crunchy croutons, tender shrimp and thin shavings of parmesan with the classic dressing"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3190
-      }
-    },
-    {
-      "id": "tsezar-s-kuritsey",
-      "category": "salads",
-      "name": {
-        "ru": "Цезарь с курицей",
-        "kk": "Тауықпен Цезарь",
-        "en": "Caesar with Chicken"
-      },
-      "description": {
-        "ru": "Нежные кусочки курицы, хрустящие гренки и тонкая стружка пармезана, сочные листья айсберг, под нежной сливочной заправкой.",
-        "kk": "Жұмсақ тауық еті, қытырлақ кептірілген нан, жұқа пармезан жоңқасы, айсберг салатының шырынды жапырақтары, жұмсақ кілегей тұздығымен.",
-        "en": "Tender chicken, crunchy croutons, thin shavings of parmesan and crisp iceberg lettuce with a creamy dressing."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2390,
-      "photo": "salaty--tsezar.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "chaban-salat",
-      "category": "salads",
-      "name": {
-        "ru": "Чабан салат",
-        "kk": "Шопан салаты",
-        "en": "Shepherd's Salad"
-      },
-      "description": {
-        "ru": "Помидоры, огурцы, зелень, светофор",
-        "kk": "Қызанақ, қияр, көк шөп, түрлі түсті тәтті бұрыш",
-        "en": "Tomatoes, cucumbers, herbs, bell peppers of three colours"
-      },
-      "descriptionStatus": "перевод не проверен",
       "price": 1800,
-      "photo": "salaty--chaban-salat.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "myasnaya-narezka",
-      "category": "cold",
-      "name": {
-        "ru": "Мясная нарезка",
-        "kk": "Ет нарезкасы",
-        "en": "Meat Platter"
-      },
-      "description": {
-        "ru": "Казы, жая, язык говяжий, говядина копченная",
-        "kk": "Қазы, жая, сиыр тілі, ысталған сиыр еті",
-        "en": "Kazy and zhaya (traditional horse-meat delicacies), beef tongue, smoked beef"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 7400,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "ovoschnaya-narezka",
-      "category": "cold",
+      "id": "mushroom-soup",
+      "category": "soups",
       "name": {
-        "ru": "Овощная нарезка",
-        "kk": "Көкөніс нарезкасы",
-        "en": "Vegetable Platter"
+        "ru": "Крем-суп из грибов",
+        "kk": "Саңырауқұлақ крем-сорпасы",
+        "en": "Cream of Mushroom Soup"
       },
       "description": {
-        "ru": "Брынза, свежие огурцы, помидоры, светофор, редиска, зелень, зелёный лук",
-        "kk": "Брынза, жаңа қияр, қызанақ, түрлі түсті тәтті бұрыш, шалғам, көк шөп, жасыл пияз",
-        "en": "Brynza cheese, fresh cucumbers, tomatoes, bell peppers of three colours, radishes, herbs, spring onion"
+        "ru": "Шампиньоны, сливки, гренки",
+        "kk": "Шампиньон, кілегей, кептірілген нан",
+        "en": "Champignons, cream, croutons"
       },
-      "descriptionStatus": "перевод не проверен",
+      "price": 2200,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "lagman",
+      "category": "main",
+      "name": {
+        "ru": "Лагман",
+        "kk": "Лағман",
+        "en": "Lagman"
+      },
+      "description": {
+        "ru": "Домашняя лапша, говядина, овощи",
+        "kk": "Үй кеспесі, сиыр еті, көкөністер",
+        "en": "Homemade noodles, beef, vegetables"
+      },
+      "price": 2600,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "plov",
+      "category": "main",
+      "name": {
+        "ru": "Плов",
+        "kk": "Палау",
+        "en": "Plov"
+      },
+      "description": {
+        "ru": "Рис, баранина, морковь, нут, чеснок",
+        "kk": "Күріш, қой еті, сәбіз, ноқат, сарымсақ",
+        "en": "Rice, lamb, carrots, chickpeas, garlic"
+      },
+      "price": 2700,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "manty",
+      "category": "main",
+      "name": {
+        "ru": "Манты, 5 шт.",
+        "kk": "Манты, 5 дана",
+        "en": "Manti, 5 pcs"
+      },
+      "description": {
+        "ru": "Тесто, говядина, лук, сметана",
+        "kk": "Қамыр, сиыр еті, пияз, қаймақ",
+        "en": "Dough, beef, onion, sour cream"
+      },
+      "price": 2500,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "beef-stroganoff",
+      "category": "main",
+      "name": {
+        "ru": "Бефстроганов с пюре",
+        "kk": "Пюре қосылған бефстроганов",
+        "en": "Beef Stroganoff with Mashed Potatoes"
+      },
+      "description": {
+        "ru": "Говядина в сливочном соусе, картофельное пюре",
+        "kk": "Кілегей тұздығындағы сиыр еті, картоп пюресі",
+        "en": "Beef in cream sauce, mashed potatoes"
+      },
+      "price": 3200,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "chicken-pasta",
+      "category": "main",
+      "name": {
+        "ru": "Паста с курицей и грибами",
+        "kk": "Тауық еті мен саңырауқұлақ қосылған паста",
+        "en": "Pasta with Chicken and Mushrooms"
+      },
+      "description": {
+        "ru": "Спагетти, куриное филе, шампиньоны, сливочный соус",
+        "kk": "Спагетти, тауық филесі, шампиньон, кілегей тұздығы",
+        "en": "Spaghetti, chicken fillet, champignons, cream sauce"
+      },
+      "price": 2900,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "lamb-shashlik",
+      "category": "grill",
+      "name": {
+        "ru": "Шашлык из баранины",
+        "kk": "Қой етінен шашлық",
+        "en": "Lamb Shashlik"
+      },
+      "description": {
+        "ru": "1 шампур, с луком и лавашем",
+        "kk": "1 шампур, пияз бен лавашпен",
+        "en": "1 skewer, with onion and lavash"
+      },
       "price": 3500,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "raznosol",
-      "category": "cold",
+      "id": "chicken-shashlik",
+      "category": "grill",
       "name": {
-        "ru": "Разносол",
-        "kk": "Маринадтар ассортиі",
-        "en": "Assorted Pickles"
+        "ru": "Шашлык из курицы",
+        "kk": "Тауық етінен шашлық",
+        "en": "Chicken Shashlik"
       },
       "description": {
-        "ru": "Квашеная капуста, маринованные черри, шампиньоны, солёные огурцы, корнишоны",
-        "kk": "Ашытылған қырыққабат, маринадталған черри, шампиньон, тұздалған қияр, корнишон",
-        "en": "Sauerkraut, pickled cherry tomatoes, champignons, pickled cucumbers, gherkins"
+        "ru": "1 шампур, с луком и лавашем",
+        "kk": "1 шампур, пияз бен лавашпен",
+        "en": "1 skewer, with onion and lavash"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "russkaya-zakuska",
-      "category": "cold",
-      "name": {
-        "ru": "Русская закуска",
-        "kk": "Орыс закускасы",
-        "en": "Russian Appetizer"
-      },
-      "description": {
-        "ru": "Соленья, чёрный хлеб, горчица, хрен",
-        "kk": "Тұздалған көкөністер, қара нан, қыша, хрен",
-        "en": "Pickles, rye bread, mustard, horseradish"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "syrnaya-narezka",
-      "category": "cold",
-      "name": {
-        "ru": "Сырная нарезка",
-        "kk": "Ірімшік нарезкасы",
-        "en": "Cheese Platter"
-      },
-      "description": {
-        "ru": "пармезан, копчёный сулугуни, гауда, фетакса, сыр с плесенью, моцарелла",
-        "kk": "Пармезан, ысталған сулугуни, гауда, фетакса, көгерген ірімшік, моцарелла",
-        "en": "Parmesan, smoked suluguni, gouda, fetaxa, blue cheese, mozzarella"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 5500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "fruktovaya-narezka",
-      "category": "cold",
-      "name": {
-        "ru": "Фруктовая нарезка",
-        "kk": "Жеміс нарезкасы",
-        "en": "Sliced Fruit"
-      },
-      "description": {
-        "ru": "Свежие сезонные фрукты и ягоды",
-        "kk": "Маусымдық жаңа жемістер мен жидектер",
-        "en": "Fresh seasonal fruit and berries"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 6000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "note": "en изменено (было «Fruit Platter», как у «Фруктовая тарелка» в десертах). Возможно, это одно блюдо (обе по 6000) — уточнить у ресторана."
-      }
-    },
-    {
-      "id": "baklazhan-ruletiki",
-      "category": "hot_app",
-      "name": {
-        "ru": "Баклажан рулетики",
-        "kk": "Баклажан рулеттері",
-        "en": "Eggplant Rolls"
-      },
-      "description": {
-        "ru": "Нежные рулеты из баклажана с начинкой из острой пасты с орехами.",
-        "kk": "Ішіне жаңғақ қосылған ащы паста салынған жұмсақ баялды орамдары.",
-        "en": "Tender eggplant rolls filled with a spicy walnut paste."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2500,
-      "photo": "zakuski--baklazhan-ruletiki.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "dolma",
-      "category": "hot_app",
-      "name": {
-        "ru": "Долма",
-        "kk": "Долма",
-        "en": "Dolma"
-      },
-      "description": {
-        "ru": "Долма из виноградных листьев с нежной начинкой из мяса, риса и ароматных трав, приготовленная по традиционному рецепту",
-        "kk": "Жүзім жапырағына оралған ет, күріш және хош иісті шөптерден жасалған жұмсақ толтырма, дәстүрлі рецепт бойынша",
-        "en": "Grape leaves with a tender filling of meat, rice and fragrant herbs, made to a traditional recipe"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1800,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2390
-      }
-    },
-    {
-      "id": "lobio",
-      "category": "hot_app",
-      "name": {
-        "ru": "Лобио",
-        "kk": "Лобио",
-        "en": "Lobio"
-      },
-      "description": {
-        "ru": "Национальное блюдо Грузии, приготовленное из красной фасоли, зелени и специй",
-        "kk": "Қызыл бұршақ, көк шөп пен дәмдеуіштерден дайындалған Грузияның ұлттық тағамы",
-        "en": "A national dish of Georgia made from red beans, herbs and spices"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1990,
-      "photo": "zakuski--lobio.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2190
-      }
-    },
-    {
-      "id": "satsivi",
-      "category": "hot_app",
-      "name": {
-        "ru": "Сациви",
-        "kk": "Сациви",
-        "en": "Satsivi"
-      },
-      "description": {
-        "ru": "Нежная курица под традиционным грузинским соусом баже, который готовится из грецких орехов со специями и пряностями",
-        "kk": "Грек жаңғағы, дәмдеуіштер мен хош иісті шөптерден жасалатын дәстүрлі грузин баже тұздығындағы жұмсақ тауық еті",
-        "en": "Tender chicken in traditional Georgian bazhe sauce made from walnuts, spices and aromatic herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2600,
-      "photo": "zakuski--satsivi.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "bozbash",
-      "category": "soups",
-      "name": {
-        "ru": "Бозбаш",
-        "kk": "Бозбаш",
-        "en": "Bozbash Soup"
-      },
-      "description": {
-        "ru": "Баранья корейка, фасоль, картофель, томаты",
-        "kk": "Қойдың қабырға еті, бұршақ, картоп, қызанақ",
-        "en": "Lamb loin, beans, potatoes, tomatoes"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3300,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "buglama",
-      "category": "soups",
-      "name": {
-        "ru": "Буглама",
-        "kk": "Буглама",
-        "en": "Buglama Soup"
-      },
-      "description": {
-        "ru": "Баранья рулька, бульон, зелень, лук репчатый",
-        "kk": "Қойдың сирақ еті, сорпа, көк шөп, пияз",
-        "en": "Lamb shank, broth, herbs, onion"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3300,
-      "photo": "supy--buglama.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "pelmeni",
-      "category": "soups",
-      "name": {
-        "ru": "Пельмени",
-        "kk": "Тұшпара",
-        "en": "Pelmeni"
-      },
-      "description": {
-        "ru": "Сочная начинка из нежной говядины, приправленной специями. Подаются со сметаной и бульоном для полного удовольствия.",
-        "kk": "Дәмдеуіштер қосылған жұмсақ сиыр етінен шырынды толтырма. Қаймақ пен сорпамен беріледі.",
-        "en": "Juicy filling of tender spiced beef. Served with sour cream and broth."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1900,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "sup-lapsha-po-domashnemu",
-      "category": "soups",
-      "name": {
-        "ru": "Суп лапша по-домашнему",
-        "kk": "Үй лапша сорпасы",
-        "en": "Homestyle Noodle Soup"
-      },
-      "description": {
-        "ru": "Куриная грудинка, лапша, бульон",
-        "kk": "Тауықтың төс еті, кеспе, сорпа",
-        "en": "Chicken breast, noodles, broth"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1600,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1800
-      }
-    },
-    {
-      "id": "tom-yam",
-      "category": "soups",
-      "name": {
-        "ru": "Том Ям",
-        "kk": "Том Ям",
-        "en": "Tom Yum Soup"
-      },
-      "description": {
-        "ru": "Том ям с креветками, мидиями, лососем и кальмаром в насыщенном остро-кислом бульоне с грибами и кокосовым молоком",
-        "kk": "Асшаян, мидия, ақсерке және кальмар қосылған, саңырауқұлақ пен кокос сүті бар қою ащы-қышқыл сорпа",
-        "en": "Tom yum with shrimp, mussels, salmon and squid in a rich hot-and-sour broth with mushrooms and coconut milk"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3200,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3390
-      }
-    },
-    {
-      "id": "harcho",
-      "category": "soups",
-      "name": {
-        "ru": "Харчо",
-        "kk": "Харчо",
-        "en": "Kharcho Soup"
-      },
-      "description": {
-        "ru": "Густой суп на говяжьем бульоне с томатами, ароматными специями и рисом",
-        "kk": "Қызанақ, хош иісті дәмдеуіштер мен күріш қосылған сиыр етінің қою сорпасы",
-        "en": "Thick beef-broth soup with tomatoes, aromatic spices and rice"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1900,
-      "photo": "supy--harcho.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "hashlama",
-      "category": "soups",
-      "name": {
-        "ru": "Хашлама",
-        "kk": "Хашлама",
-        "en": "Khashlama"
-      },
-      "description": {
-        "ru": "Насыщенный бульон с нежной бараниной, картофелем, луком, томатами и чесноком",
-        "kk": "Жұмсақ қой еті, картоп, пияз, қызанақ және сарымсақ қосылған қою сорпа",
-        "en": "Rich broth with tender lamb, potatoes, onion, tomatoes and garlic"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2500,
-      "photo": "supy--hashlama.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2800
-      }
-    },
-    {
-      "id": "hinkali-po-batumski",
-      "category": "khinkali",
-      "name": {
-        "ru": "Хинкали по-батумски",
-        "kk": "Батуми стилінде хинкали",
-        "en": "Khinkali Batumi Style"
-      },
-      "description": {
-        "ru": "Хинкали с говядиной, свежая кинза в красном пряном грузинском соусе",
-        "kk": "Сиыр еті салынған хинкали, жаңа кинза, қызыл ащы грузин тұздығында",
-        "en": "Beef khinkali with fresh coriander in a spicy red Georgian sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2700,
-      "photo": "hinkali--hinkali-po-batumski.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2900
-      }
-    },
-    {
-      "id": "hinkali-po-tbilisi",
-      "category": "khinkali",
-      "name": {
-        "ru": "Хинкали по-тбилиси",
-        "kk": "Тбилиси стилінде хинкали",
-        "en": "Khinkali Tbilisi Style"
-      },
-      "description": {
-        "ru": "Хинкали с сыром и грибами в фирменном сливочно-чесночном соусе",
-        "kk": "Ірімшік пен саңырауқұлақ салынған хинкали, фирмалық кілегей-сарымсақ тұздығында",
-        "en": "Cheese and mushroom khinkali in our signature creamy garlic sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2700,
-      "photo": "hinkali--hinkali-po-tbilisi.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2900
-      }
-    },
-    {
-      "id": "hinkali-po-tbilisi-s-myasom",
-      "category": "khinkali",
-      "name": {
-        "ru": "Хинкали по-тбилиси с мясом",
-        "kk": "Етпен Тбилиси стилінде хинкали",
-        "en": "Khinkali Tbilisi Style with Meat"
-      },
-      "description": {
-        "ru": "Тбилисские хинкали с двойной порцией сочного мясного фарша",
-        "kk": "Шырынды ет тартпасының екі есе порциясы салынған Тбилиси хинкалиі",
-        "en": "Tbilisi-style khinkali with a double portion of juicy minced meat"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2700,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "hinkali-s-govyadinoy",
-      "category": "khinkali",
-      "name": {
-        "ru": "Хинкали с говядиной",
-        "kk": "Сиыр етімен хинкали",
-        "en": "Beef Khinkali"
-      },
-      "description": {
-        "ru": "Нежное тесто и сочная начинка из говядины",
-        "kk": "Жұмсақ қамыр және сиыр етінен шырынды толтырма",
-        "en": "Delicate dough with a juicy beef filling"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2490,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram (сторис)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2790
-      }
-    },
-    {
-      "id": "hinkali-s-syrom-i-gribami",
-      "category": "khinkali",
-      "name": {
-        "ru": "Хинкали с сыром и грибами",
-        "kk": "Ірімшік пен саңырауқұлақпен хинкали",
-        "en": "Khinkali with Cheese & Mushrooms"
-      },
-      "description": {
-        "ru": "Хинкали с нежной начинкой из сулугуни и шампиньонов",
-        "kk": "Сулугуни мен шампиньоннан жұмсақ толтырмасы бар хинкали",
-        "en": "Khinkali with a delicate filling of suluguni and champignons"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2390,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "alfredo-fetuchini",
-      "category": "main",
-      "name": {
-        "ru": "Альфредо фетучини",
-        "kk": "Альфредо феттучини",
-        "en": "Fettuccine Alfredo"
-      },
-      "description": {
-        "ru": "Паста с белым соусом и с куриной грудкой с сыром пармезан",
-        "kk": "Ақ тұздық, тауықтың төс еті және пармезан ірімшігі қосылған паста",
-        "en": "Pasta in a white sauce with chicken breast and parmesan"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2800,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2990
-      }
-    },
-    {
-      "id": "baranina-s-chernoslivom",
-      "category": "main",
-      "name": {
-        "ru": "Баранина с черносливом",
-        "kk": "Қара өрік қосылған қой еті",
-        "en": "Lamb with Prunes"
-      },
-      "description": {
-        "ru": "Кусочки томленой баранины с черносливом и овощами",
-        "kk": "Қара өрік пен көкөністер қосылған бұқтырылған қой етінің кесектері",
-        "en": "Pieces of slow-braised lamb with prunes and vegetables"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3300,
-      "photo": "goryachie-blyuda--baranina-s-chernoslivom.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "kamiqr (на dkgroup было «Кептірілген өрікпен қой еті» — это курага, ошибка), не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "dzhigari",
-      "category": "main",
-      "name": {
-        "ru": "Джигари",
-        "kk": "Джигари",
-        "en": "Jigari"
-      },
-      "description": {
-        "ru": "Жареная печень с луком и грузинскими специями",
-        "kk": "Пияз бен грузин дәмдеуіштері қосылып қуырылған бауыр",
-        "en": "Fried liver with onion and Georgian spices"
-      },
-      "descriptionStatus": "перевод не проверен",
       "price": 2400,
-      "photo": "goryachie-blyuda--dzhigari.png",
+      "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "zharenye-krevetki-po-gruzinski",
-      "category": "main",
+      "id": "lula-kebab",
+      "category": "grill",
       "name": {
-        "ru": "Жареные креветки по-грузински",
-        "kk": "Грузинша қуырылған асшаян",
-        "en": "Georgian-style Fried Shrimp"
+        "ru": "Люля-кебаб из говядины",
+        "kk": "Сиыр етінен люля-кебаб",
+        "en": "Beef Lula Kebab"
       },
       "description": {
-        "ru": "Яркие специи и насыщенный вкус",
-        "kk": "Ашық дәмдеуіштер мен қанық дәм",
-        "en": "Bold spices and a rich flavour"
+        "ru": "Рубленая говядина, лук, лаваш",
+        "kk": "Туралған сиыр еті, пияз, лаваш",
+        "en": "Minced beef, onion, lavash"
       },
-      "descriptionStatus": "перевод не проверен",
       "price": 2800,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram (сторис)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3790
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "zhulen-iz-govyadiny-s-gribami",
-      "category": "main",
-      "name": {
-        "ru": "Жульен из говядины с грибами",
-        "kk": "Саңырауқұлақпен сиыр еті жульені",
-        "en": "Beef & Mushroom Julienne"
-      },
-      "description": {
-        "ru": "Говядина и шампиньоны в сливочном соусе под сырной корочкой",
-        "kk": "Ірімшік қабығы астындағы кілегей тұздығындағы сиыр еті мен шампиньон",
-        "en": "Beef and champignons in a cream sauce under a cheese crust"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3590,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3690
-      }
-    },
-    {
-      "id": "zhulen-iz-kuritsy-s-gribami",
-      "category": "main",
-      "name": {
-        "ru": "Жульен из курицы с грибами",
-        "kk": "Саңырауқұлақпен тауық жульені",
-        "en": "Chicken & Mushroom Julienne"
-      },
-      "description": {
-        "ru": "Куриное филе и шампиньоны в сливочном соусе под сырной корочкой",
-        "kk": "Ірімшік қабығы астындағы кілегей тұздығындағы тауық еті мен шампиньон",
-        "en": "Chicken fillet and champignons in a cream sauce under a cheese crust"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3590,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "zapechennyy-sudak",
-      "category": "main",
-      "name": {
-        "ru": "Запеченный судак",
-        "kk": "Пісірілген судак",
-        "en": "Baked Pike Perch"
-      },
-      "description": {
-        "ru": "Сочный судак с деликатным вкусом, окутанный сливочным соусом с приятной текстурой лопающихся икринок",
-        "kk": "Нәзік дәмді шырынды көксерке, жарылатын уылдырық түйіршіктері бар кілегей тұздығымен",
-        "en": "Juicy pike perch with a delicate flavour, in a cream sauce with bursting pearls of caviar"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3690,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram (сторис)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "kuritsa-v-slivochnom-souse",
-      "category": "main",
-      "name": {
-        "ru": "Курица в сливочном соусе",
-        "kk": "Кілегей соусындағы тауық",
-        "en": "Chicken in Cream Sauce"
-      },
-      "description": {
-        "ru": "Нежное куриное филе в сливочно-чесночном соусе с зеленью",
-        "kk": "Көк шөп қосылған кілегей-сарымсақ тұздығындағы жұмсақ тауық еті",
-        "en": "Tender chicken fillet in a creamy garlic sauce with herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "odzhahuri-s-baraninoy",
-      "category": "main",
-      "name": {
-        "ru": "Оджахури с бараниной",
-        "kk": "Қой етімен оджахури",
-        "en": "Ojakhuri with Lamb"
-      },
-      "description": {
-        "ru": "Грузинское жаркое из баранины с картофелем и луком на сковороде",
-        "kk": "Табада картоп пен пияз қосылып қуырылған қой етінен грузин қуырдағы",
-        "en": "Georgian pan-roast of lamb with potatoes and onion"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2790,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "odzhahuri-s-baraninoy-v-gribnom-souse",
-      "category": "main",
-      "name": {
-        "ru": "Оджахури с бараниной в грибном соусе",
-        "kk": "Саңырауқұлақ соусындағы қой етімен оджахури",
-        "en": "Ojakhuri with Lamb in Mushroom Sauce"
-      },
-      "description": {
-        "ru": "Оджахури из баранины в насыщенном грибном соусе",
-        "kk": "Қою саңырауқұлақ тұздығындағы қой етінен оджахури",
-        "en": "Lamb ojakhuri in a rich mushroom sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2990,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "odzhahuri-s-govyadinoy",
-      "category": "main",
-      "name": {
-        "ru": "Оджахури с говядиной",
-        "kk": "Сиыр етімен оджахури",
-        "en": "Ojakhuri with Beef"
-      },
-      "description": {
-        "ru": "Кусочки обжаренной говядины, картофелем, аджикой, свежей зеленью и луком.",
-        "kk": "Картоп, аджика, жаңа көк шөп және пияз қосылып қуырылған сиыр етінің кесектері.",
-        "en": "Pieces of pan-fried beef with potatoes, adjika, fresh herbs and onion."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2790,
-      "photo": "goryachie-blyuda--odzhahuri.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3490
-      }
-    },
-    {
-      "id": "odzhahuri-s-govyadinoy-v-gribnom-souse",
-      "category": "main",
-      "name": {
-        "ru": "Оджахури с говядиной в грибном соусе",
-        "kk": "Саңырауқұлақ соусындағы сиыр етімен оджахури",
-        "en": "Ojakhuri with Beef in Mushroom Sauce"
-      },
-      "description": {
-        "ru": "Сочное мясо, обжаренное с картофелем и луком, утопает в нежном сливочно-грибном соусе.",
-        "kk": "Картоп пен пияз қосылып қуырылған шырынды ет, жұмсақ кілегей-саңырауқұлақ тұздығында.",
-        "en": "Juicy meat pan-fried with potatoes and onion, smothered in a creamy mushroom sauce."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2990,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3590
-      }
-    },
-    {
-      "id": "ribay-steyk",
-      "category": "main",
-      "name": {
-        "ru": "Рибай стейк",
-        "kk": "Рибай стейк",
-        "en": "Ribeye Steak"
-      },
-      "description": {
-        "ru": "Сочный стейк из мраморной говядины на гриле, степень прожарки по желанию",
-        "kk": "Гриль-де пісірілген мәрмәр сиыр етінен шырынды стейк, пісу дәрежесі қалауыңызша",
-        "en": "Juicy marbled beef steak from the grill, cooked to your liking"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 5490,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 6490
-      }
-    },
-    {
-      "id": "spagetti-boloneze",
-      "category": "main",
-      "name": {
-        "ru": "Спагетти Болоньезе",
-        "kk": "Болоньезе спагетти",
-        "en": "Spaghetti Bolognese"
-      },
-      "description": {
-        "ru": "Паста с классическим соусом из мясного фарша с томатами, базиликом с сыром пармезан",
-        "kk": "Қызанақ, райхан қосылған ет тартпасынан классикалық тұздық және пармезан ірімшігі бар паста",
-        "en": "Pasta with a classic sauce of minced meat, tomatoes and basil, with parmesan"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2600,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2790
-      }
-    },
-    {
-      "id": "steyk-iz-semgi-v-slivochnom-souse",
-      "category": "main",
-      "name": {
-        "ru": "Стейк из семги в сливочном соусе",
-        "kk": "Кілегей соусындағы семга стейгі",
-        "en": "Salmon Steak in Cream Sauce"
-      },
-      "description": {
-        "ru": "Стейк семги, микс салата, лимон, икра",
-        "kk": "Ақсерке стейгі, салат жапырақтары, лимон, уылдырық",
-        "en": "Salmon steak, mixed greens, lemon, caviar"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 4500,
-      "photo": "goryachie-blyuda--semga-v-slivochnom-souse.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "kamiqr",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 4990
-      }
-    },
-    {
-      "id": "steyk-iz-semgi-na-uglyah",
-      "category": "main",
-      "name": {
-        "ru": "Стейк из семги на углях",
-        "kk": "Мангалда семга стейгі",
-        "en": "Grilled Salmon Steak"
-      },
-      "description": {
-        "ru": "Нежный стейк семги с полезным гарниром",
-        "kk": "Пайдалы гарнирі бар жұмсақ ақсерке стейгі",
-        "en": "Tender salmon steak with a healthy side"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 4200,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram (сторис)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 4800
-      }
-    },
-    {
-      "id": "tibon-steyk",
-      "category": "main",
-      "name": {
-        "ru": "Тибон стейк",
-        "kk": "Тибон стейк",
-        "en": "T-Bone Steak"
-      },
-      "description": {
-        "ru": "Классический T-bone из мраморной говядины на гриле",
-        "kk": "Гриль-де пісірілген мәрмәр сиыр етінен классикалық T-bone",
-        "en": "Classic T-bone of marbled beef from the grill"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 5490,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 6490
-      }
-    },
-    {
-      "id": "tomlennaya-govyadina-po-gruzinski",
-      "category": "main",
-      "name": {
-        "ru": "Томленная говядина по-грузински",
-        "kk": "Грузинша бұқтырылған сиыр еті",
-        "en": "Georgian-style Braised Beef"
-      },
-      "description": {
-        "ru": "Нежная томлёная говядина с душистыми травами и ароматными специями",
-        "kk": "Хош иісті шөптер мен дәмдеуіштер қосылған жұмсақ бұқтырылған сиыр еті",
-        "en": "Tender slow-braised beef with fragrant herbs and aromatic spices"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3900,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "перевод разработчика (на dkgroup «Грузинша томленная сиыр еті» — русское слово), не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "tomlennoe-file-yagnenka-v-smetannom-souse",
-      "category": "main",
-      "name": {
-        "ru": "Томленное филе ягненка в сметанном соусе",
-        "kk": "Қаймақ соусындағы қозы еті филесі",
-        "en": "Braised Lamb Fillet in Sour Cream Sauce"
-      },
-      "description": {
-        "ru": "Нежное филе ягнёнка томлёное в домашнем сметанном соусе",
-        "kk": "Үй қаймағы тұздығында бұқтырылған жұмсақ қозы еті",
-        "en": "Tender lamb fillet slow-braised in a homemade sour cream sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3690,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, исправлено «філесі» → «филесі», не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "chakapuli",
-      "category": "main",
-      "name": {
-        "ru": "Чакапули",
-        "kk": "Чакапули",
-        "en": "Chakapuli"
-      },
-      "description": {
-        "ru": "Ягнёнок с тархуном, ткемали и белым вином — весеннее грузинское блюдо",
-        "kk": "Тархун, ткемали және ақ шарап қосылған қозы еті — көктемгі грузин тағамы",
-        "en": "Lamb with tarragon, tkemali and white wine — a Georgian spring dish"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 4300,
-      "photo": "goryachie-blyuda--chakapuli.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (решение владельца проекта)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 4990
-      }
-    },
-    {
-      "id": "chahohbili",
-      "category": "main",
-      "name": {
-        "ru": "Чахохбили",
-        "kk": "Чахохбили",
-        "en": "Chakhokhbili"
-      },
-      "description": {
-        "ru": "Цыпленок томленый с луком и грузинскими специями",
-        "kk": "Пияз бен грузин дәмдеуіштері қосылып бұқтырылған балапан еті",
-        "en": "Chicken slow-braised with onion and Georgian spices"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2800,
-      "photo": "goryachie-blyuda--chahohbili.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "chashashuli",
-      "category": "main",
-      "name": {
-        "ru": "Чашашули",
-        "kk": "Чашашули",
-        "en": "Chashushuli"
-      },
-      "description": {
-        "ru": "Тушеная телятина в собственном соку с томатами",
-        "kk": "Қызанақ қосылып өз шырынында бұқтырылған бұзау еті",
-        "en": "Veal stewed in its own juices with tomatoes"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3590,
-      "photo": "goryachie-blyuda--chashashuli.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "shkmeruli",
-      "category": "main",
-      "name": {
-        "ru": "Шкмерули",
-        "kk": "Шкмерули",
-        "en": "Shkmeruli"
-      },
-      "description": {
-        "ru": "Цыпленок, запеченный в сметанно-сливочном соусе с чесноком, сванской солью и свежей кинзой.",
-        "kk": "Сарымсақ, сван тұзы және жаңа кинза қосылған қаймақ-кілегей тұздығында пісірілген балапан еті.",
-        "en": "Chicken baked in a sour cream and cream sauce with garlic, Svan salt and fresh coriander."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3600,
-      "photo": "goryachie-blyuda--shkmeruli.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "baklazhan-kebab",
-      "category": "grill",
-      "name": {
-        "ru": "Баклажан кебаб",
-        "kk": "Баклажан кебабы",
-        "en": "Eggplant Kebab"
-      },
-      "description": {
-        "ru": "Нежные баклажаны на углях с ароматными специями и свежей зеленью",
-        "kk": "Хош иісті дәмдеуіштер мен жаңа көк шөп қосылған, шоқта пісірілген жұмсақ баялды",
-        "en": "Tender eggplant grilled over coals with aromatic spices and fresh herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 990,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1390
-      }
-    },
-    {
-      "id": "govyadina-kuskovoy",
-      "category": "grill",
-      "name": {
-        "ru": "Говядина кусковой",
-        "kk": "Сиыр еті кесек кебабы",
-        "en": "Beef Kebab"
-      },
-      "description": {
-        "ru": "Сочные кусочки говядины на шампуре, маринованные в луке и специях",
-        "kk": "Пияз бен дәмдеуіштерге маринадталған, шампурдағы шырынды сиыр етінің кесектері",
-        "en": "Juicy pieces of beef on a skewer, marinated in onion and spices"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 800,
-      "photo": "shashlyki--govyadina-kuskovoy.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1290
-      }
-    },
-    {
-      "id": "koreyka",
-      "category": "grill",
-      "name": {
-        "ru": "Корейка",
-        "kk": "Қабырға",
-        "en": "Lamb Loin"
-      },
-      "description": {
-        "ru": "Баранья корейка на кости, приготовленная на мангале до румяной корочки",
-        "kk": "Мангалда қызарғанша пісірілген, сүйегі бар қойдың қабырға еті",
-        "en": "Lamb loin on the bone, cooked on the mangal grill to a golden crust"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3200,
-      "photo": "shashlyki--koreyka.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "krylya-kurinye",
-      "category": "grill",
-      "name": {
-        "ru": "Крылья куриные",
-        "kk": "Тауық қанаттары",
-        "en": "Chicken Wings"
-      },
-      "description": {
-        "ru": "Хрустящие куриные крылышки в пряном маринаде, зажаренные на углях",
-        "kk": "Ащы маринадтағы, шоқта қуырылған қытырлақ тауық қанаттары",
-        "en": "Crispy chicken wings in a spicy marinade, grilled over coals"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1850,
-      "photo": "shashlyki--kurinye-krylyshki.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "lyulya-kebab",
-      "category": "grill",
-      "name": {
-        "ru": "Люля кебаб",
-        "kk": "Люля кебаб",
-        "en": "Lyulya Kebab"
-      },
-      "description": {
-        "ru": "Рубленый фарш из баранины с луком и специями на шампуре",
-        "kk": "Пияз бен дәмдеуіштер қосылған қой етінің тартпасы, шампурда",
-        "en": "Minced lamb with onion and spices on a skewer"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 800,
-      "photo": "shashlyki--lyulya-kebab.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1290
-      }
-    },
-    {
-      "id": "lyulya-kebab-po-adzharski",
-      "category": "grill",
-      "name": {
-        "ru": "Люля кебаб по-аджарски",
-        "kk": "Аджар стилінде люля кебаб",
-        "en": "Adjarian Lyulya Kebab"
-      },
-      "description": {
-        "ru": "Люля кебаб в лодочке со специями и сыром",
-        "kk": "Дәмдеуіштер мен ірімшік қосылған, қайық пішінді нандағы люля кебаб",
-        "en": "Lyulya kebab in a bread boat with spices and cheese"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3990,
-      "photo": "shashlyki--lyulya-po-adzharskiy.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "ovoschi-na-mangale",
+      "id": "grilled-veg",
       "category": "grill",
       "name": {
         "ru": "Овощи на мангале",
-        "kk": "Мангалда көкөністер",
-        "en": "Vegetables from the Mangal Grill"
+        "kk": "Мангалда пісірілген көкөністер",
+        "en": "Grilled Vegetables"
       },
       "description": {
-        "ru": "Сезонные овощи, томлённые на углях с оливковым маслом и чесноком",
-        "kk": "Зәйтүн майы мен сарымсақ қосылып шоқта пісірілген маусымдық көкөністер",
-        "en": "Seasonal vegetables roasted over coals with olive oil and garlic"
+        "ru": "Баклажан, сладкий перец, томаты",
+        "kk": "Баялды, тәтті бұрыш, қызанақ",
+        "en": "Eggplant, sweet peppers, tomatoes"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1200,
-      "photo": "garniry--ovoschi-na-mangale.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1690,
-        "note": "en изменено (было «Grilled Vegetables», как у «Овощи на гриле» в гарнирах)."
-      }
-    },
-    {
-      "id": "okorochka",
-      "category": "grill",
-      "name": {
-        "ru": "Окорочка",
-        "kk": "Тауық санының еті",
-        "en": "Chicken Drumsticks"
-      },
-      "description": {
-        "ru": "Золотистые куриные ножки в ароматном маринаде с чесноком и зеленью",
-        "kk": "Сарымсақ пен көк шөп қосылған хош иісті маринадтағы алтын түсті тауық сандары",
-        "en": "Golden chicken legs in a fragrant marinade with garlic and herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1400,
-      "photo": "shashlyki--okorochka.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1950
-      }
-    },
-    {
-      "id": "pechen-v-obertke",
-      "category": "grill",
-      "name": {
-        "ru": "Печень в обертке",
-        "kk": "Орамдалған бауыр",
-        "en": "Wrapped Liver"
-      },
-      "description": {
-        "ru": "Нежная говяжья печень в сальнике, зажаренная на мангале",
-        "kk": "Шарбыға оралып мангалда қуырылған жұмсақ сиыр бауыры",
-        "en": "Tender beef liver wrapped in caul fat, grilled on the mangal"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 800,
+      "price": 1600,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "semechki",
-      "category": "grill",
+      "id": "fries",
+      "category": "sides",
       "name": {
-        "ru": "Семечки",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
+        "ru": "Картофель фри",
+        "kk": "Фри картобы",
+        "en": "French Fries"
       },
       "description": {
         "ru": "",
         "kk": "",
         "en": ""
       },
-      "descriptionStatus": "нет описания",
-      "price": 1600,
-      "photo": "shashlyki--semechki.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "instagramPrice": 1850,
-        "note": "dkgroup: «подсолнечные семечки», Sunflower Seeds — явно ошибка (блюдо в разделе шашлыков). Что это за блюдо — уточнить у ресторана"
-      }
-    },
-    {
-      "id": "utinoe-file",
-      "category": "grill",
-      "name": {
-        "ru": "Утиное филе",
-        "kk": "Үйрек филесі",
-        "en": "Duck Fillet"
-      },
-      "description": {
-        "ru": "Нежное утиное филе на углях с гранатовым соусом",
-        "kk": "Анар тұздығымен шоқта пісірілген жұмсақ үйрек еті",
-        "en": "Tender duck fillet grilled over coals with pomegranate sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 800,
-      "photo": "shashlyki--utinoe-file.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "kamiqr (на dkgroup «Үйрек філесі» — опечатка), не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1290
-      }
-    },
-    {
-      "id": "forel-na-mangale",
-      "category": "grill",
-      "name": {
-        "ru": "Форель на мангале",
-        "kk": "Мангалда форель",
-        "en": "Grilled Trout"
-      },
-      "description": {
-        "ru": "Свежая форель целиком на мангале с лимоном, розмарином и зеленью",
-        "kk": "Лимон, розмарин және көк шөп қосылып мангалда тұтас пісірілген жаңа бахтах",
-        "en": "Whole fresh trout grilled on the mangal with lemon, rosemary and herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3900,
+      "price": 1000,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "kombo-hachapuri",
-      "category": "baking",
-      "name": {
-        "ru": "Комбо хачапури",
-        "kk": "Хачапури комбо",
-        "en": "Khachapuri Combo"
-      },
-      "description": {
-        "ru": "Набор из трёх видов хачапури — идеально для большой компании",
-        "kk": "Үш түрлі хачапуриден тұратын жиынтық — үлкен топқа таптырмас таңдау",
-        "en": "A set of three kinds of khachapuri — ideal for a large group"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 8000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "kubdari",
-      "category": "baking",
-      "name": {
-        "ru": "Кубдари",
-        "kk": "Кубдари",
-        "en": "Kubdari"
-      },
-      "description": {
-        "ru": "Традиционный грузинский пирог с сочной мясной начинкой и свежей зеленью",
-        "kk": "Шырынды ет толтырмасы мен жаңа көк шөбі бар дәстүрлі грузин бәліші",
-        "en": "A traditional Georgian pie with a juicy meat filling and fresh herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 3300,
-      "photo": "hachapuri--kubdari.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3800
-      }
-    },
-    {
-      "id": "hachapuri-po-adzharski",
-      "category": "baking",
-      "name": {
-        "ru": "Хачапури по-аджарски",
-        "kk": "Аджар стилінде хачапури",
-        "en": "Adjarian Khachapuri"
-      },
-      "description": {
-        "ru": "Хачапури-лодочка с большим количеством огненной начинки из Имеретинского сыра и тертого Сулугуни. Запекается до золотой корочки со сливочным маслом и куриным яйцом.",
-        "kk": "Имерет ірімшігі мен үгітілген сулугуниден мол толтырмасы бар қайық пішінді хачапури. Сары май мен тауық жұмыртқасы қосылып, алтын түсті қабыққа дейін пісіріледі.",
-        "en": "Boat-shaped khachapuri with a generous filling of Imeretian cheese and grated suluguni, baked to a golden crust with butter and an egg."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2600,
-      "photo": "hachapuri--adzharskiy.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2800
-      }
-    },
-    {
-      "id": "hachapuri-po-imeretinski",
-      "category": "baking",
-      "name": {
-        "ru": "Хачапури по-имеретински",
-        "kk": "Имерет стилінде хачапури",
-        "en": "Imeretian Khachapuri"
-      },
-      "description": {
-        "ru": "Мацони, с щедрой начинкой из имеретинского сыра",
-        "kk": "Мацони, имерет ірімшігінен мол толтырмасымен",
-        "en": "Made with matsoni, with a generous filling of Imeretian cheese"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2900,
-      "photo": "hachapuri--imeretinskiy.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3000
-      }
-    },
-    {
-      "id": "hachapuri-po-megrelski",
-      "category": "baking",
-      "name": {
-        "ru": "Хачапури по-мегрельски",
-        "kk": "Мегрел стилінде хачапури",
-        "en": "Megrelian Khachapuri"
-      },
-      "description": {
-        "ru": "Хачапури с двойной порцией сыра",
-        "kk": "Екі есе ірімшігі бар хачапури",
-        "en": "Khachapuri with a double portion of cheese"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2700,
-      "photo": "hachapuri--megrelskiy.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 3000
-      }
-    },
-    {
-      "id": "hlebnaya-korzina",
-      "category": "baking",
-      "name": {
-        "ru": "Хлебная корзина",
-        "kk": "Нан себеті",
-        "en": "Bread Basket"
-      },
-      "description": {
-        "ru": "Ассорти свежеиспечённого хлеба, лаваша и тонис пури к столу",
-        "kk": "Дастарханға жаңа пісірілген нан, лаваш және тонис пури (грузин наны)",
-        "en": "Freshly baked bread, lavash and tonis puri (Georgian bread) for the table"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 850,
-      "photo": "vypechka--hlebnaya-korzina.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 950
-      }
-    },
-    {
-      "id": "hlebnaya-korzina-0-5",
-      "category": "baking",
-      "name": {
-        "ru": "Хлебная корзина 0,5",
-        "kk": "Нан себеті 0,5",
-        "en": "Bread Basket 0.5"
-      },
-      "description": {
-        "ru": "Половинная порция хлебной корзины",
-        "kk": "Нан себетінің жарты порциясы",
-        "en": "Half portion of the bread basket"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 600
-      }
-    },
-    {
-      "id": "brokkoli-s-parmezanom",
+      "id": "rice",
       "category": "sides",
       "name": {
-        "ru": "Брокколи с пармезаном",
-        "kk": "Пармезанмен брокколи",
-        "en": "Broccoli with Parmesan"
+        "ru": "Рис отварной",
+        "kk": "Пісірілген күріш",
+        "en": "Boiled Rice"
       },
       "description": {
-        "ru": "Брокколи на гриле, посыпанная хрустящим пармезаном с чесночным маслом",
-        "kk": "Қытырлақ пармезан мен сарымсақ майы себілген гриль-брокколи",
-        "en": "Grilled broccoli topped with crispy parmesan and garlic butter"
+        "ru": "",
+        "kk": "",
+        "en": ""
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1200,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1390
-      }
-    },
-    {
-      "id": "kabachki-na-grile",
-      "category": "sides",
-      "name": {
-        "ru": "Кабачки на гриле",
-        "kk": "Грильде кабачки",
-        "en": "Grilled Zucchini"
-      },
-      "description": {
-        "ru": "Тонко нарезанные кабачки на гриле с оливковым маслом и травами",
-        "kk": "Зәйтүн майы мен шөптер қосылған, грильде пісірілген жұқа кабачок",
-        "en": "Thinly sliced grilled zucchini with olive oil and herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 800,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 950
-      }
-    },
-    {
-      "id": "kartofel-fri",
-      "category": "sides",
-      "name": {
-        "ru": "Картофель фри",
-        "kk": "Картоп фри",
-        "en": "French Fries"
-      },
-      "description": {
-        "ru": "Золотистый хрустящий картофель фри",
-        "kk": "Алтын түсті қытырлақ фри картобы",
-        "en": "Golden, crispy French fries"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 800,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "kartofelnye-dolki",
-      "category": "sides",
-      "name": {
-        "ru": "Картофельные дольки",
-        "kk": "Картоп кесектері",
-        "en": "Potato Wedges"
-      },
-      "description": {
-        "ru": "Запечённые дольки картофеля в пряных специях с хрустящей корочкой",
-        "kk": "Ащы дәмдеуіштер қосылып пісірілген, қытырлақ қабығы бар картоп кесектері",
-        "en": "Baked potato wedges with spicy seasoning and a crispy crust"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 900,
-      "photo": "garniry--kartofelnye-dolki.jpeg",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "kamiqr (на dkgroup «Картоп дольки» — русское слово), не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "kartofelnye-shariki",
-      "category": "sides",
-      "name": {
-        "ru": "Картофельные шарики",
-        "kk": "Картоп шарлары",
-        "en": "Potato Balls"
-      },
-      "description": {
-        "ru": "Румяные картофельные шарики с нежной серединкой и хрустящей корочкой",
-        "kk": "Іші жұмсақ, сырты қытырлақ қызарған картоп шарлары",
-        "en": "Golden potato balls, soft inside with a crispy crust"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 900,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "ovoschi-na-grile",
-      "category": "sides",
-      "name": {
-        "ru": "Овощи на гриле",
-        "kk": "Грильде көкөністер",
-        "en": "Grilled Vegetables"
-      },
-      "description": {
-        "ru": "Ассорти сезонных овощей на гриле с травяным маслом",
-        "kk": "Шөп майы қосылған грильде пісірілген маусымдық көкөністер",
-        "en": "Assorted seasonal vegetables from the grill with herb butter"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1200,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1400,
-        "note": "Не путать с «Овощи на мангале» (Шашлыки) — в Instagram это разные блюда."
-      }
-    },
-    {
-      "id": "ris",
-      "category": "sides",
-      "name": {
-        "ru": "Рис",
-        "kk": "Күріш",
-        "en": "Rice"
-      },
-      "description": {
-        "ru": "Рассыпчатый отварной рис",
-        "kk": "Үгітілмелі пісірілген күріш",
-        "en": "Fluffy boiled rice"
-      },
-      "descriptionStatus": "перевод не проверен",
       "price": 700,
-      "photo": "garniry--ris.png",
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "adzhika",
-      "category": "sauces",
-      "name": {
-        "ru": "Аджика",
-        "kk": "Аджика",
-        "en": "Adjika"
-      },
-      "description": {
-        "ru": "Острая грузинская приправа из перца, чеснока и ароматных трав",
-        "kk": "Бұрыш, сарымсақ және хош иісті шөптерден жасалған ащы грузин дәмдеуіші",
-        "en": "Hot Georgian relish of peppers, garlic and aromatic herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 500,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "belyy-sous-chesnochnyy",
-      "category": "sauces",
+      "id": "mashed-potatoes",
+      "category": "sides",
       "name": {
-        "ru": "Белый соус чесночный",
-        "kk": "Сарымсақты ақ соус",
-        "en": "Garlic White Sauce"
+        "ru": "Картофельное пюре",
+        "kk": "Картоп пюресі",
+        "en": "Mashed Potatoes"
       },
       "description": {
-        "ru": "Нежный кремовый соус с жареным чесноком и свежей зеленью",
-        "kk": "Қуырылған сарымсақ пен жаңа көк шөп қосылған жұмсақ кілегейлі тұздық",
-        "en": "Mild creamy sauce with roasted garlic and fresh herbs"
+        "ru": "",
+        "kk": "",
+        "en": ""
       },
-      "descriptionStatus": "перевод не проверен",
+      "price": 900,
+      "photo": null,
+      "available": true,
+      "status": "пример (демо)",
+      "check": {
+        "kkEn": "перевод разработчика, не проверен"
+      }
+    },
+    {
+      "id": "tandyr-bread",
+      "category": "sides",
+      "name": {
+        "ru": "Лепёшка тандырная",
+        "kk": "Тандыр нан",
+        "en": "Tandoor Flatbread"
+      },
+      "description": {
+        "ru": "",
+        "kk": "",
+        "en": ""
+      },
       "price": 400,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "satsebeli",
-      "category": "sauces",
-      "name": {
-        "ru": "Сацебели",
-        "kk": "Сацебели",
-        "en": "Satsebeli"
-      },
-      "description": {
-        "ru": "Классический грузинский томатный соус с грецким орехом и специями",
-        "kk": "Грек жаңғағы мен дәмдеуіштер қосылған классикалық грузин қызанақ тұздығы",
-        "en": "Classic Georgian tomato sauce with walnuts and spices"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 400,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "shashlychnyy-sous",
-      "category": "sauces",
-      "name": {
-        "ru": "Шашлычный соус",
-        "kk": "Барбекю соусы",
-        "en": "BBQ Sauce"
-      },
-      "description": {
-        "ru": "Фирменный дымный соус к мясу с мангала",
-        "kk": "Мангал етіне арналған фирмалық ысталған дәмді тұздық",
-        "en": "Our signature smoky sauce for meat from the mangal"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "brauni",
+      "id": "cheesecake",
       "category": "desserts",
       "name": {
-        "ru": "Брауни",
-        "kk": "Брауни",
-        "en": "Brownie"
+        "ru": "Чизкейк",
+        "kk": "Чизкейк",
+        "en": "Cheesecake"
       },
       "description": {
-        "ru": "Тёплый шоколадный брауни с хрустящей корочкой и тягучей серединкой",
-        "kk": "Сырты қытырлақ, іші созылмалы жылы шоколад брауни",
-        "en": "Warm chocolate brownie with a crisp top and gooey centre"
+        "ru": "Классический, с ягодным соусом",
+        "kk": "Классикалық, жидек тұздығымен",
+        "en": "Classic, with berry sauce"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1590,
+      "price": 1900,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
@@ -2421,691 +532,58 @@
         "en": "Honey Cake"
       },
       "description": {
-        "ru": "Слоёный медовый торт с нежным сметанным кремом",
-        "kk": "Жұмсақ қаймақ кремі бар қабатты бал торты",
-        "en": "Layered honey cake with a delicate sour cream frosting"
+        "ru": "Слоёный медовый торт",
+        "kk": "Бал қосылған қабатты торт",
+        "en": "Layered honey cake"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1390,
+      "price": 1700,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 1890
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "molochnaya-devochka",
+      "id": "ice-cream",
       "category": "desserts",
       "name": {
-        "ru": "Молочная девочка",
-        "kk": "Сүтті торт",
-        "en": "Milk Girl Cake"
+        "ru": "Мороженое, 3 шарика",
+        "kk": "Балмұздақ, 3 шар",
+        "en": "Ice Cream, 3 scoops"
       },
       "description": {
-        "ru": "Воздушный торт на основе сгущённого молока с лёгким сливочным кремом",
-        "kk": "Жеңіл кілегей кремі бар, қоюлатылған сүт негізіндегі ауадай торт",
-        "en": "Airy cake made with condensed milk and a light cream frosting"
+        "ru": "Ванильное, шоколадное или клубничное",
+        "kk": "Ванильді, шоколадты немесе құлпынайлы",
+        "en": "Vanilla, chocolate or strawberry"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1590,
+      "price": 1500,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2590
+        "kkEn": "перевод разработчика, не проверен"
       }
     },
     {
-      "id": "morozhenoe",
+      "id": "baursak",
       "category": "desserts",
       "name": {
-        "ru": "Мороженое",
-        "kk": "Балмұздақ",
-        "en": "Ice Cream"
+        "ru": "Баурсаки с мёдом",
+        "kk": "Балмен бауырсақ",
+        "en": "Baursak with Honey"
       },
       "description": {
-        "ru": "Шарик сливочного мороженого",
-        "kk": "Бір шар кілегейлі балмұздақ",
-        "en": "A scoop of creamy ice cream"
+        "ru": "Тёплые баурсаки, мёд",
+        "kk": "Жылы бауырсақ, бал",
+        "en": "Warm baursak, honey"
       },
-      "descriptionStatus": "перевод не проверен",
-      "price": 600,
+      "price": 1400,
       "photo": null,
       "available": true,
-      "status": "не подтверждено",
+      "status": "пример (демо)",
       "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "napoleon-so-smorodinoy",
-      "category": "desserts",
-      "name": {
-        "ru": "Наполеон со смородиной",
-        "kk": "Қарақатпен Наполеон торты",
-        "en": "Napoleon with Blackcurrant"
-      },
-      "description": {
-        "ru": "Классический торт Наполеон с кислинкой свежей чёрной смородины",
-        "kk": "Жаңа қарақаттың қышқылтым дәмі бар классикалық Наполеон торты",
-        "en": "Classic Napoleon cake with the tartness of fresh blackcurrant"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1900,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 2590
-      }
-    },
-    {
-      "id": "plombir",
-      "category": "desserts",
-      "name": {
-        "ru": "Пломбир",
-        "kk": "Пломбир",
-        "en": "Plombir Ice Cream"
-      },
-      "description": {
-        "ru": "Классический советский пломбир — насыщенный и кремовый",
-        "kk": "Классикалық кеңестік пломбир — қою әрі кілегейлі",
-        "en": "Classic Soviet-style plombir ice cream — rich and creamy"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1390,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "tartaletka-limonnaya-s-merengoy",
-      "category": "desserts",
-      "name": {
-        "ru": "Тарталетка лимонная с меренгой",
-        "kk": "Меренгті лимон тарталеткасы",
-        "en": "Lemon Meringue Tartlet"
-      },
-      "description": {
-        "ru": "Хрустящая тарталетка с лимонным курдом и воздушной итальянской меренгой",
-        "kk": "Лимон кремі және ауадай итальян меренгасы бар қытырлақ тарталетка",
-        "en": "Crisp tartlet with lemon curd and airy Italian meringue"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1290,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "fruktovaya-tarelka",
-      "category": "desserts",
-      "name": {
-        "ru": "Фруктовая тарелка",
-        "kk": "Жеміс тәрелкесі",
-        "en": "Fruit Platter"
-      },
-      "description": {
-        "ru": "Свежие сезонные фрукты, красиво сервированные на большой тарелке",
-        "kk": "Үлкен тәрелкеге әдемі әзірленген маусымдық жаңа жемістер",
-        "en": "Fresh seasonal fruit, beautifully arranged on a large platter"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 6000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "note": "Возможно, то же блюдо, что «Фруктовая нарезка» (Холодные закуски) — уточнить."
-      }
-    },
-    {
-      "id": "chizkeyk-klassicheskiy",
-      "category": "desserts",
-      "name": {
-        "ru": "Чизкейк классический",
-        "kk": "Классикалық чизкейк",
-        "en": "Classic Cheesecake"
-      },
-      "description": {
-        "ru": "Нежный чизкейк на песочной основе с ванильным кремом и ягодным топпингом",
-        "kk": "Құмды негіздегі, ваниль кремі мен жидек топпингі бар жұмсақ чизкейк",
-        "en": "Creamy cheesecake on a shortcrust base with vanilla cream and berry topping"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 1390,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "assorti-iz-shashlykov",
-      "category": "banquet",
-      "name": {
-        "ru": "Ассорти из шашлыков",
-        "kk": "Шашлық ассортиі",
-        "en": "Assorted Kebabs"
-      },
-      "description": {
-        "ru": "Корейка, крылышки, люля кебаб, говядина, баклажан кебаб, овощи гриль, картофель фри и дольки, соус шашлычный",
-        "kk": "Қабырға еті, қанаттар, люля кебаб, сиыр еті, баялды кебаб, гриль көкөністер, фри картобы мен картоп кесектері, шашлық тұздығы",
-        "en": "Lamb loin, chicken wings, lyulya kebab, beef, eggplant kebab, grilled vegetables, French fries and potato wedges, barbecue sauce"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 15500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 18500
-      }
-    },
-    {
-      "id": "assorti-tomlennogo-myasa",
-      "category": "banquet",
-      "name": {
-        "ru": "Ассорти томленного мяса",
-        "kk": "Бұқтырылған ет ассортиі",
-        "en": "Assorted Braised Meats"
-      },
-      "description": {
-        "ru": "Сочетание мягкой, сочной шеи баранины, аппетитной рульки и ароматных ребрышек говядины. Гарнир из овощей гриль — кабачки, томаты, баклажаны и шампиньоны — добавляет свежесть и вкус, а картофель по-домашнему делает блюдо по-настоящему сытным. Это простое и вкусное угощение, которое порадует всех гостей за столом.",
-        "kk": "Қойдың жұмсақ, шырынды мойын еті, тәбет ашатын сирақ және хош иісті сиыр қабырғасы. Гриль көкөністерінен жасалған гарнир — кабачок, қызанақ, баялды және шампиньон — тағамға балғындық береді, ал үйдегідей картоп оны шынымен тойымды етеді. Барлық қонақтарды қуантатын қарапайым әрі дәмді тағам.",
-        "en": "Soft, juicy lamb neck, hearty shank and aromatic beef ribs. A side of grilled vegetables — zucchini, tomatoes, eggplant and champignons — adds freshness, and home-style potatoes make the dish truly filling. A simple, delicious treat for everyone at the table."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 34900,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "перевод разработчика (на dkgroup «Томленная ет ассортиі» — русское слово), не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 36900
-      }
-    },
-    {
-      "id": "gril-miks",
-      "category": "banquet",
-      "name": {
-        "ru": "Гриль микс",
-        "kk": "Гриль микс",
-        "en": "Grill Mix"
-      },
-      "description": {
-        "ru": "Стейк Рибай, медальоны, корейка, овощи на гриле, стейк из сёмги, картофель фри, картофельные дольки, соусы свитчили, барбекю, шашлычный",
-        "kk": "Рибай стейгі, медальондар, қабырға еті, гриль көкөністер, ақсерке стейгі, фри картобы, картоп кесектері, свитчили, барбекю және шашлық тұздықтары",
-        "en": "Ribeye steak, medallions, lamb loin, grilled vegetables, salmon steak, French fries, potato wedges, sweet chili, barbecue and kebab sauces"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 22000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 26900
-      }
-    },
-    {
-      "id": "kurinyy-gril-miks",
-      "category": "banquet",
-      "name": {
-        "ru": "Куриный гриль микс",
-        "kk": "Тауық гриль миксі",
-        "en": "Chicken Grill Mix"
-      },
-      "description": {
-        "ru": "Шашлык из крылышек, цыпленок табака, запеченная грудка, киевская котлета, овощи на гриле, картофель фри, картофельные дольки, стейк из сёмги",
-        "kk": "Қанаттан жасалған шашлық, табака балапаны, пісірілген төс еті, киев котлеті, гриль көкөністер, фри картобы, картоп кесектері, ақсерке стейгі",
-        "en": "Chicken wing kebab, chicken tabaka, baked chicken breast, chicken Kiev, grilled vegetables, French fries, potato wedges, salmon steak"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 14500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 16500
-      }
-    },
-    {
-      "id": "chanahi",
-      "category": "banquet",
-      "name": {
-        "ru": "Чанахи",
-        "kk": "Чанахи",
-        "en": "Chanakhi"
-      },
-      "description": {
-        "ru": "Чанахи — это изысканное грузинское блюдо, которое сочетает в себе ароматную говядину, нежные баклажаны, сочные помидоры и мягкий картофель. Мясо пропитывается соками свежих овощей и ароматами специй, становясь особенно нежным и насыщенным. Каждая порция — это гармония вкусов и традиций, которая подарит гостям настоящее гастрономическое удовольствие. Чанахи — идеальный выбор для тех, кто ценит душевные и сытные блюда на праздничном столе.",
-        "kk": "Чанахи — хош иісті сиыр еті, жұмсақ баялды, шырынды қызанақ пен жұмсақ картопты біріктіретін талғампаз грузин тағамы. Ет жаңа көкөністердің шырыны мен дәмдеуіштердің хош иісіне қанығып, ерекше жұмсақ әрі қанық болады. Әр порция — дәм мен дәстүрдің үйлесімі, қонақтарға нағыз гастрономиялық ләззат сыйлайды. Чанахи — мерекелік дастарханға жылы әрі тойымды тағамдарды бағалайтындар үшін тамаша таңдау.",
-        "en": "Chanakhi is a refined Georgian dish that brings together aromatic beef, tender eggplant, juicy tomatoes and soft potatoes. The meat soaks up the juices of fresh vegetables and the aroma of spices, becoming especially tender and rich. Every portion is a harmony of flavour and tradition that gives guests true gastronomic pleasure. Chanakhi is an ideal choice for those who love hearty, soulful dishes on a festive table."
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 15000,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "instagramPrice": 18500
-      }
-    },
-    {
-      "id": "krylyshki-bbq",
-      "category": "beer_snacks",
-      "name": {
-        "ru": "Крылышки BBQ",
-        "kk": "BBQ қанаттар",
-        "en": "BBQ Wings"
-      },
-      "description": {
-        "ru": "Сочные крылышки в дымном BBQ-соусе — лучший аккомпанемент к пиву",
-        "kk": "Ысталған BBQ тұздығындағы шырынды қанаттар — сыраға таптырмас тағам",
-        "en": "Juicy wings in a smoky BBQ sauce — the perfect match for beer"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 2500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "pivnoy-set",
-      "category": "beer_snacks",
-      "name": {
-        "ru": "Пивной сет",
-        "kk": "Сыра сеті",
-        "en": "Beer Set"
-      },
-      "description": {
-        "ru": "Крылья барбекю, пивные креветки, хрустящие тортилья и луковые кольца, подаются с соусами",
-        "kk": "Барбекю қанаттары, сыраға арналған асшаян, қытырлақ тортилья және пияз сақиналары, тұздықтармен беріледі",
-        "en": "Barbecue wings, beer-snack shrimp, crispy tortilla chips and onion rings, served with sauces"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 4500,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "instagram",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено",
-        "note": "«Пивные креветки» переведено как закуска к пиву (beer-snack shrimp) — если это креветки в пивном кляре, исправить."
-      }
-    },
-    {
-      "id": "rzhanye-garliki",
-      "category": "beer_snacks",
-      "name": {
-        "ru": "Ржаные гарлики",
-        "kk": "Қара бидай гарликтері",
-        "en": "Rye Garlic Bread"
-      },
-      "description": {
-        "ru": "Хрустящие ржаные гренки с чесночным маслом и свежей зеленью",
-        "kk": "Сарымсақ майы мен жаңа көк шөп қосылған қытырлақ қара бидай кептірілген наны",
-        "en": "Crispy rye croutons with garlic butter and fresh herbs"
-      },
-      "descriptionStatus": "перевод не проверен",
-      "price": 890,
-      "photo": null,
-      "available": true,
-      "status": "не подтверждено",
-      "check": {
-        "price": "dkgroup",
-        "descriptionSource": "dkgroup (не проверено)",
-        "nameKk": "dkgroup, не проверено",
-        "nameEn": "dkgroup, не проверено"
-      }
-    },
-    {
-      "id": "hachapuri-s-lososem-i-shpinatom",
-      "category": "baking",
-      "name": {
-        "ru": "Хачапури с лососем и шпинатом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 4790,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "dolma-s-sousom-tarhun",
-      "category": "hot_app",
-      "name": {
-        "ru": "Долма с соусом тархун",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 2390,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "zapechennaya-dorada",
-      "category": "main",
-      "name": {
-        "ru": "Запечённая дорада",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 5500,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "zapechennye-griby-s-syrom-suluguni",
-      "category": "hot_app",
-      "name": {
-        "ru": "Запеченные грибы с сыром сулугуни",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 2390,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "tomlennye-schechki-v-souse-bbq-s-kartofelnym-pyure",
-      "category": "main",
-      "name": {
-        "ru": "Томленные щечки в соусе BBQ с картофельным пюре",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 4790,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "okroshka",
-      "category": "soups",
-      "name": {
-        "ru": "Окрошка",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 1950,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "tomlenyy-hvost-byka-s-molodym-kartofelem",
-      "category": "main",
-      "name": {
-        "ru": "Томлёный хвост быка с молодым картофелем",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 5590,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "hachapuri-s-syrom-i-gribami",
-      "category": "baking",
-      "name": {
-        "ru": "Хачапури с сыром и грибами",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 2900,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "salat-kapreze",
-      "category": "salads",
-      "name": {
-        "ru": "Салат Капрезе",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "Свежие томаты, сливочная моцарелла и ароматная руккола с бальзамическим соусом",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 3390,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "instagram",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "salat-s-zapechenoy-svekloy-i-kozim-syrom",
-      "category": "salads",
-      "name": {
-        "ru": "Салат с запечёной свеклой и козьим сыром",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 2790,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
-      }
-    },
-    {
-      "id": "antrekot",
-      "category": "grill",
-      "name": {
-        "ru": "Антрекот",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "description": {
-        "ru": "",
-        "kk": "[TODO: перевод]",
-        "en": "[TODO: перевод]"
-      },
-      "descriptionStatus": "перевод не сделан (блюдо скрыто)",
-      "price": 5390,
-      "photo": null,
-      "available": false,
-      "status": "не подтверждено",
-      "check": {
-        "price": "instagram (на dkgroup блюда нет)",
-        "descriptionSource": "нет описания",
-        "nameKk": "нет перевода",
-        "nameEn": "нет перевода",
-        "note": "Есть только в меню Instagram — скрыто до подтверждения рестораном"
+        "kkEn": "перевод разработчика, не проверен"
       }
     }
   ]

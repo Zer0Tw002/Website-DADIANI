@@ -25,17 +25,11 @@ export interface MenuCategory {
 }
 
 // Фото блюд из assets/photos/menu (Astro сам делает из них уменьшенные копии при сборке).
-// Исключены: чужие/стоковые фото (Coca-Cola, «Натахтари», картофель фри) и напитки (бара пока
-// нет в меню) — иначе их исходники попали бы в сборку сайта.
-const photos = import.meta.glob<{ default: ImageMetadata }>(
-  [
-    '/assets/photos/menu/*.{png,jpg,jpeg,webp}',
-    '!**/coca-cola--*',
-    '!**/napitki--*',
-    '!**/garniry--kartofel-fri.*',
-  ],
-  { eager: true },
-);
+// В демо-версии папка пустая. Фото, которые не должны попасть на сайт (чужие, стоковые),
+// в эту папку не класть или исключить строкой вида '!**/имя-файла.*'.
+const photos = import.meta.glob<{ default: ImageMetadata }>(['/assets/photos/menu/*.{png,jpg,jpeg,webp}'], {
+  eager: true,
+});
 
 export function photoFor(file: string | null): ImageMetadata | null {
   if (!file) return null;
